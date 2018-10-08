@@ -19,7 +19,7 @@ WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Orderplaced_RM/Page_AppCohesion/input_User Name_ac_username'), 'NewRetailerB@7_9')
+WebUI.setText(findTestObject('Orderplaced_RM/Page_AppCohesion/input_User Name_ac_username'), 'NewRetailerB@7_9')
 
 WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'NewRetailerB@7_9')
 
