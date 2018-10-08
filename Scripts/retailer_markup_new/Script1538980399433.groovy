@@ -21,7 +21,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/Orderplaced_RM/Page_AppCohesion/input_User Name_ac_username'), 'NewRetailerB@7_9')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Orderplaced_RM/Page_AppCohesion/input_Password_ac_password'), 'eYcUaEWFjWgTEmDob+Jx8kBR9+W87PcT')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'NewRetailerB@7_9')
 
 WebUI.click(findTestObject('Object Repository/Orderplaced_RM/Page_AppCohesion/button_Login Now'))
 

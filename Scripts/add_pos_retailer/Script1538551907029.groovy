@@ -68,7 +68,7 @@ WebUI.click(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/
 WebUI.verifyTextPresent('Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
     true)
 
-WebUI.verifyElementText(findTestObject(null), '')
+WebUI.verifyTextPresent('SUCCESS', true)
 
 WebUI.click(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/h4_SUCCESS'))
 
