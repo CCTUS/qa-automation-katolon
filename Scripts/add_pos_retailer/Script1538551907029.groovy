@@ -17,6 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_User Name_ac_username'), 'surunewadmin')
 
 WebUI.setText(findTestObject('Object Repository/Retailer creation/Page_AppCohesion/input_Password_ac_password'), '9tlTx3@y')
@@ -49,7 +51,7 @@ WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesio
 
 WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_PHONE NUMBER_phoneNumber'), '(426) 246-2462')
 
-WebUI.setText(findTestObject('Page_AppCohesion/input_ZIP CODE_zip'), '24124')
+WebUI.setText(findTestObject('add_pos_retailer/add_retailer_zipcode/Page_AppCohesion/input_ZIP CODE_zip'), '24124')
 
 WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_CITY_city'), 'Narrows')
 
@@ -63,7 +65,10 @@ WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesio
 
 WebUI.click(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/button_Add Retailer'))
 
-WebUI.click(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/p_Congratulations You have suc'))
+WebUI.verifyTextPresent('Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
+    true)
+
+WebUI.verifyElementText(findTestObject(null), '')
 
 WebUI.click(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/h4_SUCCESS'))
 

@@ -3,11 +3,11 @@
    <description></description>
    <name>input_ZIP CODE_zip</name>
    <tag></tag>
-   <elementGuidId>bb46f712-66dc-4d4a-9329-02481ae2ce70</elementGuidId>
+   <elementGuidId>57e62f29-9c09-49a8-ba2f-c3b169f98a0c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;zip&quot;)[count(. | //input[@class = 'form-control ng-untouched ng-invalid ng-dirty' and @id = 'zip' and @maxlength = '9' and @name = 'zip' and @pattern = '^\d{5}(?:\d{4})?$' and @placeholder = 'Enter zip' and @type = 'text']) = count(//input[@class = 'form-control ng-untouched ng-invalid ng-dirty' and @id = 'zip' and @maxlength = '9' and @name = 'zip' and @pattern = '^\d{5}(?:\d{4})?$' and @placeholder = 'Enter zip' and @type = 'text'])]</value>
+         <value>id(&quot;zip&quot;)[count(. | //input[@class = 'form-control ng-untouched ng-pristine ng-invalid' and @id = 'zip' and @maxlength = '9' and @name = 'zip' and @pattern = '^\d{5}(?:\d{4})?$' and @placeholder = 'Enter zip' and @type = 'text']) = count(//input[@class = 'form-control ng-untouched ng-pristine ng-invalid' and @id = 'zip' and @maxlength = '9' and @name = 'zip' and @pattern = '^\d{5}(?:\d{4})?$' and @placeholder = 'Enter zip' and @type = 'text'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-invalid ng-dirty</value>
+      <value>form-control ng-untouched ng-pristine ng-invalid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -103,13 +103,13 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invalid ZIP'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CITY'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CITY'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='STATE'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
