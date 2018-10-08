@@ -4,6 +4,12 @@
    <name>input_Pistols_markup0</name>
    <tag></tag>
    <elementGuidId>ad9127e1-45c1-44dd-8be4-c5621bf89645</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;markup0&quot;)[count(. | //input[@placeholder = 'Enter markup (%)' and @type = 'text' and @id = 'markup0']) = count(//input[@placeholder = 'Enter markup (%)' and @type = 'text' and @id = 'markup0'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -49,7 +55,7 @@
       <value>markup0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

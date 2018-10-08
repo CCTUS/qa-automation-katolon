@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>add_pos_retailer</name>
+   <name>Login_usecase</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c617ad3d-d687-4086-aaf1-66fa51b558ee</testCaseGuid>
+   <testCaseGuid>06f20ec5-2e3d-41e2-8f33-1f374e264392</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2379ec2b-e3a2-473a-93a8-6e9fc29ab5a8</id>
+      <id>ae065b5c-9699-46f3-af47-712d7acf8027</id>
       <masked>false</masked>
       <name>varUserName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6b7fe470-226b-4e39-9d74-d9258e524f88</id>
+      <id>890d3be8-9d05-4022-924a-aa877571696b</id>
       <masked>false</masked>
       <name>varPassword</name>
    </variable>

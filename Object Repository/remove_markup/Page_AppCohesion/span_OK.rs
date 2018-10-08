@@ -4,10 +4,16 @@
    <name>span_OK</name>
    <tag></tag>
    <elementGuidId>5e5a349e-6d70-4f39-882a-a9853d689e37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;retailerokbutton&quot;)/span[1][count(. | //*[(text() = 'OK' or . = 'OK')]) = count(//*[(text() = 'OK' or . = 'OK')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,7 +27,7 @@
       <value>OK</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -31,11 +31,9 @@ WebUI.click(findTestObject('Object Repository/remove_markup/Page_AppCohesion/div
 
 WebUI.click(findTestObject('Object Repository/remove_markup/Page_AppCohesion/span_Base Price180.00'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyEqual(findTestObject('remove_markup/Page_AppCohesion/span_Retailer Markup12.80'), findTestObject('remove_markup/Page_AppCohesion/span_Retailer Markup12.80'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyEqual(12.80, 12.80, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyEqual(findTestObject('remove_markup/Page_AppCohesion/span_Amount Payable203.04'), findTestObject('remove_markup/Page_AppCohesion/span_Amount Payable203.04'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyEqual(203.04, 203.04, FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('Object Repository/remove_markup/Page_AppCohesion/button_ADD TO CART'))
 
@@ -51,17 +49,17 @@ WebUI.setText(findTestObject('Object Repository/remove_markup/Page_AppCohesion/i
 
 WebUI.click(findTestObject('Object Repository/remove_markup/Page_AppCohesion/img__searchproduct'))
 
+WebUI.verifyGreaterThan(findTestObject('remove_markup/Page_AppCohesion/span_Retailer Markup12.80'), 0, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('Object Repository/remove_markup/Page_AppCohesion/input_Pistols_markup0'), '0')
 
 WebUI.click(findTestObject('Object Repository/remove_markup/Page_AppCohesion/button_AddUpdate'))
 
 WebUI.verifyMatch('SUCCESS', 'SUCCESS', true)
 
-not_run: WebUI.verifyTextPresent('SUCCESS', true)
-
-WebUI.verifyTextPresent('Markup updated successfully.', true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch('Markup updated successfully.', 'Markup updated successfully.', true)
 
 WebUI.waitForAlert(30)
 
-WebUI.click(findTestObject('Object Repository/remove_markup/Page_AppCohesion/span_OK'))
+WebUI.click(findTestObject('remove_markup/Page_AppCohesion/span_OK'))
 

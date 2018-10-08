@@ -17,6 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/input_User Name_ac_username'), 'NewRetailerB@7_9')
 
 WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'NewRetailerB@7_9')
@@ -31,13 +33,19 @@ WebUI.setText(findTestObject('Object Repository/retailer_markup_add/Page_AppCohe
 
 WebUI.click(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/img__searchproduct'))
 
-WebUI.setText(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/input_Pistols_markup0'), '12.9')
+WebUI.getText(findTestObject('retailer_markup_add/Page_AppCohesion/input_Pistols_markup0'))
+
+WebUI.verifyNotEqual('', false)
+
+WebUI.setText(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/input_Pistols_markup0'), '12.8')
 
 WebUI.click(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/button_AddUpdate'))
 
-WebUI.verifyTextPresent('SUCCESS', true)
+WebUI.verifyMatch('SUCCESS', 'SUCCESS', true)
 
-WebUI.verifyTextPresent('Markup updated successfully.', true)
+WebUI.verifyMatch('Markup updated successfully.', 'Markup updated successfully.', true)
 
-WebUI.click(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/span_OK'))
+WebUI.waitForAlert(30)
+
+WebUI.click(findTestObject('retailer_markup_add/Page_AppCohesion/span_OK'))
 
