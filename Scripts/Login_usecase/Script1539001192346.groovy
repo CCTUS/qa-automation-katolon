@@ -13,3 +13,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
+
+WebUI.maximizeWindow()
+
+for (def rowNum = 1; rowNum <= findTestData('TestDataFile').getRowNumbers(); rowNum++) {
+	
+    //WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), varUserName)
+    WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), findTestData('TestDataFile').getValue(
+            1,rowNum ))
+
+    //WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), varPassword)
+    WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), findTestData('TestDataFile').getValue(
+            2, rowNum))
+	WebUI.click(findTestObject('add_pos_retailer/Page_AppCohesion/button_Login Now'))
+    Thread.sleep(3000)
+}
+
+//WebUI.click(findTestObject('add_pos_retailer/Page_AppCohesion/button_Login Now'))
+

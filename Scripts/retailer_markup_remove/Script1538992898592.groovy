@@ -49,7 +49,7 @@ WebUI.setText(findTestObject('Object Repository/remove_markup/Page_AppCohesion/i
 
 WebUI.click(findTestObject('Object Repository/remove_markup/Page_AppCohesion/img__searchproduct'))
 
-WebUI.verifyGreaterThan(findTestObject('remove_markup/Page_AppCohesion/span_Retailer Markup12.80'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyGreaterThan(findTestObject('remove_markup/Page_AppCohesion/span_Retailer Markup12.80'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/remove_markup/Page_AppCohesion/input_Pistols_markup0'), '0')
 

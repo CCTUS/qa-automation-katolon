@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h3_Employees Onboard</name>
+   <name>input_CITY_city</name>
    <tag></tag>
-   <elementGuidId>a331f76e-a9d2-41e5-ae8b-d14753c5c438</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;container0&quot;)/h3[@class=&quot;ac-stat-icn-order&quot;][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>93c020c5-dd54-4695-b5ee-d3729700d4b4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,63 +11,97 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ac-stat-icn-order</value>
+      <value>form-control ng-untouched ng-dirty ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value> Employees Onboard</value>
+      <value>city</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>minlength</name>
+      <type>Main</type>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>city</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter city</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;container0&quot;)/h3[@class=&quot;ac-stat-icn-order&quot;]</value>
+      <value>id(&quot;city&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//input[@id='city']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='container0']/h3</value>
+      <value>//div[@id='accordion']/div[2]/div/form/div[3]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome NewRetailerR New RetailerP'])[1]/following::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CITY'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::h3[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ZIP CODE'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distributors'])[1]/preceding::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='STATE'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Orders'])[3]/preceding::h3[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Info'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/div/h3</value>
+      <value>//div[3]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
