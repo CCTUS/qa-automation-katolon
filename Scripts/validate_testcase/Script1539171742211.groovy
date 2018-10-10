@@ -41,9 +41,10 @@ WebUI.setText(findTestObject('Object Repository/retailer_markup_add/Page_AppCohe
 
 WebUI.click(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/button_AddUpdate'))
 
-WebUI.verifyMatch('SUCCESS', 'SUCCESS', true)
+WebUI.verifyElementText(findTestObject('retailer_markup_add/Page_AppCohesion/h4_SUCCESS'), 'SUCCESS', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch('Markup updated successfully.', 'Markup updated successfully.', true)
+WebUI.verifyElementText(findTestObject('retailer_markup_add/Page_AppCohesion/p_Markup updated successfully.'), 'Markup updated successfully.', 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(30)
 

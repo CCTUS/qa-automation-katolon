@@ -7,7 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;container0&quot;)/h3[@class=&quot;ac-stat-icn-order&quot;][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]</value>
+         <value>id(&quot;container0&quot;)/h3[@class=&quot;ac-stat-icn-order&quot;][count(. | //h3[@class = 'ac-stat-icn-order' and (text() = ' Employees Onboard' or . = ' Employees Onboard') and @id = 'container0']) = count(//h3[@class = 'ac-stat-icn-order' and (text() = ' Employees Onboard' or . = ' Employees Onboard') and @id = 'container0'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container0']/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +28,7 @@
       <value>h3</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -39,6 +47,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;container0&quot;)/h3[@class=&quot;ac-stat-icn-order&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>container0</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

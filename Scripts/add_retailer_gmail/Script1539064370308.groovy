@@ -29,15 +29,15 @@ WebUI.rightClick(findTestObject('Object Repository/add_retailer_gmail/Page_AppCo
 
 WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER'))
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'NewRetailerKata')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'NewRetailersample')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'NewRetailerKata@7_9')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'NewRetailersample@7_9')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), 'snekalatha.r+23@iinerds.com')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), 'snekalatha.r+7@iinerds.com')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'NewRetailerKata')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'NewRetailersample')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'NewRetailerKata')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'NewRetailersample')
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 1_retai'), '10/10, New QA Build')
 
@@ -63,10 +63,10 @@ not_run: WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_A
 
 not_run: WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/p_Congratulations You have suc'))
 
-WebUI.verifyMatch('Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
-    true)
+WebUI.verifyElementText(findTestObject('add_retailer_gmail/Page_AppCohesion/p_Congratulations You have suc'), 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch('SUCCESS', 'SUCCESS', true)
+WebUI.verifyElementText(findTestObject('retailer_markup_add/Page_AppCohesion/h4_SUCCESS'), 'SUCCESS', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/span_OK'))
 

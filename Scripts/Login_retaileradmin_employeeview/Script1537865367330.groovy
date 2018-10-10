@@ -17,13 +17,18 @@ WebUI.openBrowser('http://app-qa.appcohesion.io/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'NewRetailerB@7_9')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'RCQAThrus@26_7')
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'NewRetailerB@7_9')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'RCQAThrus@26_7')
 
 WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 
-WebUI.click(findTestObject('Login_OR/Page_AppCohesion/h3_Employees Onboard'))
+WebUI.waitForPageLoad(30)
+
+WebUI.waitForElementVisible(findTestObject('employee_dashboard'), 30)
+
+//WebUI.waitForElementClickable(findTestObject('Login_OR/Page_AppCohesion/h3_Employees Onboard'), 30)
+WebUI.click(findTestObject('employee_dashboard'))
 
 not_run: WebUI.click(findTestObject('Login_OR/Page_AppCohesion/strong_3', [('id') : 'container0']))
 
@@ -38,7 +43,7 @@ WebUI.waitForElementPresent(findTestObject('Login_OR/Page_AppCohesion/collapsibl
 
 WebUI.click(findTestObject('Login_OR/Page_AppCohesion/collapsible-header_Store Admin', [('id') : 'storeadminview']))
 
-WebUI.verifyElementPresent(findTestObject('Login_OR/Page_AppCohesion/li_NewSABNewSAB', [('id') : 'storeadmin0']), 30)
+WebUI.verifyElementPresent(findTestObject('Login_OR/Page_AppCohesion/li_NewSABNewSAB', [('id') : 'storeadmin0']), 30, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.takeScreenshot('D:\\screenshot\\storeadmin2.png')
 
@@ -47,7 +52,7 @@ WebUI.waitForElementPresent(findTestObject('Login_OR/Page_AppCohesion/collapsibl
 
 WebUI.click(findTestObject('Login_OR/Page_AppCohesion/collapsible-header_Store Users', [('id') : 'storeuserview']))
 
-WebUI.verifyElementPresent(findTestObject('Login_OR/Page_AppCohesion/li_NewSUBNewSUB', [('id') : 'storeuser0']), 30)
+WebUI.verifyElementPresent(findTestObject('Login_OR/Page_AppCohesion/li_NewSUBNewSUB', [('id') : 'storeuser0']), 30, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.takeScreenshot('D:\\screenshot\\storeuser3.png')
 

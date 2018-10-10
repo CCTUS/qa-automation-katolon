@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (1)" time="108" tests="2" failures="1" errors="0">
+   <testsuite name="New Test Suite (1)" tests="2" failures="1" errors="0" time="108" timestamp="2018-10-10 16:15:32" hostname="Snekalatha R - IIA-DES-021" id="Test Suites/New Test Suite (1)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Snekalatha R\\git\\qa-automation-katolon-1\\Reports\\New Test Suite (1)\\20181010_161531"/>
+         <property name="logFiles" value="C:\\Users\\Snekalatha R\\git\\qa-automation-katolon-1\\Reports\\New Test Suite (1)\\20181010_161531\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Snekalatha R\\git\\qa-automation-katolon-1\\Reports\\New Test Suite (1)\\20181010_161531\\1539168440636.png"/>
+         <property name="hostName" value="Snekalatha R - IIA-DES-021"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.86"/>
+         <property name="sessionId" value="09b55b83f5cd813932d2b5eca9eec8ee"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/add_retailer_gmail" classname="Test Cases/add_retailer_gmail" status="PASSED">
+         <system-out><![CDATA[2018-10-10 16:15:33 - [TEST_CASE][PASSED] - Test Cases/add_retailer_gmail: Test Cases/add_retailer_gmail
+
+2018-10-10 16:15:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-10 16:15:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-10 16:15:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://app-qa.appcohesion.io/' successfully
+
+2018-10-10 16:15:42 - [MESSAGE][PASSED] - Navigate to 'http://app-qa.appcohesion.io/' successfully
+
+2018-10-10 16:15:42 - [TEST_STEP][PASSED] - setText: Text 'surunewadmin' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:15:42 - [MESSAGE][PASSED] - Text 'surunewadmin' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:15:42 - [TEST_STEP][PASSED] - setText: Text '9tlTx3@y' is set on object 'Object Repository/Retailer creation/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:15:42 - [MESSAGE][PASSED] - Text '9tlTx3@y' is set on object 'Object Repository/Retailer creation/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:15:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:15:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/a_Retailers              Retai' is clicked on
+
+2018-10-10 16:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/a_Retailers              Retai' is clicked on
+
+2018-10-10 16:15:47 - [TEST_STEP][PASSED] - rightClick: Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER' is right clicked on
+
+2018-10-10 16:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER' is right clicked on
+
+2018-10-10 16:15:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER' is clicked on
+
+2018-10-10 16:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER' is clicked on
+
+2018-10-10 16:15:47 - [TEST_STEP][PASSED] - setText: Text 'NewRetailerKata' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'
+
+2018-10-10 16:15:47 - [MESSAGE][PASSED] - Text 'NewRetailerKata' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'
+
+2018-10-10 16:15:47 - [TEST_STEP][PASSED] - setText: Text 'NewRetailerKata@7_9' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'
+
+2018-10-10 16:15:47 - [MESSAGE][PASSED] - Text 'NewRetailerKata@7_9' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'
+
+2018-10-10 16:15:47 - [TEST_STEP][PASSED] - setText: Text 'snekalatha.r+23@iinerds.com' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'
+
+2018-10-10 16:15:47 - [MESSAGE][PASSED] - Text 'snekalatha.r+23@iinerds.com' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'
+
+2018-10-10 16:15:47 - [TEST_STEP][PASSED] - setText: Text 'NewRetailerKata' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'
+
+2018-10-10 16:15:47 - [MESSAGE][PASSED] - Text 'NewRetailerKata' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'
+
+2018-10-10 16:15:47 - [TEST_STEP][PASSED] - setText: Text 'NewRetailerKata' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'
+
+2018-10-10 16:15:47 - [MESSAGE][PASSED] - Text 'NewRetailerKata' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'
+
+2018-10-10 16:15:47 - [TEST_STEP][PASSED] - setText: Text '10/10, New QA Build' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 1_retai'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text '10/10, New QA Build' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 1_retai'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - setText: Text '03/34, New Street lane' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 2_retai'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text '03/34, New Street lane' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 2_retai'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - setText: Text '(446) 626-2462' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_PHONE NUMBER_phoneNumber'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text '(446) 626-2462' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_PHONE NUMBER_phoneNumber'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - setText: Text '75444' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_ZIP CODE_zip'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text '75444' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_ZIP CODE_zip'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - setText: Text 'Golden' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_CITY_city'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text 'Golden' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_CITY_city'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - setText: Text 'Texas' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_STATE_state'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text 'Texas' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_STATE_state'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - setText: Text '574846848468' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_BANK ROUTING ID_bankId'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text '574846848468' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_BANK ROUTING ID_bankId'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - setText: Text 'bb bank' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_BANK NAME_bankName'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text 'bb bank' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_BANK NAME_bankName'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - setText: Text '45747467468468' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_BANK AC NUMBER_accountNu'
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Text '45747467468468' is set on object 'Object Repository/add_retailer_gmail/Page_AppCohesion/input_BANK AC NUMBER_accountNu'
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/button_Add Retailer' is clicked on
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/button_Add Retailer' is clicked on
+
+2018-10-10 16:15:48 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-10-10 16:15:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-10-10 16:15:48 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-10-10 16:15:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!' and expected text 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!' are matched  using regular expression
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Actual text 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!' and expected text 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!' are matched  using regular expression
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'SUCCESS' and expected text 'SUCCESS' are matched  using regular expression
+
+2018-10-10 16:15:48 - [MESSAGE][PASSED] - Actual text 'SUCCESS' and expected text 'SUCCESS' are matched  using regular expression
+
+2018-10-10 16:15:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/span_OK' is clicked on
+
+2018-10-10 16:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/add_retailer_gmail/Page_AppCohesion/span_OK' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All_Roles_Login_usecase" classname="Test Cases/All_Roles_Login_usecase" status="PASSED">
+         <system-out><![CDATA[2018-10-10 16:15:52 - [TEST_CASE][PASSED] - Test Cases/All_Roles_Login_usecase: Test Cases/All_Roles_Login_usecase
+
+2018-10-10 16:15:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-10 16:15:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-10 16:15:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-10 16:15:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://app-qa.appcohesion.io/' successfully
+
+2018-10-10 16:16:02 - [MESSAGE][PASSED] - Navigate to 'http://app-qa.appcohesion.io/' successfully
+
+2018-10-10 16:16:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-10 16:16:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-10 16:16:03 - [TEST_STEP][PASSED] - Statement - For ([rowNum = 1, rowNum <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFile).getRowNumbers(), (rowNum++)]): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-10-10 16:16:03 - [TEST_STEP][PASSED] - setText: Text 'surunewadmin' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:03 - [MESSAGE][PASSED] - Text 'surunewadmin' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:03 - [TEST_STEP][PASSED] - setText: Text '9tlTx3@y' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:03 - [MESSAGE][PASSED] - Text '9tlTx3@y' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 16:16:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 16:16:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:07 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-10-10 16:16:10 - [TEST_STEP][PASSED] - setText: Text 'RCQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:10 - [MESSAGE][PASSED] - Text 'RCQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:10 - [TEST_STEP][PASSED] - setText: Text 'RCQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:10 - [MESSAGE][PASSED] - Text 'RCQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 16:16:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 16:16:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-10-10 16:16:18 - [TEST_STEP][PASSED] - setText: Text 'SAQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:18 - [MESSAGE][PASSED] - Text 'SAQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:18 - [TEST_STEP][PASSED] - setText: Text 'SAQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:18 - [MESSAGE][PASSED] - Text 'SAQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 16:16:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 16:16:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-10-10 16:16:26 - [TEST_STEP][PASSED] - setText: Text 'SUQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:26 - [MESSAGE][PASSED] - Text 'SUQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:26 - [TEST_STEP][PASSED] - setText: Text 'SUQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:26 - [MESSAGE][PASSED] - Text 'SUQAThrus@26_7' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 16:16:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 16:16:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:30 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}'
+
+2018-10-10 16:16:33 - [TEST_STEP][PASSED] - setText: Text 'NewRAEpicor@8_8' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:33 - [MESSAGE][PASSED] - Text 'NewRAEpicor@8_8' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:33 - [TEST_STEP][PASSED] - setText: Text 'NewRAEpicor@8_8' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:33 - [MESSAGE][PASSED] - Text 'NewRAEpicor@8_8' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/add_pos_retailer/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:34 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 16:16:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 16:16:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/img' is clicked on
+
+2018-10-10 16:16:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out' is clicked on
+
+2018-10-10 16:16:38 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): Reading CSV file with source file 'comma', separator 'containing header' and '{2}']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_retaileradmin_employeeview" classname="Test Cases/Login_retaileradmin_employeeview" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' located by 'By.xpath: id(&quot;container0&quot;)/h3[@class=&quot;ac-stat-icn-order&quot;][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537865367330.run(Script1537865367330.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539168331614.run(TempTestSuite1539168331614.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-10 16:16:41 - [TEST_CASE][FAILED] - Test Cases/Login_retaileradmin_employeeview: Test Cases/Login_retaileradmin_employeeview FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' located by 'By.xpath: id("container0")/h3[@class="ac-stat-icn-order"][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537865367330.run(Script1537865367330.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539168331614.run(TempTestSuite1539168331614.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-10 16:16:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://app-qa.appcohesion.io/'
+
+2018-10-10 16:16:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-10 16:16:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://app-qa.appcohesion.io/'
+
+2018-10-10 16:16:47 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-10 16:16:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-10 16:16:48 - [TEST_STEP][PASSED] - setText: Text 'NewRetailerB@7_9' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:49 - [MESSAGE][PASSED] - Text 'NewRetailerB@7_9' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_User Name_ac_username'
+
+2018-10-10 16:16:49 - [TEST_STEP][PASSED] - setText: Text 'NewRetailerB@7_9' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:49 - [MESSAGE][PASSED] - Text 'NewRetailerB@7_9' is set on object 'Object Repository/Login_OR/Page_AppCohesion/input_Password_ac_password'
+
+2018-10-10 16:16:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OR/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_AppCohesion/button_Login Now' is clicked on
+
+2018-10-10 16:16:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' located by 'By.xpath: id("container0")/h3[@class="ac-stat-icn-order"][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]' not found)
+
+2018-10-10 16:17:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' located by 'By.xpath: id("container0")/h3[@class="ac-stat-icn-order"][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]' not found)
+[[ATTACHMENT|C:\\Users\\Snekalatha R\\git\\qa-automation-katolon-1\\Reports\\New Test Suite (1)\\20181010_161531\\1539168440636.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-10 16:16:41 - [TEST_CASE][FAILED] - Test Cases/Login_retaileradmin_employeeview: Test Cases/Login_retaileradmin_employeeview FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' located by 'By.xpath: id("container0")/h3[@class="ac-stat-icn-order"][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537865367330.run(Script1537865367330.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539168331614.run(TempTestSuite1539168331614.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-10 16:15:32 - [TEST_SUITE][FAILED] - New Test Suite (1): Test Cases/Login_retaileradmin_employeeview FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' located by 'By.xpath: id("container0")/h3[@class="ac-stat-icn-order"][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537865367330.run(Script1537865367330.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539168331614.run(TempTestSuite1539168331614.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-10 16:15:32 - [TEST_SUITE][FAILED] - New Test Suite (1): Test Cases/Login_retaileradmin_employeeview FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_OR/Page_AppCohesion/h3_Employees Onboard' located by 'By.xpath: id("container0")/h3[@class="ac-stat-icn-order"][count(. | //h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')]) = count(//h3[(text() = ' Employees Onboard' or . = ' Employees Onboard')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537865367330.run(Script1537865367330.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539168331614.run(TempTestSuite1539168331614.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
