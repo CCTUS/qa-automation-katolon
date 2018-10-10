@@ -20,32 +20,11 @@ WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/input_User Name_ac_username'), 
-    'NewRetailerB@7_9')
+    'RACreation@10_9')
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'NewRetailerB@7_9')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'RACreation@10_9')
 
 WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/button_Login Now'))
-
-WebUI.verifyElementPresent(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/a_Dashboard              Dashb'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/h3_Employees Onboard'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/a_Dashboard              Dashb'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/h3_Distributors'))
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/a_Dashboard              Dashb'))
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/h3_Orders'))
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/a_Dashboard              Dashb'))
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/h3_Firearms'))
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/a_Orders              Orders'))
 
 WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/a_Stores              Stores'))
 
@@ -72,22 +51,20 @@ WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Pa
 
 WebUI.click(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/span_OK'))
 
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/button_ADD STORE'))
+WebUI.verifyMatch('Store Name Already Exists.', 'Store Name Already Exists.', true, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/p_Store Name Already Exists.'))
+WebUI.verifyMatch('ERROR', 'ERROR', true, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/h4_ERROR'))
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/span_OK'))
+WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/span_OK'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/input_STORE NAME_name'), 
     'Store No FFL')
 
 WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/button_ADD STORE'))
 
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/p_Store created successfully.'))
+WebUI.verifyMatch('Store created successfully.', 'Store created successfully.', true)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/h4_SUCCESS'))
+WebUI.verifyMatch('SUCCESS', 'SUCCESS', true)
 
 WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/span_OK'))
 
