@@ -20,17 +20,22 @@ WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
 WebUI.maximizeWindow()
 
 for (def rowNum = 1; rowNum <= findTestData('TestDataFile').getRowNumbers(); rowNum++) {
-	
     //WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), varUserName)
     WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), findTestData('TestDataFile').getValue(
-            1,rowNum ))
+            1, rowNum))
 
     //WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), varPassword)
     WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), findTestData('TestDataFile').getValue(
             2, rowNum))
-	WebUI.click(findTestObject('add_pos_retailer/Page_AppCohesion/button_Login Now'))
+
+    WebUI.click(findTestObject('add_pos_retailer/Page_AppCohesion/button_Login Now'))
+
+    WebUI.waitForPageLoad(30)
+
+    WebUI.click(findTestObject('Login_OR/Page_AppCohesion/Page_AppCohesion/img'))
+
+    WebUI.click(findTestObject('Login_OR/Page_AppCohesion/Page_AppCohesion/a_Log Out'))
+
     Thread.sleep(3000)
 }
-
-//WebUI.click(findTestObject('add_pos_retailer/Page_AppCohesion/button_Login Now'))
 

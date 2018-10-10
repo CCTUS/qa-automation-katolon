@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login_usecase</name>
+   <name>All_Roles_Login_usecase</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>06f20ec5-2e3d-41e2-8f33-1f374e264392</testCaseGuid>
