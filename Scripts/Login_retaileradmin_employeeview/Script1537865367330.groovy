@@ -13,17 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://app-qa.appcohesion.io/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'RCQAThrus@26_7')
-
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'RCQAThrus@26_7')
-
-WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
-
-WebUI.waitForPageLoad(30)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('employee_dashboard'), 30)
 

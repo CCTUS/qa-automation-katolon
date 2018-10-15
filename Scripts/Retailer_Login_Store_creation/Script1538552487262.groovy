@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Pa
 WebUI.click(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/i_'))
 
 WebUI.setText(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/input_STORE NAME_name'), 
-    'New Retailer Store')
+    findTestData('storename').getValue(1, 1))
 
 WebUI.setText(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/input_STORE ADDRESS_address'), 
     '3/10, New QA Build')
@@ -49,22 +49,15 @@ WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Pa
 
 WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/button_ADD STORE'))
 
-WebUI.click(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/span_OK'))
+WebUI.verifyElementText(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/p_Store created successfully.'), 
+    'Store created successfully.', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch('Store Name Already Exists.', 'Store Name Already Exists.', true, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyMatch('ERROR', 'ERROR', true, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/span_OK'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.setText(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/input_STORE NAME_name'), 
-    'Store No FFL')
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/button_ADD STORE'))
-
-WebUI.verifyMatch('Store created successfully.', 'Store created successfully.', true)
-
-WebUI.verifyMatch('SUCCESS', 'SUCCESS', true)
+WebUI.verifyElementText(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/h4_SUCCESS'), 'SUCCESS', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/span_OK'))
+
+not_run: WebUI.verifyElementText(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/p_Store Name Already Exists.'), 
+    'Store Name Already Exists.')
+
+not_run: WebUI.verifyElementText(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/h4_ERROR'), 'ERROR')
 

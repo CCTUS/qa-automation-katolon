@@ -13,25 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
-
-WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/input_User Name_ac_username'), 'surunewadmin')
-
-WebUI.setText(findTestObject('Object Repository/Retailer creation/Page_AppCohesion/input_Password_ac_password'), '9tlTx3@y')
-
-WebUI.click(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/button_Login Now'))
+WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/a_Retailers              Retai'))
 
 WebUI.click(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/a_ADD RETAILER'))
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'NewQARAK')
+WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/input_RETAILER NAME_retailerNa'), findTestData(
+        'TDAddRetailer').getValue(1, 1))
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/input_USER NAME_userName'), 'NewQARAK@3_10')
+WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/input_USER NAME_userName'), findTestData(
+        'TDAddRetailer').getValue(2, 1))
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/input_EMAIL ID_emailId'), 'newqarak3_10@getnada.com')
+WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/input_EMAIL ID_emailId'), findTestData(
+        'TDAddRetailer').getValue(3, 1))
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/input_FIRST NAME_firstName'), 'NewQARAK')
 
@@ -57,9 +52,12 @@ WebUI.setText(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesi
 
 WebUI.click(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/button_Add Retailer'))
 
-WebUI.click(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/p_Congratulations You have suc'))
+WebUI.verifyElementText(findTestObject('add_retailer_gmail/Page_AppCohesion/p_Congratulations You have suc'), 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/h4_SUCCESS'))
+WebUI.verifyElementText(findTestObject('retailer_markup_add/Page_AppCohesion/h4_SUCCESS'), 'SUCCESS', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/add_retailer_auto/Page_AppCohesion/span_OK'))
+WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/span_OK'))
+
+WebUI.callTestCase(findTestCase('Call Test Case/edit retailer'), [:], FailureHandling.STOP_ON_FAILURE)
 

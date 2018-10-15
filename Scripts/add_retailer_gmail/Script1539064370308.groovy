@@ -59,10 +59,6 @@ WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohes
 
 WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/button_Add Retailer'))
 
-not_run: WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/h4_SUCCESS'))
-
-not_run: WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/p_Congratulations You have suc'))
-
 WebUI.verifyElementText(findTestObject('add_retailer_gmail/Page_AppCohesion/p_Congratulations You have suc'), 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
     FailureHandling.STOP_ON_FAILURE)
 

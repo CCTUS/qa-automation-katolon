@@ -35,11 +35,14 @@ WebUI.selectOptionByLabel(findTestObject('Object Repository/add_pos_retailer/Pag
 WebUI.selectOptionByValue(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/select_Select POS'), '1', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'NewQAPOSK')
+WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_RETAILER NAME_retailerNa'), findTestData(
+        'TDAddRetailer').getValue(1, 2))
 
-WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_USER NAME_userName'), 'NewQAPOSK@3_10')
+WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_USER NAME_userName'), findTestData(
+        'TDAddRetailer').getValue(2, 2))
 
-WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_EMAIL ID_emailId'), 'newqaposk@getnada.com')
+WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_EMAIL ID_emailId'), findTestData(
+        'TDAddRetailer').getValue(3, 2))
 
 WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/input_FIRST NAME_firstName'), 'NewQAPOSK')
 
@@ -65,14 +68,12 @@ WebUI.setText(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesio
 
 WebUI.click(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/button_Add Retailer'))
 
-WebUI.verifyTextPresent('Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
-    true)
+WebUI.verifyElementText(findTestObject('add_retailer_gmail/Page_AppCohesion/p_Congratulations You have suc'), 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('SUCCESS', true)
+WebUI.verifyElementText(findTestObject('retailer_markup_add/Page_AppCohesion/h4_SUCCESS'), 'SUCCESS', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/h4_SUCCESS'))
-
-WebUI.click(findTestObject('Object Repository/add_pos_retailer/Page_AppCohesion/span_OK'))
+WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/span_OK'))
 
 WebUI.closeBrowser()
 

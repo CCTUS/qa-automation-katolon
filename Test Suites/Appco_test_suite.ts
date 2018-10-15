@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Appco_test_suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-10-10T16:28:13</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9c2bafd8-adc3-4ea4-b921-3ea11b5c36aa</testSuiteGuid>
+   <testCaseLink>
+      <guid>8970459e-dd5b-4dc7-abe6-f8c00a70a406</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/add_retailer_auto</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>06a6fbf8-82cd-4a50-90ee-25249d0f9131</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TDAddRetailer</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>06a6fbf8-82cd-4a50-90ee-25249d0f9131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RetailerName</value>
+         <variableId>de1c6c51-baa9-45e1-aee5-3a9466ef83f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>06a6fbf8-82cd-4a50-90ee-25249d0f9131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>87bfd820-529d-4420-9068-72dd71b2a485</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>06a6fbf8-82cd-4a50-90ee-25249d0f9131</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Emailid</value>
+         <variableId>582cb17c-159f-43d6-a29c-4843f6f464cc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b3786e9-2097-426f-9e74-e14183071519</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/add_pos_retailer</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0a0785bc-dc64-4a69-8efe-71a481719c1a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TDAddRetailer</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0a0785bc-dc64-4a69-8efe-71a481719c1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RetailerName</value>
+         <variableId>2379ec2b-e3a2-473a-93a8-6e9fc29ab5a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a0785bc-dc64-4a69-8efe-71a481719c1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>6b7fe470-226b-4e39-9d74-d9258e524f88</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a0785bc-dc64-4a69-8efe-71a481719c1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Emailid</value>
+         <variableId>db1d5ef2-928c-4435-a75b-a2aa9152b35b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ecb0940c-e7d6-479a-8a52-3043cdf72ecf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login_retaileradmin_employeeview</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>
