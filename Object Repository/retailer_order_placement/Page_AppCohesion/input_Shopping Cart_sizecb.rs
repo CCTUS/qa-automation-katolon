@@ -4,6 +4,12 @@
    <name>input_Shopping Cart_sizecb</name>
    <tag></tag>
    <elementGuidId>48a2dd2a-6ed6-40da-bee2-f6bc41bbba34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'sizecb[]' and @type = 'checkbox' and @id = '1070']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>1067</value>
+      <value>1070</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

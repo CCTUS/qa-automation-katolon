@@ -4,6 +4,12 @@
    <name>input_RETAILER NAME_searchInpu</name>
    <tag></tag>
    <elementGuidId>bdedb917-816c-46e1-8bb1-0f6c9a653127</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'input_3']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -33,6 +39,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-generic-wrap&quot;]/app-orders[1]/app-common-view[1]/div[2]/div[1]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;totalDiv&quot;]/div[@class=&quot;row empListView&quot;]/table[1]/div[@class=&quot;tbody&quot;]/tbody[1]/td[@class=&quot;orderInner&quot;]/input[@class=&quot;searchInput ng-untouched ng-valid ng-dirty&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>input_3</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
