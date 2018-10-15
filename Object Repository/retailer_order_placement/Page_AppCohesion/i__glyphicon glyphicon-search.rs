@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//i[@title = 'Search']</value>
+         <value>//i[@title = 'Search' and @id = 'search_data']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -39,6 +39,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;search_data&quot;)/i[@class=&quot;glyphicon glyphicon-search&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>search_data</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -4,10 +4,16 @@
    <name>div_Heckler  Koch VP VP9</name>
    <tag></tag>
    <elementGuidId>0d6ddec9-5f37-48bf-82ff-d7654f35b37f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'order_1']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,7 +27,7 @@
       <value>ac-prod-name-wrapper</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -35,6 +41,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;order_1&quot;)/td[@class=&quot;searchInner&quot;]/div[1]/div[@class=&quot;ac-img-name-wrapper&quot;]/div[@class=&quot;ac-prod-name-wrapper&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>order_1</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
