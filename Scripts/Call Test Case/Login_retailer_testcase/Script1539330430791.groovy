@@ -13,13 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://app-qa.appcohesion.io/')
+WebUI.openBrowser('http://localhost:4200/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'RCQAThrus@26_7')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'RACreation@10_9')
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'RCQAThrus@26_7')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'RACreation@10_9')
 
 WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 

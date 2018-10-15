@@ -15,34 +15,56 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('employee_dashboard'), 30)
+WebUI.waitForPageLoad(10)
 
-//WebUI.waitForElementClickable(findTestObject('Login_OR/Page_AppCohesion/h3_Employees Onboard'), 30)
-WebUI.click(findTestObject('employee_dashboard'))
+WebUI.click(findTestObject('appco_employee_view_new/retailer_employeeview/Page_AppCohesion/strong_5'))
 
-not_run: WebUI.click(findTestObject('Login_OR/Page_AppCohesion/strong_3', [('id') : 'container0']))
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/a_Employees              Emplo'))
 
-WebUI.click(findTestObject('Login_OR/Page_AppCohesion/collapsible-header_Retailer Ad', [('id') : 'retadminview']))
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
-WebUI.waitForPageLoad(30)
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/li_chkemailchkemail'))
 
-WebUI.takeScreenshot('D:\\screenshot\\retaileradmin1.png')
+WebUI.verifyElementVisible(findTestObject('appco_employee_view_new/Page_AppCohesion/span_RetailerAdmin'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Login_OR/Page_AppCohesion/collapsible-header_Store Admin', [('id') : 'storeadminview']), 
-    0)
+WebUI.verifyElementText(findTestObject('appco_employee_view_new/Page_AppCohesion/span_RetailerAdmin'), 'RetailerAdmin')
 
-WebUI.click(findTestObject('Login_OR/Page_AppCohesion/collapsible-header_Store Admin', [('id') : 'storeadminview']))
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/span_Loading POS Retailer admi'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Login_OR/Page_AppCohesion/li_NewSABNewSAB', [('id') : 'storeadmin0']), 30, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
-WebUI.takeScreenshot('D:\\screenshot\\storeadmin2.png')
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/collapsible-header_Store Admin'))
 
-WebUI.waitForElementPresent(findTestObject('Login_OR/Page_AppCohesion/collapsible-header_Store Users', [('id') : 'storeuserview']), 
-    0)
+WebUI.click(findTestObject('appco_employee_view_new/Page_AppCohesion/li_SACreationSACreation'))
 
-WebUI.click(findTestObject('Login_OR/Page_AppCohesion/collapsible-header_Store Users', [('id') : 'storeuserview']))
+WebUI.verifyElementVisible(findTestObject('appco_employee_view_new/retailer_employee_view/Page_AppCohesion/span_StoreAdmin'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Login_OR/Page_AppCohesion/li_NewSUBNewSUB', [('id') : 'storeuser0']), 30, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('appco_employee_view_new/retailer_employee_view/Page_AppCohesion/span_StoreAdmin'), 
+    'StoreAdmin')
 
-WebUI.takeScreenshot('D:\\screenshot\\storeuser3.png')
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/span_Loading POS Retailer admi'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/collapsible-header_Store Admin'))
+
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/collapsible-header_Store Users'))
+
+WebUI.waitForPageLoad(30, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('appco_employee_view_new/retailer_employeeview/Page_AppCohesion/li_SUCreationSUCreation'))
+
+WebUI.verifyElementVisible(findTestObject('appco_employee_view_new/retailer_employee_view/Page_AppCohesion/span_POSUser'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('appco_employee_view_new/retailer_employee_view/Page_AppCohesion/span_POSUser'), 
+    'POSUser')
+
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/span_Loading POS Retailer admi'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/collapsible-header_Store Users'))
+
+WebUI.click(findTestObject('appco_employee_view_new/Page_AppCohesion/dashboard_component'))
 

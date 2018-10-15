@@ -23,6 +23,10 @@ WebUI.waitForPageLoad(50)
 
 WebUI.click(findTestObject('retaileradminview'))
 
+WebUI.verifyElementText(findTestObject('employee_view_roletype'), 'RetailerAdmin')
+
+WebUI.click(findTestObject('close_employee_drawer'))
+
 WebUI.waitForPageLoad(50)
 
 not_run: WebUI.click(findTestObject('retaileradminview'))
