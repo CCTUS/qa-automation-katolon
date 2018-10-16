@@ -183,14 +183,13 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_plac
 
 WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'))
 
-WebUI.dragAndDropToObject(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
-    findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.dragAndDropToObject(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), 
+    findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
+WebUI.verifyElementVisible(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/a_Dashboard              Dashb'))
 

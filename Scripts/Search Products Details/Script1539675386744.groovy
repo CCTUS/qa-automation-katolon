@@ -21,18 +21,15 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Det
 WebUI.setText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
     'RUGER-UCSR7GCZ')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/i_Settings_glyphicon glyphicon'))
+WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/button_Settings_searchbutton'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/i_Settings_glyphicon glyphicon'))
+WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
 WebUI.waitForPageLoad(50)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/tr_Ruger'))
+WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/tr_Ruger'), 'Ruger', 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/tr_Ruger'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/h2_Ruger LC LCP'))
 
@@ -92,6 +89,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Search Products Detail
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/p_Manufacturer Part 3701UPC 73'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/p_Manufacturer Part 3701UPC 73'), 
-    'Manufacturer Part: 3701UPC: 736676037018', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/a_Back to Search'))
+
+WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/a_Back to Search'))
 
