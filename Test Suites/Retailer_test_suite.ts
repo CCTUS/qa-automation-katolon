@@ -26,7 +26,7 @@
       <guid>f66bf3ba-7fa3-4f81-9c07-770b57c0dba1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/retailer_employeeView</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/retailer_employeeView</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0afb818b-81c2-44f0-844e-46c94991e989</guid>
@@ -62,13 +62,13 @@
       <guid>3f3825ae-0a1f-4b0c-bc8a-42d8e23e4ebf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/retaileradmin_order_placement</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/retaileradmin_order_placement</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>88ae76a3-959b-4074-b854-80d6457217bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/search_products_details_datafile</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
          <id>e6ab7c4d-2121-4e31-96c1-6dc6afd84e2b</id>
@@ -143,6 +143,6 @@
       <guid>3a1c4022-2749-430f-a85f-f7fb957ac6e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search Products Details</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/Search Products Details</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

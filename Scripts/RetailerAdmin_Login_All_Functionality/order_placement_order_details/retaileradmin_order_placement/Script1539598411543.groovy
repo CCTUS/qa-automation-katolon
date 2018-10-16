@@ -14,7 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('retailer_order_placement/Page_AppCohesion/i_Settings_glyphicon glyphicon'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -39,43 +38,42 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_plac
 
 WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/div_Heckler  Koch VP VP9'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.verifyElementVisible(findTestObject('retailer_order_placement/Page_AppCohesion/strong_534.20'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('retailer_order_placement/Page_AppCohesion/strong_534.20'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.verifyElementText(findTestObject('retailer_order_placement/Page_AppCohesion/strong_534.20'), '$534.20')
+WebUI.verifyElementText(findTestObject('retailer_order_placement/Page_AppCohesion/strong_534.20'), '$534.20')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_176'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_176'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_176'), 
-    '176')
+WebUI.verifyElementText(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_176'), '176')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/h4_Only 176 left in stock'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/h4_Only 176 left in stock'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/h4_Only 176 left in stock'), 
+WebUI.verifyElementText(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/h4_Only 176 left in stock'), 
     'Only 176 left in stock!')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
 
-not_run: WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
+WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/img'))
 
-WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/img'))
+WebUI.click(findTestObject('retailer_order_placement/Page_AppCohesion/img'))
 
 WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_View Cart'))
 
 WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_Quantity_decreasequatit'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'))
+WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'))
 
-not_run: WebUI.waitForElementClickable(findTestObject('retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'), 
-    30, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'), 30, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'))
+WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'))
 
-not_run: WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/h5_Heckler  Koch VP VP9'))
+WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/h5_Heckler  Koch VP VP9'))
 
 WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/a_Back to Cart'))
 
