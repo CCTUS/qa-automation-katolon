@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_RETAILER NAME_searchInpu</name>
+   <name>tr_Ruger</name>
    <tag></tag>
-   <elementGuidId>bdedb917-816c-46e1-8bb1-0f6c9a653127</elementGuidId>
+   <elementGuidId>bb72fc18-7961-4c32-a344-9721a37f49f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'input_3']</value>
+         <value>//tr[(text() = 'Ruger' or . = 'Ruger') and @id = 'order_0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,70 +17,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>searchInput ng-untouched ng-valid ng-dirty</value>
+      <value>tr</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>text</value>
+      <value>Ruger</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-generic-wrap&quot;]/app-orders[1]/app-common-view[1]/div[2]/div[1]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;totalDiv&quot;]/div[@class=&quot;row empListView&quot;]/table[1]/div[@class=&quot;tbody&quot;]/tbody[1]/td[@class=&quot;orderInner&quot;]/input[@class=&quot;searchInput ng-untouched ng-valid ng-dirty&quot;]</value>
+      <value>id(&quot;order_0&quot;)/td[@class=&quot;searchInner&quot;]/tbody[1]/tr[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>input_3</value>
+      <value>order_0</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>(//input[@type='text'])[4]</value>
+      <name>xpath:idRelative</name>
+      <value>//tr[@id='order_0']/td[3]/tbody/tr</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='RETAILER NAME'])[1]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ruger LC LCP'])[1]/following::tr[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DATE'])[1]/following::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Retail Price'])[1]/following::tr[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Am -20180612-6'])[1]/preceding::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SS'])[1]/preceding::tr[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AmRA'])[1]/preceding::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RUGER-UCSR7GCZ'])[1]/preceding::tr[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[4]/input</value>
+      <value>//td[3]/tbody/tr</value>
    </webElementXpaths>
 </WebElementEntity>

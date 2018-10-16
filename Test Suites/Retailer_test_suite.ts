@@ -41,12 +41,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a22530ea-3a92-452c-b709-f7547c6d1987</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/retailer_markup_order_placement</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2e8dd7d0-978e-4be7-ab6f-04bde7586bf9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -63,5 +57,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Store_Delete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f3825ae-0a1f-4b0c-bc8a-42d8e23e4ebf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/retaileradmin_order_placement</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
