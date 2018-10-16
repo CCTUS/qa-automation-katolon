@@ -7,10 +7,9 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;1067&quot;)[count(. | //input[@class = 'selectioncheck ng-untouched ng-pristine ng-valid' and @name = 'sizecb[]' and @type = 'checkbox']) = count(//input[@class = 'selectioncheck ng-untouched ng-pristine ng-valid' and @name = 'sizecb[]' and @type = 'checkbox'])]</value>
+         <value>//input[@name = 'sizecb[]' and @type = 'checkbox' and @id = '1070']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   </selectorCollection>   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
