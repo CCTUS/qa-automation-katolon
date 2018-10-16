@@ -13,18 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/input_User Name_ac_username'), 
-    'RACreation@10_9')
-
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'RACreation@10_9')
-
-WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/button_Login Now'))
+WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/a_Stores              Stores'))
 
@@ -55,9 +44,4 @@ WebUI.verifyElementText(findTestObject('retailer_creation_Storecreation/Page_App
 WebUI.verifyElementText(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/h4_SUCCESS'), 'SUCCESS', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/retailer_creation_Storecreation/Page_AppCohesion/span_OK'))
-
-not_run: WebUI.verifyElementText(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/p_Store Name Already Exists.'), 
-    'Store Name Already Exists.')
-
-not_run: WebUI.verifyElementText(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/h4_ERROR'), 'ERROR')
 

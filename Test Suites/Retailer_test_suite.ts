@@ -20,7 +20,7 @@
       <guid>33e80cc5-c39c-4d01-b2d5-96ba5f3a28e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Retailer_Login_Store_creation</testCaseId>
+      <testCaseId>Test Cases/Retailer_Store_creation_datafile</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f66bf3ba-7fa3-4f81-9c07-770b57c0dba1</guid>

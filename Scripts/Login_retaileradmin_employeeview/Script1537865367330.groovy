@@ -19,9 +19,13 @@ WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('appco_employee_view_new/retailer_employeeview/Page_AppCohesion/strong_5'))
 
-WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/a_Employees              Emplo'))
+not_run: WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/a_Employees              Emplo'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/collapsible-header_Retailer Ad'))
+WebUI.click(findTestObject('appco_employee_view_new/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/li_chkemailchkemail'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employee_view/Page_AppCohesion/li_chkemailchkemail'))
 

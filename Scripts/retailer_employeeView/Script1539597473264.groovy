@@ -19,6 +19,9 @@ WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_e
 
 WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/a_Employees              Emplo'))
 
+WebUI.verifyElementVisible(findTestObject('appco_employee_view_new/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
 WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/li_chkemailchkemail'))

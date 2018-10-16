@@ -4,6 +4,18 @@
    <name>collapsible-header_Retailer Ad</name>
    <tag></tag>
    <elementGuidId>58caaf70-b5b9-4727-82e1-9970be13e8f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//collapsible-header[(text() = '
+                        Retailer Admins
+                        
+                      ' or . = '
+                        Retailer Admins
+                        
+                      ') and @id = 'retadminview']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -36,6 +48,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;retadminview&quot;)/collapsible-header[@class=&quot;waves-effect&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>retadminview</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
