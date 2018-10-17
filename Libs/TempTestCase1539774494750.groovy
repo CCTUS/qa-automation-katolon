@@ -1,4 +1,26 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import groovy.lang.MissingPropertyException
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\DELL\\AppData\\Local\\Temp\\Katalon\\Test Cases\\RetailerAdmin_Login_All_Functionality\\Retailer_Store_managment\\Retailer_store_creation_edit_delete\\20181017_163814\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -13,19 +35,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('store_object_repo/store_tab'))
+not_run: WebUI.click(findTestObject('store_object_repo/store_tab'))
 
-WebUI.click(findTestObject('store_object_repo/store_new_button'))
+not_run: WebUI.click(findTestObject('store_object_repo/store_new_button'))
 
-WebUI.setText(findTestObject('store_object_repo/store_name'), 'RACreation Store')
+not_run: WebUI.setText(findTestObject('store_object_repo/store_name'), 'RACreation Store')
 
-String ts = System.currentTimeMillis().toString()
-
+//String ts = System.currentTimeMillis().toString()
+//WebUI.setText(findTestObject("your/login/field"), ts + "@test.com")
 WebUI.setText(findTestObject('store_object_repo/FFL_no'), ts)
 
-WebUI.uploadFile(findTestObject('store_object_repo/FFL_doc'), 'D:\\sample_doc\\sample.pdf', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.uploadFile(findTestObject('store_object_repo/FFL_doc'), 'D:\\\\sample_doc\\\\sample.pdf', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('store_object_repo/store_address'), '3/10, New QA Build')
 
@@ -65,37 +87,25 @@ WebUI.verifyElementVisible(findTestObject('store_object_repo/storeeditbutton'))
 
 WebUI.click(findTestObject('store_object_repo/storeeditbutton'))
 
-WebUI.setText(findTestObject('store_object_repo/store_name'), 'New Store creation')
+WebUI.acceptAlert()
 
-String ts1 = System.currentTimeMillis().toString()
+WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('store_object_repo/FFL_no'), ts1)
+WebUI.acceptAlert()
 
-WebUI.uploadFile(findTestObject('store_object_repo/FFL_doc'), 'D:\\sample_doc\\sample.pdf', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('store_object_repo/store_address'), '3/10, New QA Build')
+WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('store_object_repo/zip_code'), '24143')
+WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('store_object_repo/city_name'), 'Newton Falls')
+WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('store_object_repo/state_name'), 'Ohio')
+WebUI.acceptAlert()
 
-WebUI.verifyElementVisible(findTestObject('store_object_repo/store_update_button'))
+WebUI.acceptAlert()
 
-WebUI.click(findTestObject('store_object_repo/store_update_button'))
+WebUI.acceptAlert()
 
-WebUI.waitForAlert(10)
-
-WebUI.verifyElementVisible(findTestObject('store_object_repo/store_container'))
-
-WebUI.click(findTestObject('store_object_repo/store_container'))
-
-WebUI.verifyElementVisible(findTestObject('store_object_repo/store_delete_button'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('store_object_repo/store_delete_button'))
-
-WebUI.verifyElementVisible(findTestObject('store_object_repo/a_Dashboard              Dashb'))
-
-WebUI.click(findTestObject('store_object_repo/a_Dashboard              Dashb'))
-
+''', 'Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Store_managment/Retailer_store_creation_edit_delete', new TestCaseBinding('Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Store_managment/Retailer_store_creation_edit_delete',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    
