@@ -59,7 +59,49 @@ WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohe
 
 WebUI.verifyElementVisible(findTestObject('employee_obj_repo/retailer_first_list'))
 
-WebUI.verifyElementVisible(findTestObject('employee_obj_repo/added_employee'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('employee_obj_repo/Page_AppCohesion/li_NewRetailerKatalonNewRetail'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('employee_obj_repo/added_employee'), 'NewRetailerKatalon')
+WebUI.verifyElementText(findTestObject('employee_obj_repo/Page_AppCohesion/h4_NewRetailerKatalonNewRetail'), 'NewRetailerKatalonNewRetailerKatalon', 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('employee_obj_repo/Page_AppCohesion/h5_RetailerAdmin'), 'RetailerAdmin')
+
+WebUI.verifyElementText(findTestObject('employee_obj_repo/Page_AppCohesion/h5_snekalatha.r340iinerds.com'), 'snekalatha.r340@iinerds.com', 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('employee_obj_repo/Page_AppCohesion/h5_9894591635'), '9894591635')
+
+WebUI.waitForElementVisible(findTestObject('employee_obj_repo/retailer_first_list'), 30)
+
+WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_edit_button'))
+
+WebUI.click(findTestObject('employee_obj_repo/emp_edit_button'))
+
+WebUI.setText(findTestObject('employee_obj_repo/Emp_firstname'), 'EditRetailerKatalon')
+
+WebUI.setText(findTestObject('employee_obj_repo/emp_lastname'), 'EditRetailerKatalon')
+
+WebUI.setText(findTestObject('employee_obj_repo/emp_phonenumber'), '9443225554')
+
+WebUI.click(findTestObject('employee_obj_repo/emp_update_button'))
+
+WebUI.waitForAlert(0)
+
+WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
+
+WebUI.verifyElementVisible(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('employee_obj_repo/emp_delete_button'), 30, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('employee_obj_repo/emp_delete_button'))
+
+WebUI.click(findTestObject('employee_obj_repo/delete_yes_button'))
+
+WebUI.waitForAlert(0)
+
+WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/a_Dashboard              Dashb'))
 

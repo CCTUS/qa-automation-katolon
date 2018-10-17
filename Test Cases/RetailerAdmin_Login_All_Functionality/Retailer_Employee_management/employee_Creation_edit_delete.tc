@@ -3,6 +3,6 @@
    <description></description>
    <name>employee_Creation_edit_delete</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Valid email</comment>
    <testCaseGuid>a06e3aa3-17bb-4987-ac46-0a5da882376d</testCaseGuid>
 </TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>added_employee</name>
+   <name>emp_edit_button</name>
    <tag></tag>
-   <elementGuidId>a17e2200-a418-41d7-89a5-a6441a523fd7</elementGuidId>
+   <elementGuidId>b39f168f-06ad-4588-a445-a5fd467ef073</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'retailername_view']</value>
+         <value>//*[@id = 'empedit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>retailername_view</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>NewRetailerKatalon</value>
+      <value>empedit</value>
    </webElementProperties>
 </WebElementEntity>
