@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Inventory</name>
+   <name>h5_snekalatha.r340iinerds.com</name>
    <tag></tag>
-   <elementGuidId>2379d92a-34c6-4772-9073-a1535c18b5bc</elementGuidId>
+   <elementGuidId>63e31f59-a671-451b-9403-ab5a70482961</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,53 +11,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ac-more-menu</value>
+      <value>textHover empMailId</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> 
-                            
-                            
-                              Inventory
-                              
-                              Delete
-                                
-                            
-                          </value>
+      <value>snekalatha.r340@iinerds.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-generic-wrap&quot;]/app-distributor-markup[1]/div[1]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-12 col-lg-12 ac-distributor-listing&quot;]/div[@class=&quot;ac-distributor-cards&quot;]/div[1]/div[@class=&quot;ac-distributor-card&quot;]/div[@class=&quot;ac-distributor-head&quot;]/span[@class=&quot;ac-distributor-head-right&quot;]/span[@class=&quot;ac-more-menu&quot;]</value>
+      <value>id(&quot;retailer0&quot;)/div[1]/a[1]/h5[@class=&quot;textHover empMailId&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sorry!No Distributor Found'])[1]/following::span[2]</value>
+      <name>xpath:idRelative</name>
+      <value>//li[@id='retailer0']/div/a/h5[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distributor Inventory Management'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RetailerAdmin'])[1]/following::h5[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NewRetailerKatalonNewRetailerKatalon'])[1]/following::h5[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NewRetailerKatalonNewRetailerKatalon'])[2]/preceding::h5[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RetailerAdmin'])[2]/preceding::h5[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div/div/div/div/div/span/span</value>
+      <value>//h5[2]</value>
    </webElementXpaths>
 </WebElementEntity>

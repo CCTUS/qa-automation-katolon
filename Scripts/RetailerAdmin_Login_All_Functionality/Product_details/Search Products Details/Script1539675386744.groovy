@@ -15,81 +15,81 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
+WebUI.setText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
     'RUGER-UCSR7GCZ')
 
-WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/button_Settings_searchbutton'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
+WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
 WebUI.waitForPageLoad(50)
 
-WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/h2_Ruger LC LCP'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h2_Ruger LC LCP'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/h2_Ruger LC LCP'), 'Ruger LC LCP')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h2_Ruger LC LCP'), 'Ruger LC LCP')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_Manufacturer Part Number3'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_Manufacturer Part Number3'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_3701'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_3701'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_3701'), '3701')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_3701'), '3701')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_ManufacturerRuger'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_ManufacturerRuger'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_Ruger'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_Ruger'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_Ruger'), 'Ruger')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_Ruger'), 'Ruger')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_DistributorSS'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_DistributorSS'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_SS'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_SS'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_SS'), 'SS')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_SS'), 'SS')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_UPC736676037018'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_UPC736676037018'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_736676037018'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_736676037018'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_736676037018'), 
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_736676037018'), 
     '736676037018')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_Base Price180.00'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_Base Price180.00'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_180.00'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_180.00'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_180.00'), '$180.00')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_180.00'), '$180.00')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_Retailer Markup0.00'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_Retailer Markup0.00'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_0.00'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_0.00'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_0.00'), '0.00%')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_0.00'), '0.00%')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_Amount Payable180.00'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_Amount Payable180.00'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_180.00_1'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_180.00_1'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/strong_180.00_1'), '$180.00')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/strong_180.00_1'), '$180.00')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'), 
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'), 
     'Only 25 left in stock!')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_25'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_25'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/span_25'), '25')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/span_25'), '25')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/p_Manufacturer Part 3701UPC 73'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/p_Manufacturer Part 3701UPC 73'))
 
-WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/a_Back to Search'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/a_Back to Search'))
 
-WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/a_Back to Search'))
+WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/a_Back to Search'))
 

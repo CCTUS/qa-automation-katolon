@@ -13,14 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/td_Ruger LC LCP'))
+WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/td_Ruger LC LCP'))
 
-WebUI.click(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/a_Back to Search'))
+WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/a_Back to Search'))
 
-WebUI.setText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
+WebUI.setText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
     'RUGER-UCSR7GCZ')
 
-WebUI.click(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
+WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
-WebUI.click(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/td_Ruger'))
+WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/td_Ruger'))
 

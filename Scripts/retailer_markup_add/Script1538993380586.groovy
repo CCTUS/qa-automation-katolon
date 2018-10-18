@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesi
 
 WebUI.click(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/i_Inventory by Distributor'))
 
-WebUI.click(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/div_Inventory'))
+WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/div_Inventory'))
 
 WebUI.setText(findTestObject('Object Repository/retailer_markup_add/Page_AppCohesion/input__productname'), 'RUGER-UCSR7GCZ')
 

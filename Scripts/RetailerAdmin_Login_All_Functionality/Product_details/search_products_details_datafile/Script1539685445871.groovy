@@ -16,95 +16,95 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 for (def rowNum = 1; rowNum <= findTestData('productdetailsdata').getRowNumbers(); rowNum++) {
-    WebUI.setText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
+    WebUI.setText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
         findTestData('productdetailsdata').getValue(1, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/button_Settings_searchbutton'), 
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'), 
         FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
         FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
+    WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
     WebUI.waitForPageLoad(50)
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/product_details_rowid'), 
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_details_rowid'), 
         FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/created_id/product_details_rowid'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_details_rowid'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/product_title'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_title'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/created_id/product_title'), findTestData(
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_title'), findTestData(
             'productdetailsdata').getValue(2, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/manufaturer_header'), 
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/manufaturer_header'), 
         FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/manufacture_partno_id'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/manufacture_partno_id'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/created_id/manufacture_partno_id'), 
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/manufacture_partno_id'), 
         findTestData('productdetailsdata').getValue(3, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/manufacture_name_header'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/manufacture_name_header'))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/manufacture_name'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/manufacture_name'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/created_id/manufacture_name'), findTestData(
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/manufacture_name'), findTestData(
             'productdetailsdata').getValue(4, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/distributor_header'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/distributor_header'))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/distributorname_id'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/distributorname_id'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/created_id/distributorname_id'), findTestData(
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/distributorname_id'), findTestData(
             'productdetailsdata').getValue(5, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/upc_header'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/upc_header'))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/upc_noid'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/upc_noid'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/upc_noid'), findTestData('productdetailsdata').getValue(
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/upc_noid'), findTestData('productdetailsdata').getValue(
             6, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/baseprice_header'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/baseprice_header'))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/baseprice_id'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/baseprice_id'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/created_id/baseprice_id'), findTestData(
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/baseprice_id'), findTestData(
             'productdetailsdata').getValue(7, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/markup_header'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/markup_header'))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/markup_id'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/markup_id'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/created_id/markup_id'), findTestData(
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/markup_id'), findTestData(
             'productdetailsdata').getValue(8, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/amtpay_header'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/amtpay_header'))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/amtpay_id'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/amtpay_id'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/created_id/amtpay_id'), findTestData(
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/amtpay_id'), findTestData(
             'productdetailsdata').getValue(9, rowNum))
 
-    not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'), 
+    not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'), 
         FailureHandling.CONTINUE_ON_FAILURE)
 
-    not_run: WebUI.verifyElementText(findTestObject('Object Repository/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'), 
+    not_run: WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'), 
         'Only 25 left in stock!', FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/quantity_id'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/quantity_id'))
 
-    WebUI.verifyElementText(findTestObject('Search Products Details/Page_AppCohesion/created_id/quantity_id'), findTestData(
+    WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/quantity_id'), findTestData(
             'productdetailsdata').getValue(10, rowNum))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/created_id/product_specification'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_specification'))
 
-    WebUI.verifyElementVisible(findTestObject('Search Products Details/Page_AppCohesion/a_Back to Search'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/a_Back to Search'))
 
-    WebUI.click(findTestObject('Search Products Details/Page_AppCohesion/a_Back to Search'))
+    WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/a_Back to Search'))
 
     WebUI.click(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/a_Dashboard              Dashb'))
 
