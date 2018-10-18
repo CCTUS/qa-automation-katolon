@@ -4,6 +4,12 @@
    <name>i_Inventory by Distributor</name>
    <tag></tag>
    <elementGuidId>21199dd5-60d9-4d59-9f52-459a6d67fa56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[(text() = 'Inventory by Distributor' or . = 'Inventory by Distributor') and @id = 'inventoryview']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -33,6 +39,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;inventoryview&quot;)/i[@class=&quot;flip&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>inventoryview</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
