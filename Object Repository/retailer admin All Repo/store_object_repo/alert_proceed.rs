@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>store_container</name>
+   <name>alert_proceed</name>
    <tag></tag>
-   <elementGuidId>1ef76d38-7768-407f-9b59-aa1a964f36c7</elementGuidId>
+   <elementGuidId>3285d4d5-4f01-4cc1-91e9-7a24b3b371e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'store0']</value>
+         <value>//*[@id = 'storeproceeebutton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>store0</value>
+      <value>storeproceeebutton</value>
    </webElementProperties>
 </WebElementEntity>

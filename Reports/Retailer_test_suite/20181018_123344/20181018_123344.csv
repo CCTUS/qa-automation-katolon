@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Retailer_test_suite,Chrome 70.0.3538.67,,2018-10-18 12:33:45,2018-10-18 12:40:42,6m - 56.521s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/retailer_employeeView,Chrome 70.0.3538.67,,2018-10-18 12:33:46,2018-10-18 12:34:04,18.651s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:33:46,2018-10-18 12:33:54,8.591s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:33:54,2018-10-18 12:33:59,4.689s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:33:59,2018-10-18 12:33:59,0.185s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:33:59,2018-10-18 12:33:59,0.073s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:33:59,2018-10-18 12:34:00,0.186s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:00,2018-10-18 12:34:01,1.127s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:34:01,2018-10-18 12:34:01,0.070s,PASSED
+verifyElementText,Chrome 70.0.3538.67,,2018-10-18 12:34:01,2018-10-18 12:34:01,0.063s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:01,2018-10-18 12:34:01,0.090s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:01,2018-10-18 12:34:01,0.083s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:01,2018-10-18 12:34:01,0.089s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:01,2018-10-18 12:34:02,0.579s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:34:02,2018-10-18 12:34:02,0.346s,FAILED
+verifyElementText,Chrome 70.0.3538.67,,2018-10-18 12:34:02,2018-10-18 12:34:02,0.081s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:02,2018-10-18 12:34:02,0.065s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:02,2018-10-18 12:34:02,0.112s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:02,2018-10-18 12:34:02,0.145s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:02,2018-10-18 12:34:04,1.108s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:34:04,2018-10-18 12:34:04,0.328s,FAILED
+verifyElementText,Chrome 70.0.3538.67,,2018-10-18 12:34:04,2018-10-18 12:34:04,0.035s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:04,2018-10-18 12:34:04,0.055s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:04,2018-10-18 12:34:04,0.096s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:04,2018-10-18 12:34:04,0.108s,PASSED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/retaileradmin_order_placement,Chrome 70.0.3538.67,,2018-10-18 12:34:04,2018-10-18 12:35:18,1m - 14.154s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:34:05,2018-10-18 12:34:13,8.356s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:34:13,2018-10-18 12:34:16,2.675s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:16,2018-10-18 12:34:16,0.190s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:34:16,2018-10-18 12:34:16,0.191s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:34:16,2018-10-18 12:34:16,0.156s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:34:16,2018-10-18 12:34:16,0.109s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:34:16,2018-10-18 12:34:47,30.964s,FAILED
+verifyElementText,Chrome 70.0.3538.67,,2018-10-18 12:34:47,2018-10-18 12:35:18,31.107s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile,Chrome 70.0.3538.67,,2018-10-18 12:35:18,2018-10-18 12:35:58,39.593s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:35:19,2018-10-18 12:35:27,8.313s,PASSED
+"Statement - For ([rowNum = 1, rowNum <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(productdetailsdata).getRowNumbers(), (rowNum++)])",Chrome 70.0.3538.67,,2018-10-18 12:35:27,2018-10-18 12:35:58,31.049s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile,Chrome 70.0.3538.67,,2018-10-18 12:35:58,2018-10-18 12:36:37,38.871s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:35:58,2018-10-18 12:36:06,7.938s,PASSED
+"Statement - For ([rowNum = 1, rowNum <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(productdetailsdata).getRowNumbers(), (rowNum++)])",Chrome 70.0.3538.67,,2018-10-18 12:36:06,2018-10-18 12:36:37,30.921s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile,Chrome 70.0.3538.67,,2018-10-18 12:36:37,2018-10-18 12:37:16,39.197s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:36:37,2018-10-18 12:36:45,8.228s,PASSED
+"Statement - For ([rowNum = 1, rowNum <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(productdetailsdata).getRowNumbers(), (rowNum++)])",Chrome 70.0.3538.67,,2018-10-18 12:36:45,2018-10-18 12:37:16,30.954s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile,Chrome 70.0.3538.67,,2018-10-18 12:37:16,2018-10-18 12:37:55,39.203s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:37:16,2018-10-18 12:37:24,8.046s,PASSED
+"Statement - For ([rowNum = 1, rowNum <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(productdetailsdata).getRowNumbers(), (rowNum++)])",Chrome 70.0.3538.67,,2018-10-18 12:37:24,2018-10-18 12:37:55,31.146s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/Search Products Details,Chrome 70.0.3538.67,,2018-10-18 12:37:55,2018-10-18 12:38:35,39.343s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:37:55,2018-10-18 12:38:03,7.974s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:38:03,2018-10-18 12:38:35,31.221s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Store_managment/Retailer_store_creation_edit_delete,Chrome 70.0.3538.67,,2018-10-18 12:38:35,2018-10-18 12:38:58,23.560s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:38:35,2018-10-18 12:38:43,8.147s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:38:43,2018-10-18 12:38:47,3.720s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:38:47,2018-10-18 12:38:47,0.095s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:38:47,2018-10-18 12:38:47,0.174s,PASSED
+Statement - ts = java.lang.System.currentTimeMillis().toString(),Chrome 70.0.3538.67,,2018-10-18 12:38:47,2018-10-18 12:38:47,0.004s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:38:47,2018-10-18 12:38:47,0.153s,PASSED
+uploadFile,Chrome 70.0.3538.67,,2018-10-18 12:38:47,2018-10-18 12:38:47,0.314s,FAILED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:38:47,2018-10-18 12:38:47,0.149s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.133s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.124s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.111s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.033s,PASSED
+check,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.086s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.035s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.063s,PASSED
+verifyElementText,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.001s,NOT_RUN
+verifyElementText,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.001s,NOT_RUN
+click,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.000s,NOT_RUN
+click,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.088s,PASSED
+waitForPageLoad,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.004s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:48,0.048s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:38:48,2018-10-18 12:38:57,9.182s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:38:57,2018-10-18 12:38:57,0.080s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:38:57,2018-10-18 12:38:58,0.637s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Markup,Chrome 70.0.3538.67,,2018-10-18 12:38:58,2018-10-18 12:39:42,43.901s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:38:58,2018-10-18 12:39:06,8.079s,PASSED
+waitForPageLoad,Chrome 70.0.3538.67,,2018-10-18 12:39:06,2018-10-18 12:39:06,0.011s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:39:06,2018-10-18 12:39:10,3.101s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:39:10,2018-10-18 12:39:10,0.227s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:39:10,2018-10-18 12:39:11,1.043s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:39:11,2018-10-18 12:39:11,0.078s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:39:11,2018-10-18 12:39:42,31.175s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/employee_Creation_edit_delete,Chrome 70.0.3538.67,,2018-10-18 12:39:42,2018-10-18 12:40:41,58.807s,FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-18 12:39:42,2018-10-18 12:39:50,8.164s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:39:50,2018-10-18 12:39:54,4.106s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:39:54,2018-10-18 12:39:55,0.154s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:39:55,2018-10-18 12:39:55,0.055s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:39:55,2018-10-18 12:39:55,0.130s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:39:55,2018-10-18 12:39:56,1.577s,PASSED
+verifyElementText,Chrome 70.0.3538.67,,2018-10-18 12:39:56,2018-10-18 12:39:56,0.037s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:39:56,2018-10-18 12:39:56,0.078s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:39:56,2018-10-18 12:39:57,0.185s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.133s,PASSED
+Statement - rn_uname = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.000s,PASSED
+Statement - rn_uname = java.lang.Math.random() * 500,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.010s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.164s,PASSED
+Statement - rn_email = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.000s,PASSED
+Statement - rn_email = java.lang.Math.random() * 500,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.000s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.194s,PASSED
+comment,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.004s,PASSED
+setText,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.138s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:39:57,0.087s,PASSED
+waitForAlert,Chrome 70.0.3538.67,,2018-10-18 12:39:57,2018-10-18 12:40:07,10.085s,PASSED
+waitForPageLoad,Chrome 70.0.3538.67,,2018-10-18 12:40:07,2018-10-18 12:40:07,0.007s,PASSED
+click,Chrome 70.0.3538.67,,2018-10-18 12:40:07,2018-10-18 12:40:08,0.091s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:40:08,2018-10-18 12:40:09,1.584s,PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-18 12:40:09,2018-10-18 12:40:40,31.136s,FAILED
+verifyElementText,Chrome 70.0.3538.67,,2018-10-18 12:40:40,2018-10-18 12:40:41,0.551s,FAILED

@@ -59,8 +59,6 @@ WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohe
 
 WebUI.verifyElementVisible(findTestObject('employee_obj_repo/retailer_first_list'))
 
-WebUI.verifyElementVisible(findTestObject('employee_obj_repo/Page_AppCohesion/li_NewRetailerKatalonNewRetail'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.verifyElementText(findTestObject('employee_obj_repo/Page_AppCohesion/h4_NewRetailerKatalonNewRetail'), 'NewRetailerKatalonNewRetailerKatalon', 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -75,9 +73,15 @@ WebUI.waitForElementVisible(findTestObject('employee_obj_repo/retailer_first_lis
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_edit_button'))
+WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_edit_button'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('employee_obj_repo/emp_edit_button'))
+
+WebUI.verifyElementVisible(findTestObject('employee_obj_repo/Page_AppCohesion/label_Store Admin'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'), 'Retailer Admin')
+
+WebUI.click(findTestObject('employee_obj_repo/Page_AppCohesion/label_Store Admin'))
 
 WebUI.setText(findTestObject('employee_obj_repo/Emp_firstname'), 'EditRetailerKatalon')
 
@@ -95,7 +99,7 @@ WebUI.verifyElementVisible(findTestObject('employee_obj_repo/retailer_first_list
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('employee_obj_repo/emp_delete_button'), 30, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_delete_button'))
 
 WebUI.click(findTestObject('employee_obj_repo/emp_delete_button'))
 

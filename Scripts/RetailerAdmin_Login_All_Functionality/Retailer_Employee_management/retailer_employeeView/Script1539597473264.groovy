@@ -24,7 +24,7 @@ WebUI.verifyElementVisible(findTestObject('appco_employee_view_new/retailer_empl
 
 WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
-WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/li_chkemailchkemail'))
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/employee_listed_first'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/span_RetailerAdmin'), 
     FailureHandling.CONTINUE_ON_FAILURE)
@@ -37,9 +37,9 @@ WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_e
 
 WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
-WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Admin'))
+WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Admin'))
 
-WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/li_SACreationSACreation'))
+WebUI.click(findTestObject('employee_obj_repo/store admin list first'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/span_StoreAdmin'), 
     FailureHandling.CONTINUE_ON_FAILURE)
@@ -54,7 +54,7 @@ WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_e
 
 WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Users'))
 
-WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/li_SUCreationSUCreation'))
+WebUI.click(findTestObject('employee_obj_repo/storeuser_listed_first'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/span_POSUser'), 
     FailureHandling.CONTINUE_ON_FAILURE)
