@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_tab'))
 
@@ -25,8 +25,9 @@ String ts = System.currentTimeMillis().toString()
 
 WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/FFL_no'), ts)
 
-WebUI.uploadFile(findTestObject('retailer admin All Repo/store_object_repo/FFL_doc'), 'D:\\datafile\\sampleFFLdoc.pdf', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+//'D:\\sample_doc\\sample.pdf'
+//'D:\\datafile\\sampleFFLdoc.pdf'
+WebUI.uploadFile(findTestObject('retailer admin All Repo/store_object_repo/FFL_doc'), 'D:\\sample_doc\\sample.pdf', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/store_address'), '3/10, New QA Build')
 
@@ -62,9 +63,9 @@ WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_tab'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/default store container'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/default store container'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_container0'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_container0'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_container0'))
 

@@ -51,9 +51,9 @@ WebUI.setText(findTestObject('employee_obj_repo/emp_phonenumber'), '9894591635')
 
 WebUI.click(findTestObject('employee_obj_repo/add_emp_button'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(20)
 
-WebUI.waitForPageLoad(20)
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
@@ -90,9 +90,18 @@ WebUI.setText(findTestObject('employee_obj_repo/emp_lastname'), 'EditRetailerKat
 
 WebUI.setText(findTestObject('employee_obj_repo/emp_phonenumber'), '9443225554')
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/store id'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/store id'))
 
-WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_repo/store id'), '1', FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_repo/store id'), '1', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
+    findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
+    '0', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('employee_obj_repo/emp_update_button'))
 
@@ -114,13 +123,28 @@ WebUI.verifyElementText(findTestObject('retailer admin All Repo/employee_obj_rep
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/label_Store User'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/store id'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/store id'))
 
-WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_repo/store id'), '2', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_repo/store id'), '2', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_updatebutton'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
+    findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_updatebutton'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
+    '1', FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_updatebutton'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_updatebutton'))
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/Page_AppCohesion/button_Update'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/Page_AppCohesion/button_Update'))
 
 WebUI.waitForAlert(0)
 

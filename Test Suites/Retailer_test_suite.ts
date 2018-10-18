@@ -4,7 +4,7 @@
    <name>Retailer_test_suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-18T13:51:20</lastRun>
+   <lastRun>2018-10-18T20:23:41</lastRun>
    <mailRecipient>hariram@iinerds.com;snekalatha.r@iinerds.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

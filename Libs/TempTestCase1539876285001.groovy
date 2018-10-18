@@ -1,4 +1,26 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import groovy.lang.MissingPropertyException
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\DELL\\AppData\\Local\\Temp\\Katalon\\Test Cases\\RetailerAdmin_Login_All_Functionality\\order_placement_order_details\\Retailer Markup\\20181018_205444\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -21,13 +43,14 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory ret
 
 WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/Inventory_tab'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/choose options'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/choose options'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/choose options'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/choose options'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/div_Inventory'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/div_Inventory'))
 
-not_run: WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/div_Inventory'))
+WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/div_Inventory'))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/inventory options'))
 
@@ -68,3 +91,5 @@ WebUI.waitForAlert(30)
 WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/span_OK'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
+''', 'Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Markup', new TestCaseBinding('Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Markup',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    
