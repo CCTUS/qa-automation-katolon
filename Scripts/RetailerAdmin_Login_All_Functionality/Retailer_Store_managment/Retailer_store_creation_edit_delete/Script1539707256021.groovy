@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_tab'))
 
@@ -37,9 +37,9 @@ WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/city_nam
 
 WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/state_name'), 'Ohio')
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'))
 
-WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'))
 
@@ -59,7 +59,7 @@ not_run: WebUI.click(findTestObject('Object Repository/store_object_repo/Page_Ap
 
 WebUI.click(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/a_Dashboard              Dashb'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_tab'))
 
@@ -104,11 +104,11 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_container0'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/default store container'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/default store container'))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_container1'))
 
-WebUI.check(findTestObject('retailer admin All Repo/store_object_repo/change_default_store'))
+not_run: WebUI.check(findTestObject('retailer admin All Repo/store_object_repo/change_default_store'))
 
 WebUI.waitForAlert(20)
 
