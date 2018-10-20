@@ -13,3 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/button_RESET RULE'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/div_RULE SETTINGS'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/span_ADD RULE'))
+

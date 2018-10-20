@@ -1,4 +1,26 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import groovy.lang.MissingPropertyException
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\DELL\\AppData\\Local\\Temp\\Katalon\\Test Cases\\RetailerAdmin_Login_All_Functionality\\Menu list\\My profile\\20181020_210958\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -13,19 +35,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(30)
 
-WebUI.check(findTestObject('retailer admin All Repo/menu list/menuopen (1)'))
+WebUI.mouseOver(findTestObject('retailer admin All Repo/menu list/menuopen (1)'))
 
 WebUI.click(findTestObject('retailer admin All Repo/menu list/My profile option'))
 
 WebUI.waitForPageLoad(50)
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/menu list/Edit profile button'), 30, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('retailer admin All Repo/menu list/Edit profile button'), 30)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Edit profile button'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/menu list/Edit profile button'))
 
@@ -45,23 +65,17 @@ WebUI.click(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/b
 
 WebUI.click(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/span_OK_addRetailerCloseDrawer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForPageLoad(90)
+WebUI.waitForPageLoad(50)
 
-not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/menuopen (1)'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/menuopen (1)'))
 
-WebUI.check(findTestObject('retailer admin All Repo/menu list/menuopen'))
+WebUI.click(findTestObject('retailer admin All Repo/menu list/menuopen (1)'))
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/a_Rule'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Rule'))
 
-WebUI.mouseOver(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/div_RULE SETTINGS'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('retailer admin All Repo/menu list/Rule'))
 
-not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/shipping cost'))
-
-WebUI.verifyElementPresent(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'), 50)
-
-not_run: WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'), findTestObject(
-        'retailer admin All Repo/menu list/Preferred Distributor'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
 
@@ -101,13 +115,13 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/upd
 
 WebUI.click(findTestObject('retailer admin All Repo/menu list/update rule button'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/menuopen'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/menuopen'))
 
-not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/menuopen'))
+WebUI.click(findTestObject('retailer admin All Repo/menu list/menuopen'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/change password'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/change password'))
 
-not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/change password'))
+WebUI.click(findTestObject('retailer admin All Repo/menu list/change password'))
 
 WebUI.waitForPageLoad(0)
 
@@ -141,3 +155,5 @@ WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 
 WebUI.waitForPageLoad(30)
 
+''', 'Test Cases/RetailerAdmin_Login_All_Functionality/Menu list/My profile', new TestCaseBinding('Test Cases/RetailerAdmin_Login_All_Functionality/Menu list/My profile',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    
