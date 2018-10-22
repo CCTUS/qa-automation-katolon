@@ -19,3 +19,15 @@ WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/
 
 WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/span_ADD RULE'))
 
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/img'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/a_Rule'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/h4_Preferred Distributor (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/input_AppCo_preferredCheck (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/h4_Preferred Distributor (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/img_OK_rule-setting-drawer-clo'))
+

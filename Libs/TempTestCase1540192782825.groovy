@@ -1,4 +1,26 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import groovy.lang.MissingPropertyException
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SNEKAL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\RetailerAdmin_Login_All_Functionality\\Retailer_Employee_management\\employee_Creation_edit_delete\\20181022_124942\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -13,47 +35,48 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_tab'))
+not_run: WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_tab'))
 
-WebUI.click(findTestObject('employee_obj_repo/emp_tab'))
+not_run: WebUI.click(findTestObject('employee_obj_repo/emp_tab'))
 
-WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_new_button'))
+not_run: WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_new_button'))
 
-WebUI.click(findTestObject('employee_obj_repo/emp_new_button'))
+not_run: WebUI.click(findTestObject('employee_obj_repo/emp_new_button'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'))
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'), 'Retailer Admin')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'), 
+    'Retailer Admin')
 
-WebUI.click(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'))
+not_run: WebUI.click(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'))
 
-WebUI.setText(findTestObject('employee_obj_repo/Emp_firstname'), 'NewRetailerKatalon')
+not_run: WebUI.setText(findTestObject('employee_obj_repo/Emp_firstname'), 'NewRetailerKatalon')
 
-WebUI.setText(findTestObject('employee_obj_repo/emp_lastname'), 'NewRetailerKatalon')
+not_run: WebUI.setText(findTestObject('employee_obj_repo/emp_lastname'), 'NewRetailerKatalon')
 
-int rn_uname
+not_run: int rn_uname
 
-rn_uname = ((Math.random() * 500) as int)
+not_run: rn_uname = ((Math.random() * 500) as int)
 
-WebUI.setText(findTestObject('employee_obj_repo/emp_username'), 'NewRetailerKatalon' + rn_uname)
+not_run: WebUI.setText(findTestObject('employee_obj_repo/emp_username'), 'NewRetailerKatalon' + rn_uname)
 
-int rn_email
+not_run: int rn_email
 
-rn_email = ((Math.random() * 500) as int)
+not_run: rn_email = ((Math.random() * 500) as int)
 
-WebUI.setText(findTestObject('employee_obj_repo/emp_email'), ('snekalatha.r' + rn_email) + '@iinerds.com')
+not_run: WebUI.setText(findTestObject('employee_obj_repo/emp_email'), ('snekalatha.r' + rn_email) + '@iinerds.com')
 
-WebUI.comment('Valid email')
+not_run: WebUI.comment('Valid email')
 
-WebUI.setText(findTestObject('employee_obj_repo/emp_phonenumber'), '9894591635')
+not_run: WebUI.setText(findTestObject('employee_obj_repo/emp_phonenumber'), '9894591635')
 
-WebUI.click(findTestObject('employee_obj_repo/add_emp_button'))
+not_run: WebUI.click(findTestObject('employee_obj_repo/add_emp_button'))
 
-WebUI.waitForAlert(20)
+not_run: WebUI.waitForAlert(20)
 
-WebUI.waitForPageLoad(30)
+not_run: WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
@@ -97,8 +120,8 @@ not_run: WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/emplo
 WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
     findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
-    10)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
     '0', FailureHandling.STOP_ON_FAILURE)
@@ -148,9 +171,9 @@ WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCo
 
 WebUI.waitForAlert(0)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Users'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/store user collapsible'))
 
-WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Users'))
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/store user collapsible'))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_listed_first'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -188,3 +211,5 @@ WebUI.waitForAlert(0)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/a_Dashboard              Dashb'))
 
+''', 'Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/employee_Creation_edit_delete', new TestCaseBinding('Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/employee_Creation_edit_delete',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    

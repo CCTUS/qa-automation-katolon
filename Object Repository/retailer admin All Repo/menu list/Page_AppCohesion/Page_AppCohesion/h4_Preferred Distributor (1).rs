@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Preferred Distributor</name>
+   <name>h4_Preferred Distributor (1)</name>
    <tag></tag>
-   <elementGuidId>4888184a-6e33-4b70-af16-36354ee50912</elementGuidId>
+   <elementGuidId>f250433c-a34f-45e3-afc6-192046dee8ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'preferdistributor' and (text() = 'Preferred Distributor' or . = 'Preferred Distributor')]</value>
+         <value>//h4[@id = 'preferdistributor' and (text() = 'Preferred Distributor' or . = 'Preferred Distributor')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -63,7 +63,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT PROFILE'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::h4[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

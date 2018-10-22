@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>collapsible-header_Store Users</name>
+   <name>img_OK_rule-setting-drawer-clo</name>
    <tag></tag>
-   <elementGuidId>fd4ec6dd-61d8-4963-9552-f7ca7c541231</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//collapsible-header[@id = 'storeuserview']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>e1146b06-fcf0-4c88-883f-df52f314ef75</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,61 +11,51 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>collapsible-header</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>waves-effect</value>
+      <value>rule-setting-drawer-close</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>src</name>
       <type>Main</type>
-      <value>
-                        Store Users
-                        
-                      </value>
+      <value>assets/images/icon-cross.png</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;storeuserview&quot;)/collapsible-header[@class=&quot;waves-effect&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>storeuserview</value>
+      <value>/html[1]/body[1]/app-root[1]/div[1]/app-commonpopups[1]/div[@class=&quot;ac-rule-setting-drawer&quot;]/div[2]/div[@class=&quot;rule-setting-drawer-head&quot;]/img[@class=&quot;rule-setting-drawer-close&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//collapsible-list-item[@id='storeuserview']/collapsible-header</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading Store admins'])[1]/following::collapsible-header[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RULE SETTINGS'])[1]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading Store Users'])[1]/preceding::collapsible-header[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preferred Distributor'])[1]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div[2]/collapsible-list/collapsible-list-item/collapsible-header</value>
+      <value>//app-commonpopups/div/div[2]/div/img</value>
    </webElementXpaths>
 </WebElementEntity>

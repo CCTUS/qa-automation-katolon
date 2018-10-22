@@ -1,86 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Preferred Distributor</name>
+   <name>input_AppCo_preferredCheck (1)</name>
    <tag></tag>
-   <elementGuidId>4888184a-6e33-4b70-af16-36354ee50912</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'preferdistributor' and (text() = 'Preferred Distributor' or . = 'Preferred Distributor')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>fd979488-b870-4265-8901-967a62289922</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>accordion-toggle</value>
+      <value>preferred-dist-check ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>preferdistributor</value>
+      <value>distCheck</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Preferred Distributor</value>
+      <value>preferredCheck</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;preferdistributor&quot;)</value>
+      <value>id(&quot;distCheck&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//h4[@id='preferdistributor']</value>
+      <value>//input[@id='distCheck']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='RULE SETTINGS'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AppCo'])[1]/input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT PROFILE'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preferred Distributor'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AppCo'])[1]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distance'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distance'])[1]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Less than 10 miles'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//collapsible-header/h4</value>
+      <value>//h6/input</value>
    </webElementXpaths>
 </WebElementEntity>
