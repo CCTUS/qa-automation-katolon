@@ -13,21 +13,39 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/button_RESET RULE'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/td_Ruger LC LCP'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/div_RULE SETTINGS'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/h2_Ruger LC LCP'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/span_ADD RULE'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Manufacturer Part Number3'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/img'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_3701'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/a_Rule'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_ManufacturerRuger'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/h4_Preferred Distributor (1)'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_Ruger'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/input_AppCo_preferredCheck (1)'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_DistributorSS'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/h4_Preferred Distributor (1)'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_SS'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/img_OK_rule-setting-drawer-clo'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_UPC736676037018'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_736676037018'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Base Price180.00'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_180.00'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Retailer Markup12.80'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_12.80'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Amount Payable203.04'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_203.04'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/h4_Only 25 left in stock'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_25'))
 
