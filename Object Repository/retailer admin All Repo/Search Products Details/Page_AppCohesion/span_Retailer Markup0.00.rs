@@ -4,6 +4,12 @@
    <name>span_Retailer Markup0.00</name>
    <tag></tag>
    <elementGuidId>83bf3fdf-2e05-4d94-934e-0f7cc6ab9a5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Retailer Markup12.80%' or . = 'Retailer Markup12.80%')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Retailer Markup0.00%</value>
+      <value>Retailer Markup12.80%</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

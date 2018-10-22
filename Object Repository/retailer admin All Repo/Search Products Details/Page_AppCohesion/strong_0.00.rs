@@ -4,6 +4,12 @@
    <name>strong_0.00</name>
    <tag></tag>
    <elementGuidId>09a53989-0289-45ef-a76a-635f5ad21157</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//strong[@id = 'newmarkup' and (text() = '12.80%' or . = '12.80%')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>0.00%</value>
+      <value>12.80%</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

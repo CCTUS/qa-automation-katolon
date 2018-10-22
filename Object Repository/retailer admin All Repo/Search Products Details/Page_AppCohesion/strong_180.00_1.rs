@@ -4,6 +4,12 @@
    <name>strong_180.00_1</name>
    <tag></tag>
    <elementGuidId>6a3acead-4896-43b0-8a55-ebca7d2ded4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//strong[(text() = '$203.04' or . = '$203.04') and @id = 'amtpay_header']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$180.00</value>
+      <value>$203.04</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +32,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;productdetails&quot;)/div[2]/span[@class=&quot;ac-prod-cost&quot;]/strong[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>amtpay_header</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

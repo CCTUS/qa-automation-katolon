@@ -23,11 +23,9 @@ WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/store_na
 
 String ts = System.currentTimeMillis().toString()
 
-WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/FFL_no'), ts)
-
 //'D:\\sample_doc\\sample.pdf'
 //'D:\\datafile\\sampleFFLdoc.pdf'
-WebUI.uploadFile(findTestObject('retailer admin All Repo/store_object_repo/FFL_doc'), 'D:\\sample_doc\\sample.pdf', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.uploadFile(findTestObject('retailer admin All Repo/store_object_repo/FFL_doc'), 'D:\\sample_doc\\sample.pdf', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/store_address'), '3/10, New QA Build')
 
@@ -37,17 +35,23 @@ WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/city_nam
 
 WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/state_name'), 'Ohio')
 
-not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'))
+WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/FFL_no'), ts)
 
-not_run: WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'))
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'), 100)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'))
+WebUI.check(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'))
+
+WebUI.waitForElementPresent(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'), 100)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForAlert(10)
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(30)
 
 not_run: WebUI.verifyElementText(findTestObject('Object Repository/store_object_repo/Page_AppCohesion/p_Store created successfully.'), 
     'Store created successfully.', FailureHandling.CONTINUE_ON_FAILURE)
@@ -57,11 +61,7 @@ not_run: WebUI.verifyElementText(findTestObject('Object Repository/store_object_
 
 not_run: WebUI.click(findTestObject('Object Repository/store_object_repo/Page_AppCohesion/span_OK'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer_creation_Storecreation/Page_AppCohesion/a_Dashboard              Dashb'))
-
 WebUI.waitForPageLoad(30)
-
-WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_tab'))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/default store container'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -69,7 +69,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_container0'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/storeeditbutton'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/store_object_repo/storeeditbutton'), 20)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/storeeditbutton'))
 
@@ -90,11 +90,11 @@ WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/city_nam
 
 WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/state_name'), 'Ohio')
 
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_update_button'), 10)
+
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_update_button'))
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_update_button'))
-
-WebUI.waitForAlert(10)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/alert_proceed'))
 
@@ -104,17 +104,17 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_container0'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/default store container'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/default store container'))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_container1'))
 
-not_run: WebUI.check(findTestObject('retailer admin All Repo/store_object_repo/change_default_store'))
+WebUI.check(findTestObject('retailer admin All Repo/store_object_repo/change_default_store'))
 
 WebUI.waitForAlert(20)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_container0'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_delete_button'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_delete_button'), 30)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_delete_button'))
 

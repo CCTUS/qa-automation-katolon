@@ -4,6 +4,12 @@
    <name>input_Settings_searchproduct</name>
    <tag></tag>
    <elementGuidId>3dcb2810-7182-4dd4-a0f7-d575aaf1c5a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'common_searchproduct' and @placeholder = 'Search for firearms, distributors, manufacturers, equipments, status etc...']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>searchproduct</value>
+      <value>common_searchproduct</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;searchproduct&quot;)</value>
+      <value>id(&quot;common_searchproduct&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -4,6 +4,12 @@
    <name>span_Amount Payable180.00</name>
    <tag></tag>
    <elementGuidId>71b0f0e8-0786-43bf-b8e9-600ec384748b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Amount Payable$203.04' or . = 'Amount Payable$203.04') and @id = 'amtpay_header']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Amount Payable$180.00</value>
+      <value>Amount Payable$203.04</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +39,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;productdetails&quot;)/div[2]/span[@class=&quot;ac-prod-cost&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>amtpay_header</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

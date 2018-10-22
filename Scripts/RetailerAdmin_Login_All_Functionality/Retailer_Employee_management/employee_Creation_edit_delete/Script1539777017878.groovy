@@ -148,9 +148,9 @@ WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCo
 
 WebUI.waitForAlert(0)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Users'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/store user collapsible'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Users'))
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/store user collapsible'))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_listed_first'), FailureHandling.CONTINUE_ON_FAILURE)
 

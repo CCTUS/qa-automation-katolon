@@ -49,52 +49,52 @@ WebUI.waitForPageLoad(90)
 
 not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/menuopen (1)'))
 
-WebUI.check(findTestObject('retailer admin All Repo/menu list/menuopen'))
+not_run: WebUI.check(findTestObject('retailer admin All Repo/menu list/menuopen'))
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/a_Rule'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/a_Rule'))
 
-WebUI.mouseOver(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
+not_run: WebUI.mouseOver(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
 
 not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/shipping cost'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'), FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'), findTestObject(
         'retailer admin All Repo/menu list/Preferred Distributor'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/check appco'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/check appco'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/check appco'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/check appco'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/Preferred Distributor'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/distance'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/distance'))
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/distance'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/distance'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/opt check distance'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/opt check distance'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('retailer admin All Repo/menu list/opt check distance'))
+not_run: WebUI.check(findTestObject('retailer admin All Repo/menu list/opt check distance'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/distance'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/distance'))
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/distance'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/distance'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/h4_Shipping Cost'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/h4_Shipping Cost'))
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/h4_Shipping Cost'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/Page_AppCohesion/h4_Shipping Cost'))
 
-WebUI.setText(findTestObject('retailer admin All Repo/menu list/FFL cost'), '150')
+not_run: WebUI.setText(findTestObject('retailer admin All Repo/menu list/FFL cost'), '150')
 
-WebUI.setText(findTestObject('retailer admin All Repo/menu list/Non FFL cost'), '250')
+not_run: WebUI.setText(findTestObject('retailer admin All Repo/menu list/Non FFL cost'), '250')
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/update rule button'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/update rule button'))
 
-WebUI.click(findTestObject('retailer admin All Repo/menu list/update rule button'))
+not_run: WebUI.click(findTestObject('retailer admin All Repo/menu list/update rule button'))
 
 not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/menuopen'))
 
