@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@placeholder = 'Enter UPC' and @type = 'text']</value>
+         <value>//input[@placeholder = 'Enter UPC' and @type = 'text' and @id = 'upc_no']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,7 +48,7 @@
       <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-global-header&quot;]/div[1]/div[@class=&quot;col-xs-8 col-sm-8 col-lg-7&quot;]/app-search-widget[1]/div[@class=&quot;searchHolder&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;searchInputWrapper&quot;]/div[@class=&quot;extendedSearch&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-lg-6 form-group&quot;]/input[@class=&quot;form-control ng-untouched ng-valid ng-dirty&quot;]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

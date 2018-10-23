@@ -37,11 +37,13 @@ WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/state_na
 
 WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/FFL_no'), ts)
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'), 100)
+WebUI.waitForPageLoad(100, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.check(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'))
+
+WebUI.verifyElementChecked(findTestObject('retailer admin All Repo/store_object_repo/check_default_store'), 100, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'), 100)
 
@@ -49,7 +51,9 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForAlert(10)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store created succ'))
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store created succ'), 'Success: Store created successfully.')
 
 WebUI.waitForPageLoad(30)
 
@@ -90,7 +94,7 @@ WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/city_nam
 
 WebUI.setText(findTestObject('retailer admin All Repo/store_object_repo/state_name'), 'Ohio')
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_update_button'), 10)
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_update_button'), 100)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/store_update_button'))
 
@@ -99,6 +103,10 @@ WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_upda
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/alert_proceed'))
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/alert_proceed'))
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store details upda'))
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store details upda'), 'Success: Store details updated.')
 
 WebUI.waitForPageLoad(0)
 
@@ -110,7 +118,11 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_
 
 WebUI.check(findTestObject('retailer admin All Repo/store_object_repo/change_default_store'))
 
-WebUI.waitForAlert(20)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Your default store'))
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Your default store'), 'Success: Your default store option changed')
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_container0'))
 
@@ -118,13 +130,15 @@ WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/store_object
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/store_delete_button'))
 
-WebUI.waitForAlert(10)
+not_run: WebUI.waitForAlert(10)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/delete_yes_button'))
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/delete_yes_button'))
 
-WebUI.waitForAlert(10)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store has been del'))
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store has been del'), 'Success: Store has been deleted successfully.Existing users for the store assigned to default store')
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/a_Dashboard              Dashb'))
 

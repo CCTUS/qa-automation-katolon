@@ -20,13 +20,13 @@
    <testCaseLink>
       <guid>3f3825ae-0a1f-4b0c-bc8a-42d8e23e4ebf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/retaileradmin_order_placement</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>88ae76a3-959b-4074-b854-80d6457217bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
@@ -101,7 +101,7 @@
    <testCaseLink>
       <guid>3a1c4022-2749-430f-a85f-f7fb957ac6e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/Search Products Details</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -113,7 +113,7 @@
    <testCaseLink>
       <guid>c2216096-054e-45eb-aa70-21f4ec3bd3e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Markup</testCaseId>
    </testCaseLink>
    <testCaseLink>

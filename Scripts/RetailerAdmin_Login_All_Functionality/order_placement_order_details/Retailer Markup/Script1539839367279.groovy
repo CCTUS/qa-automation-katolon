@@ -51,11 +51,8 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory ret
 
 WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/add_markup button'))
 
-WebUI.waitForAlert(10)
-
-WebUI.verifyMatch('Markup updated successfully.', 'Markup updated successfully.', true, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForAlert(30)
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/h5_Success  Markup updated suc'), 
+    'Success: Markup updated successfully.')
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/common search product'))
 

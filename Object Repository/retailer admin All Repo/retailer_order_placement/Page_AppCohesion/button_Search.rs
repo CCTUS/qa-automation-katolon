@@ -4,6 +4,12 @@
    <name>button_Search</name>
    <tag></tag>
    <elementGuidId>7d0ae48c-11b8-469b-b126-ba77fdbc03e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Search' or . = 'Search') and @id = 'specificsearch']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -26,6 +32,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-global-header&quot;]/div[1]/div[@class=&quot;col-xs-8 col-sm-8 col-lg-7&quot;]/app-search-widget[1]/div[@class=&quot;searchHolder&quot;]/div[@class=&quot;input-group&quot;]/div[@class=&quot;searchInputWrapper&quot;]/div[@class=&quot;extendedSearch&quot;]/div[@class=&quot;row&quot;]/button[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>specificsearch</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -16,56 +16,69 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/i_Settings_glyphicon glyphicon'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/i_Settings_glyphicon glyphicon'), 
+    30)
 
-WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/i_Settings_glyphicon glyphicon'))
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/i_Settings_glyphicon glyphicon'))
 
 WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_GSIN_form-control ng-unt'), 
     'HCKLR-IHMFX7Z1')
 
-WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_GSIN_form-control ng-unt'), 
+WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_UPC_form-control ng-unto'), 
     '642230250857')
 
-WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_Search'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_Search'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/tr_Green Supply'), 
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_Search'))
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_Green Supply'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/tr_Green Supply'), 'Green Supply')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_Green Supply'), 
+    'Green Supply')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/div_Heckler  Koch VP VP9'), 
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/div_Heckler  Koch VP VP9'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/div_Heckler  Koch VP VP9'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/div_Heckler  Koch VP VP9'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer_order_placement/Page_AppCohesion/strong_534.20'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/strong_534.20'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('retailer_order_placement/Page_AppCohesion/strong_534.20'), '$534.20')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/strong_534.20'), 
+    '$534.20')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_176'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_176'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_176'), '176')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_176'), '176')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/h4_Only 176 left in stock'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/h4_Only 176 left in stock'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/h4_Only 176 left in stock'), 
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/h4_Only 176 left in stock'), 
     'Only 176 left in stock!')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
 
-WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/img'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/img'))
 
-WebUI.click(findTestObject('retailer_order_placement/Page_AppCohesion/img'))
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/img'))
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_View Cart'), 
-    100)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/increasequantity_cartlist'))
+
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/increasequantity_cartlist'))
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_View Cart'))
 
+WebUI.verifyElementClickable(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_Quantity_decreasequatit'))
+
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_Quantity_decreasequatit'))
+
+WebUI.delay(5)
 
 not_run: WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_Shopping Cart_sizecb'), 
     30)
@@ -141,10 +154,10 @@ WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/retailer_order
 WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
     'order HCKLR-IHMFX7Z1')
 
-WebUI.waitForElementVisible(findTestObject('retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
     30)
 
-WebUI.sendKeys(findTestObject('Object Repository/retailer_order_placement/key_press_orderList/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
+WebUI.sendKeys(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_order HCKLR-IHMFX7Z1'), 
@@ -162,7 +175,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_orde
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_559.20'), 
     '$559.20')
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/span_Name      order HCKLR-IHM'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_Name      order HCKLR-IHM'))
 
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_order HCKLR-IHMFX7Z1'), 
     'order HCKLR-IHMFX7Z1')
@@ -190,19 +203,20 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_orde
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Completed'), 
     'Completed')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'))
 
-WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'))
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'))
 
-WebUI.dragAndDropToObject(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), 
+WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), 
     findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), 
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), FailureHandling.STOP_ON_FAILURE)
+WebUI.check(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/close_search_icon'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/a_Dashboard              Dashb'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'))
 
-WebUI.click(findTestObject('Object Repository/retailer_order_placement/Page_AppCohesion/a_Dashboard              Dashb'))
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'))
 

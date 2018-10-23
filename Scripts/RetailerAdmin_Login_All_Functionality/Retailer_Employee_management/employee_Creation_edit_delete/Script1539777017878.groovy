@@ -51,7 +51,11 @@ WebUI.setText(findTestObject('employee_obj_repo/emp_phonenumber'), '9894591635')
 
 WebUI.click(findTestObject('employee_obj_repo/add_emp_button'))
 
-WebUI.waitForAlert(20)
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  Congratulations Yo'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  Congratulations Yo'), 
+    'Success: Congratulations!! You have successfully added user. Email has been sent to his email id!')
 
 WebUI.waitForPageLoad(30)
 
@@ -105,7 +109,13 @@ WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_r
 
 WebUI.click(findTestObject('employee_obj_repo/emp_update_button'))
 
-WebUI.waitForAlert(0)
+WebUI.delay(5)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
+    'Success: User details successfully Updated.')
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Admin'))
 
@@ -146,7 +156,13 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/Page_AppCohesion/button_Update'))
 
-WebUI.waitForAlert(0)
+WebUI.delay(10)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
+    'Success: User details successfully Updated.')
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/store user collapsible'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -170,9 +186,17 @@ WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_update_button')
 
 WebUI.click(findTestObject('employee_obj_repo/emp_update_button'))
 
-WebUI.waitForAlert(0)
+WebUI.delay(10)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
+    'Success: User details successfully Updated.')
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
+
+WebUI.click(findTestObject('employee_obj_repo/emp_delete_button'))
 
 WebUI.waitForElementVisible(findTestObject('employee_obj_repo/retailer_first_list'), 30)
 
@@ -180,11 +204,13 @@ WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHand
 
 WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_delete_button'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('employee_obj_repo/emp_delete_button'))
-
 WebUI.click(findTestObject('employee_obj_repo/delete_yes_button'))
 
-WebUI.waitForAlert(0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details has b'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details has b'), 
+    'Success: User details has been deleted successfully.')
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/a_Dashboard              Dashb'))
 
