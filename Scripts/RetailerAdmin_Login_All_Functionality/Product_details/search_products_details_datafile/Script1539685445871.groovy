@@ -107,9 +107,9 @@ for (def rowNum = 1; rowNum <= findTestData('productdetailsdata').getRowNumbers(
 
     WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/a_Back to Search'))
 
-    WebUI.click(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/a_Dashboard              Dashb'))
+    WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/a_Dashboard              Dashb'))
 
-    WebUI.verifyElementVisible(findTestObject('retailer_order_placement/key_press_orderList/Page_AppCohesion/a_Dashboard              Dashb'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/a_Dashboard              Dashb'))
 
     Thread.sleep(8000)
 }

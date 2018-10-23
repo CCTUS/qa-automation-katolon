@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(20)
 
@@ -99,4 +99,13 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All 
 
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_25'), 
     '25')
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/a_Back to Search'))
+
+WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/a_Back to Search'))
+
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/a_Dashboard              Dashb'), 
+    30)
+
+WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/a_Dashboard              Dashb'))
 

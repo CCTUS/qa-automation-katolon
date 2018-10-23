@@ -13,39 +13,117 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/td_Ruger LC LCP'))
+WebUI.setText(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/input_Settings_common_searchpr (1)'), 
+    'HCKLR-IHMFX7Z1')
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/h2_Ruger LC LCP'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/i_Settings_glyphicon glyphicon (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Manufacturer Part Number3'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_3701'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_ManufacturerRuger'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Inventory              Inven (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_Ruger'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/div_Inventory (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_DistributorSS'))
+WebUI.rightClick(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/input__markup_searchproduct (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_SS'))
+WebUI.setText(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/input__markup_searchproduct (1)'), 
+    'HCKLR-IHMFX7Z1')
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_UPC736676037018'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/img__markupsearch_icon (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_736676037018'))
+WebUI.setText(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/input_Pistols_markup0 (1)'), 
+    '15.8')
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Base Price180.00'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/button_AddUpdate (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_180.00'))
+WebUI.rightClick(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/h5_Success  Markup updated suc (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Retailer Markup12.80'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_12.80'))
+WebUI.rightClick(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/input_Settings_common_searchpr (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Amount Payable203.04'))
+WebUI.setText(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/input_Settings_common_searchpr (1)'), 
+    'HCKLR-IHMFX7Z1')
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_203.04'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/i_Settings_glyphicon glyphicon (1)'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/h4_Only 25 left in stock'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_25'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/h2_Heckler  Koch VP VP9 (1)'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_ManufacturerHeckler  Koch (1)'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_DistributorGreen Supply (1)'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_Base Price534.20 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/strong_534.20 (1)'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/strong_15.80 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_Amount Payable618.60 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/strong_618.60 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/div_Sorry (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/h4_Only 176 left in stock (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_176 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/button_ADD TO CART (1)'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/div_Heckler  Koch VP VP9 (1)'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_618.60 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/button_View Cart (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/div_Price                  618 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/div_Sub Total (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/div_1                Item(s) (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/div_Shipping Cost (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/div_Item selected 1 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/h6_618.60 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/h6_618.60 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_618.60_1 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_25.00 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_643.60 (1)'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/img'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/span_534.20'))
 
