@@ -125,7 +125,7 @@
    <testCaseLink>
       <guid>f8948fe3-acb4-42ce-8c44-76cae170e39e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Menu list/Menu_profile_rule_change_pwd</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -31,5 +31,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app-qa.appcohesion.io/')
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/Page_AppCohesion/Page_AppCohesion/collapsible-header_Store Users'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/Page_AppCohesion/collapsible-header_Retailer Ad'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/Page_AppCohesion/collapsible-header_Store Admin'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/Page_AppCohesion/collapsible-header_Store Users'))
 
