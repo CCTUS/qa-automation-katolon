@@ -4,6 +4,12 @@
    <name>span_VIEW ORDERS</name>
    <tag></tag>
    <elementGuidId>4f3c8374-bd56-476a-ba1a-cfe58be2cbe0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'VIEW ORDERS' or . = 'VIEW ORDERS') and @id = 'orderstatus']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -40,6 +46,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;orderstatus&quot;)/span[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>orderstatus</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
