@@ -1,86 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h5_RetailerAdmin</name>
+   <name>collapsible-header_Store Users</name>
    <tag></tag>
-   <elementGuidId>0660fa01-958e-46bf-bf0d-745f03609779</elementGuidId>
+   <elementGuidId>d240250c-53d3-4237-b748-c06f103326b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//h5[(text() = 'RetailerAdmin' or . = 'RetailerAdmin') and @id = 'retailer0']</value>
+         <key>XPATH</key>
+         <value>//collapsible-list-item[@id='storeuserview']/collapsible-header</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h5</value>
+      <value>collapsible-header</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>textHover empRole</value>
+      <value>waves-effect</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>RetailerAdmin</value>
+      <value>
+                        Store Users
+                        
+                      </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;retailer0&quot;)/div[1]/a[1]/h5[@class=&quot;textHover empRole&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>retailer0</value>
+      <value>id(&quot;storeuserview&quot;)/collapsible-header[@class=&quot;waves-effect&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//li[@id='retailer0']/div/a/h5</value>
+      <value>//collapsible-list-item[@id='storeuserview']/collapsible-header</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NewRetailerKatalonNewRetailerKatalon'])[1]/following::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading Store admins'])[1]/following::collapsible-header[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading Retailer admins'])[1]/following::h5[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='snekalatha.r340@iinerds.com'])[1]/preceding::h5[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NewRetailerKatalonNewRetailerKatalon'])[2]/preceding::h5[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading Store Users'])[1]/preceding::collapsible-header[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//a/h5</value>
+      <value>//div[3]/div[2]/collapsible-list/collapsible-list-item/collapsible-header</value>
    </webElementXpaths>
 </WebElementEntity>

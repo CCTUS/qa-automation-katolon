@@ -13,19 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.doubleClick(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  Congratulations Yo'))
+WebUI.doubleClick(findTestObject('pop up emp object/h5_Success  Congratulations Yo'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'))
+WebUI.click(findTestObject('pop up emp object/h5_Success  User details succe'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
-    'Success: User details successfully Updated.')
+WebUI.verifyElementText(findTestObject('pop up emp object/h5_Success  User details succe'), 'Success: User details successfully Updated.')
 
 WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/button_YES'))
+WebUI.click(findTestObject('pop up emp object/button_YES'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details has b'), 
-    'Success: User details has been deleted successfully.')
+WebUI.verifyElementText(findTestObject('pop up emp object/h5_Success  User details has b'), 'Success: User details has been deleted successfully.')
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/div_OK_defaultmsgPopContentIco'))
+WebUI.click(findTestObject('pop up emp object/div_OK_defaultmsgPopContentIco'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://app-qa.appcohesion.io/')
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/Page_AppCohesion/Page_AppCohesion/collapsible-header_Store Users'))
 
