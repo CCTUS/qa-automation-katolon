@@ -9,8 +9,18 @@
          <key>XPATH</key>
          <value>//collapsible-list-item[@id='storeuserview']/collapsible-header</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//collapsible-header[(text() = '
+                        Store Users
+                        
+                      ' or . = '
+                        Store Users
+                        
+                      ') and @id = 'storeuserview']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +52,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;storeuserview&quot;)/collapsible-header[@class=&quot;waves-effect&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>storeuserview</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
