@@ -27,13 +27,23 @@ WebUI.verifyElementText(findTestObject('pop up emp object/h5_Success  User detai
 
 WebUI.click(findTestObject('pop up emp object/div_OK_defaultmsgPopContentIco'))
 
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/collapsible-header_Retailer Ad'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/collapsible-header_Store Admin'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/collapsible-header_Store Users'))
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://app-qa.appcohesion.io/')
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/Page_AppCohesion/collapsible-header_Retailer Ad'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Update'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/Page_AppCohesion/collapsible-header_Store Admin'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Cancel'))
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/Page_AppCohesion/collapsible-header_Store Users'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_ADD EMPLOYEE'))
+
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_ADD EMPLOYEE_1'))
 

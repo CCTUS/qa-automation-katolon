@@ -4,7 +4,7 @@
    <name>Retailer_test_suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-24T15:12:23</lastRun>
+   <lastRun>2018-10-26T15:42:46</lastRun>
    <mailRecipient>hariram@iinerds.com;snekalatha.r@iinerds.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -111,16 +111,16 @@
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Store_managment/Retailer_store_creation_edit_delete</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c2216096-054e-45eb-aa70-21f4ec3bd3e5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Markup</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2d7be1a0-e125-4000-9c23-f0a4aa7310be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/employee_Creation_edit_delete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>da35fd98-6d97-4c21-aa1f-98dfc131c553</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Add Markup</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f8948fe3-acb4-42ce-8c44-76cae170e39e</guid>

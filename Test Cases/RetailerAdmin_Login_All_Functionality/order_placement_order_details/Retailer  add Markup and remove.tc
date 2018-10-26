@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Retailer Markup</name>
+   <name>Retailer  add Markup and remove</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e38c25e7-857f-4503-a145-d498ce845330</testCaseGuid>

@@ -75,13 +75,14 @@ not_run: WebUI.verifyElementText(findTestObject('employee_obj_repo/Page_AppCohes
 
 WebUI.verifyElementText(findTestObject('employee_obj_repo/Page_AppCohesion/h5_9894591635'), '9894591635')
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('employee_obj_repo/emp_edit_button'), 10)
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'), 
+    10)
 
-WebUI.click(findTestObject('employee_obj_repo/emp_edit_button'))
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'))
 
 WebUI.verifyElementVisible(findTestObject('employee_obj_repo/Page_AppCohesion/label_Store Admin'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -108,7 +109,7 @@ WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/select_Store Automation (24143'), 
     '0', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('employee_obj_repo/emp_update_button'))
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Update'))
 
 not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
     FailureHandling.STOP_ON_FAILURE)
@@ -118,15 +119,18 @@ WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Rep
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Admin'))
 
+WebUI.delay(5)
+
 WebUI.verifyElementVisible(findTestObject('employee_obj_repo/store admin list first'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('employee_obj_repo/store admin list first'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Call Test Case/call wait element'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Call Test Case/call wait element'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/emp_edit_button'))
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'), 
+    50)
 
-WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/emp_edit_button'))
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'))
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/label_Store User'))
 
@@ -153,10 +157,9 @@ not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/empl
 
 not_run: WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_updatebutton'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/Page_AppCohesion/button_Update'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_updatebutton'), 10)
 
-WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/Page_AppCohesion/Page_AppCohesion/button_Update'))
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_updatebutton'))
 
 not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
     FailureHandling.STOP_ON_FAILURE)
@@ -175,7 +178,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_listed_first'))
 
-WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_edit_button'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('employee_obj_repo/emp_edit_button'), 10)
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/emp_edit_button'))
 
@@ -197,18 +200,23 @@ WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Rep
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
-WebUI.delay(0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_delete_button'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Delete'), 
+    5)
 
-WebUI.click(findTestObject('employee_obj_repo/emp_delete_button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Delete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('employee_obj_repo/delete_yes_button'), 2)
 
 WebUI.click(findTestObject('employee_obj_repo/delete_yes_button'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details has b'), 
     'Success: User details has been deleted successfully.', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 

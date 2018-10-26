@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;search_data&quot;)/i[@class=&quot;glyphicon glyphicon-search&quot;][count(. | //i[@class = 'glyphicon glyphicon-search' and @title = 'Clear search' and @id = 'clear_data']) = count(//i[@class = 'glyphicon glyphicon-search' and @title = 'Clear search' and @id = 'clear_data'])]</value>
+         <value>//i[@class = 'glyphicon glyphicon-search' and @title = 'Clear search' and @id = 'clear_data']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>Clear search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

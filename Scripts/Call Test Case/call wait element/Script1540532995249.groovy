@@ -24,8 +24,6 @@ import org.openqa.selenium.support.ui.WebDriverWait
 import java.util.concurrent.TimeUnit
 
 
-
-
 public class waithelper {
 
 	public void waitForElement(By locator){
