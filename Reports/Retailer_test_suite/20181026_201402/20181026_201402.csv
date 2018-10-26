@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Retailer_test_suite,,,2018-10-26 20:14:10,2018-10-26 20:14:37,26.759s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/retailer_employeeView,,,2018-10-26 20:14:11,2018-10-26 20:14:28,17.001s,FAILED
+callTestCase,,,2018-10-26 20:14:13,2018-10-26 20:14:28,15.652s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/retaileradmin_order_placement,,,2018-10-26 20:14:28,2018-10-26 20:14:30,1.929s,FAILED
+callTestCase,,,2018-10-26 20:14:29,2018-10-26 20:14:30,1.136s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/Search Products Details,,,2018-10-26 20:14:30,2018-10-26 20:14:32,1.754s,FAILED
+callTestCase,,,2018-10-26 20:14:31,2018-10-26 20:14:32,0.982s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Store_managment/Retailer_store_creation_edit_delete,,,2018-10-26 20:14:32,2018-10-26 20:14:34,1.924s,FAILED
+callTestCase,,,2018-10-26 20:14:33,2018-10-26 20:14:34,1.251s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/employee_Creation_edit_delete,,,2018-10-26 20:14:34,2018-10-26 20:14:37,2.496s,FAILED
+callTestCase,,,2018-10-26 20:14:34,2018-10-26 20:14:37,2.080s,FAILED
+,,,,,,
+Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Add Markup,,,2018-10-26 20:14:37,2018-10-26 20:14:37,0.542s,FAILED
+callTestCase,,,2018-10-26 20:14:37,2018-10-26 20:14:37,0.003s,NOT_RUN
+waitForPageLoad,,,2018-10-26 20:14:37,2018-10-26 20:14:37,0.153s,FAILED
