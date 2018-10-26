@@ -17,8 +17,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
+import org.openqa.selenium.By
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.support.ui.WebDriverWait
+import java.util.concurrent.TimeUnit
 
-public class ScreenshotHelper {
-	public void takeWebElementScreenshot() {
+
+
+
+public class waithelper {
+
+	public void waitForElement(By locator){
+		WebDriver driver = DriverFactory.getWebDriver();
+		WebDriverWait wait = new WebDriverWait(driver, 60);
+		wait.pollingEvery(250, TimeUnit.MILLISECONDS);
+		wait.ignoring(ElementNotFoundException.class);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
 }
