@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Dodge_selection_img</name>
+   <tag></tag>
+   <elementGuidId>1d19b386-12d1-403e-b868-d27a9304243e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[8]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@ng-class = concat('searchDetails.car_make==key?' , &quot;'&quot; , 'selection_img_active' , &quot;'&quot; , ':' , &quot;'&quot; , 'selection_img') and @class = 'selection_img']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>searchDetails.car_make==key?'selection_img_active':'selection_img'</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selection_img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;consumer&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container&quot;]/div[1]/div[@class=&quot;container draweractiveclass&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[1]/iknow-mjpopup[1]/ggc-mj-popup[1]/div[@class=&quot;left_slide_popup_content_active&quot;]/div[1]/div[@class=&quot;mj_popmainwrap mjmain_wrap&quot;]/div[2]/div[1]/div[@class=&quot;dta_wrap&quot;]/div[1]/div[@class=&quot;scroll_wrapper&quot;]/div[@class=&quot;ngsb-wrap&quot;]/div[@class=&quot;ngsb-container&quot;]/div[@class=&quot;selection_scroll&quot;]/div[@class=&quot;selection_make_dv col-xs-6 col-sm-4&quot;]/div[1]/div[@class=&quot;slct_imgtble&quot;]/div[@class=&quot;selection_img&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[8]/div/div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>
