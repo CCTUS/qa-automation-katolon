@@ -16,9 +16,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://qa.gogocar.com/')
+
+WebUI.maximizeWindow()
 
 WebUI.acceptAlert()
 
