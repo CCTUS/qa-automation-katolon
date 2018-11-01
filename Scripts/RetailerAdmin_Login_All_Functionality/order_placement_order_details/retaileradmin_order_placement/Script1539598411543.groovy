@@ -242,8 +242,7 @@ WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_ord
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.clickOffset(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
-    1290, 170)
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'))
 
 not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'))
 

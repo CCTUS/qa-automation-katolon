@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/gogo user journey/Page_GoGoCar/div
 
 WebUI.click(findTestObject('Object Repository/gogo user journey/Page_GoGoCar/div_wPremium wA-SPEC_clearfix'))
 
-WebUI.click(findTestObject('Object Repository/gogo user journey/Page_GoGoCar/div_SELECT  CONTINUE'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/gogo user journey/Page_GoGoCar/div_'))
 

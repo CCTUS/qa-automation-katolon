@@ -20,170 +20,157 @@ WebUI.navigateToUrl('https://qa.gogocar.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.acceptAlert()
+WebUI.verifyElementVisible(findTestObject('gogo user journey/Page_GoGoCar/span_GOT IT (1)'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_GOT IT'))
+WebUI.click(findTestObject('gogo user journey/Page_GoGoCar/span_GOT IT (1)'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.verifyElementVisible(findTestObject('gogo user journey/Page_GoGoCar/div_Cars_md-thumb md-ink-rippl'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/a_BUILD YOUR DREAM CAR'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/li_I know what I want'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_GOT IT_navigation-overlay'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Add   Choose       Make'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Dodge_selection_img'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_43983 Cars'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_43983 Cars'), '43983 Cars')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Ford  43983 Cars'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Ford  43983 Cars'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Edge  3890 Cars'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Edge  3890 Cars'), 'Edge  3890 Cars')
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Edge  3890 Cars'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_2017  1131 Cars'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_2017  1131 Cars'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.verifyElementVisible(findTestObject('gogocar_obj_repo/Page_GoGoCar/Page_GoGoCar/div_SELECT  CONTINUE'))
-
-WebUI.click(findTestObject('gogocar_obj_repo/Page_GoGoCar/Page_GoGoCar/div_SELECT  CONTINUE'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_SELECT  CONTINUE'))
-
-WebUI.delay(3)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_2017 Ford Edge SE  Lorenzo'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_2017 Ford Edge SE  Lorenzo'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_2017  Ford Edge SE    Buil'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_2017  Ford Edge SE    Bui'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Lorenzo Ford FL  8953 mi_c'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/p_VIN 2FMPK3G99HBB77957'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/p_VIN 2FMPK3G99HBB77957'), 'VIN# 2FMPK3G99HBB77957')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/p_STOCK HBB77957'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/p_STOCK HBB77957'), 'STOCK# HBB77957')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_21886  GoGoCar Price'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/p_GoGoCar Price'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/p_GoGoCar Price'), 'GoGoCar Price')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/h2_21886'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/h2_21886'), ' $21886 ')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_8154  You Save         37'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/h3_8154'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/h3_8154'), ' $8154')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_30040   MSRP Price'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/h4_30040'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/h4_30040'), ' $30040 ')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_MSRP Price'))
-
-WebUI.delay(3)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_EXPLORE FURTHER'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_EXPLORE FURTHER'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Continue  as Guest'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Continue  as Guest'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Proceed_ngsb-thumb-pos'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Proceed Skip Tradein'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_Proceed Skip Tradein'))
-
-WebUI.setText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/input_Please provide your ZIP'), '11210')
+WebUI.click(findTestObject('gogo user journey/Page_GoGoCar/div_Cars_md-thumb md-ink-rippl'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/button_Please provide your ZIP'))
+WebUI.waitForElementVisible(findTestObject('gogo user journey/Page_GoGoCar/a_BUILD YOUR DREAM CAR (1)'), 3)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_Go with Pay in Cash'))
+WebUI.dragAndDropToObject(findTestObject('gogo user journey/Page_GoGoCar/a_BUILD YOUR DREAM CAR (1)'), findTestObject('gogo user journey/Page_GoGoCar/a_BUILD YOUR DREAM CAR (1)'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_Go with Pay in Cash'))
+not_run: WebUI.click(findTestObject('gogo user journey/Page_GoGoCar/a_BUILD YOUR DREAM CAR (1)'))
 
-WebUI.delay(0)
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/input__UserFirstName'), 'John')
+WebUI.click(findTestObject('gogo user journey/recent_acura/div_Add   Choose       Make'))
 
-WebUI.setText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/input__UserLastName'), 'Fremid')
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/input_(optional)_UserEmail'), 'snekalatha.r@iinerds.com')
+WebUI.waitForElementVisible(findTestObject('gogo user journey/recent_acura/Page_GoGoCar/div_     Acura  5788 Cars'), 3)
 
-WebUI.setText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/input__streetnumber'), '123')
+WebUI.click(findTestObject('gogo user journey/recent_acura/Page_GoGoCar/div_     Acura  5788 Cars'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/input__Address'), 'New Mark avenue')
+WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/select_ALAKAZARCACOCTDEFLGAHII'), 
+WebUI.waitForElementVisible(findTestObject('gogo user journey/recent_acura/Page_GoGoCar/div_ILX  370 Cars'), 3)
+
+WebUI.click(findTestObject('gogo user journey/recent_acura/Page_GoGoCar/div_ILX  370 Cars'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementVisible(findTestObject('gogo user journey/recent_acura/Page_GoGoCar/div_2017  96 Cars'))
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/Page_GoGoCar/div_2017  96 Cars'))
+
+WebUI.delay(5)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/select obj2/div_Price Range  27680 -  2894'), 
+    5)
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/select obj2/div_Price Range  27680 -  2894'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10)
+
+WebUI.scrollToElement(findTestObject('gogo user journey/recent_acura/select_obj/div_SELECT  CONTINUE (1)'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('gogo user journey/recent_acura/select_obj/div_SELECT  CONTINUE (1)'), 3 //(findTestObject('gogo user journey/recent_acura/select_obj/div_SELECT  CONTINUE'))
+    )
+
+WebUI.click(findTestObject('gogo user journey/recent_acura/select_obj/div_SELECT  CONTINUE (1)'), FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: CustomKeywords.'element_visible.select_element_visible.clickUsingJS'(findTestObject('gogo user journey/recent_acura/select_obj/div_SELECT  CONTINUE'))
+
+not_run: WebUI.verifyElementPresent(findTestObject('null'), 10)
+
+not_run: WebUI.click(findTestObject('null'))
+
+WebUI.delay(3)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/Page_GoGoCar/div_2017 Acura ILX Base  Rick'), 
+    5)
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/Page_GoGoCar/div_2017 Acura ILX Base  Rick'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/h2_Rick Case Acura FL  8904 mi'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/gogo user journey/recent_acura/h2_Rick Case Acura FL  8904 mi'), 
+    'Rick Case Acura, FL | 8904 mi')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/p_VIN 19UDE2F38HA014154'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/gogo user journey/recent_acura/p_VIN 19UDE2F38HA014154'), 'VIN# 19UDE2F38HA014154')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/p_STOCK AHA014154'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/gogo user journey/recent_acura/p_STOCK AHA014154'), 'STOCK# AHA014154')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/div_27680  GoGoCar Price'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/p_GoGoCar Price'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/gogo user journey/recent_acura/p_GoGoCar Price'), 'GoGoCar Price')
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/h2_27680'), 3)
+
+WebUI.verifyElementText(findTestObject('Object Repository/gogo user journey/recent_acura/h2_27680'), '$27680')
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/div_1260  You Save         14'), 
+    0)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/h3_1260'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/gogo user journey/recent_acura/h3_1260'), ' $1260')
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/div_28940   MSRP Price'), 0)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/h4_28940'), 3)
+
+WebUI.verifyElementText(findTestObject('Object Repository/gogo user journey/recent_acura/h4_28940'), '$28940', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/div_EXPLORE FURTHER'), 2)
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/div_EXPLORE FURTHER'))
+
+WebUI.delay(2)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/gogo user journey/recent_acura/div_Continue  as Guest'), 2)
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/div_Continue  as Guest'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/div_Proceed Skip Tradein'))
+
+WebUI.setText(findTestObject('Object Repository/gogo user journey/recent_acura/input_Please provide your ZIP'), '11210')
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/button_Please provide your ZIP'))
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/div_Go with Pay in Cash'))
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/span_Go with Pay in Cash'))
+
+WebUI.setText(findTestObject('Object Repository/gogo user journey/recent_acura/input__UserFirstName'), 'ggg')
+
+WebUI.setText(findTestObject('Object Repository/gogo user journey/recent_acura/input__UserLastName'), 'jjj')
+
+WebUI.setText(findTestObject('Object Repository/gogo user journey/recent_acura/input_(optional)_UserEmail'), 'snekalatha.r@iinerds.com')
+
+WebUI.setText(findTestObject('Object Repository/gogo user journey/recent_acura/input__streetnumber'), '44')
+
+WebUI.setText(findTestObject('Object Repository/gogo user journey/recent_acura/input__Address'), 'eee')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/gogo user journey/recent_acura/select_ALAKAZARCACOCTDEFLGAHII'), 
     'NY', true)
 
-WebUI.setText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/input__userCity'), 'Brooklyn')
+WebUI.setText(findTestObject('Object Repository/gogo user journey/recent_acura/input__userCity'), 'Brooklyn')
 
-WebUI.setText(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/input__zipcode'), '11210')
+WebUI.setText(findTestObject('Object Repository/gogo user journey/recent_acura/input__zipcode'), '11210')
 
-WebUI.delay(0)
+WebUI.click(findTestObject('Object Repository/gogo user journey/recent_acura/div_CONTINUE'))
 
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_CONTINUE'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/li_2017FordEdgeSE  Lorenzo For'))
-
-WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_ 21886'))
-
-WebUI.rightClick(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_VIN 2FMPK3G99HBB77957'))
-
-WebUI.rightClick(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/a_2017FordEdgeSE  Lorenzo Ford'))
-
-WebUI.rightClick(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_GoGoCar Savings       37'))
-
-WebUI.rightClick(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_ 8154'))
-
-WebUI.rightClick(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/span_GoGoCar Grand Total'))
-
-WebUI.rightClick(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_ 21886'))
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/gogocar_obj_repo/Page_GoGoCar/div_How long do you plan on ke'))
 

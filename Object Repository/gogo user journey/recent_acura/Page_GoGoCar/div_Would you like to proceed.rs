@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Would you like to proceed</name>
+   <tag></tag>
+   <elementGuidId>5ba81f37-19da-4ae4-8573-549910575277</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ggc-mj-popup[2]/div[2]/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ngsb-wrap</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>              Would you like to proceed with tradein? It can take several weeks or even months to find a good buyer and trade-in your car. But with us, you can find a real trade-in offer in 15-min by applying to a real trade-in offer. If you first want to get a feel of how much your existing car worth, try our Ballpark estimator. Skip trade-in if you want to don't have an existing car, you can always come back and add your existing car to the journey.      Get your Ballpark Estimate         Apply for Real Offer         Please provide your ZIP code    Invalid Zip code . ZIP is required. 5 digits required 5 digits required                </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;consumer sticky&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container&quot;]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[1]/ggc-mj-popup[2]/div[@class=&quot;left_slide_popup_content_active&quot;]/div[1]/div[@class=&quot;mj_popmainwrap mjmain_wrap&quot;]/div[1]/div[1]/div[@class=&quot;scroll_wrapper&quot;]/div[@class=&quot;ngsb-wrap&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//ggc-mj-popup[2]/div[2]/div/div/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>
