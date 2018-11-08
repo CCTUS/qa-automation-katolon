@@ -22,14 +22,12 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 
 public class select_element_visible {
-		@Keyword
-		def clickUsingJS(TestObject to)
-		{
+	@Keyword
+	def clickUsingJS(TestObject to) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement element = WebUiCommonHelper.findWebElement(to, 30)
 		JavascriptExecutor executor = ((driver) as JavascriptExecutor)
 		executor.executeScript('arguments[0].click()', element)
-		
-		}
-		}
+	}
+}
 

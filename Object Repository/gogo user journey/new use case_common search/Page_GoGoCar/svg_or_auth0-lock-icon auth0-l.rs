@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_or_auth0-lock-icon auth0-l</name>
+   <tag></tag>
+   <elementGuidId>41313b4a-fc5f-4c88-9950-68756dd07147</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>11px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>14px</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 13 16</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns:xlink</name>
+      <type>Main</type>
+      <value>http://www.w3.org/1999/xlink</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>auth0-lock-icon auth0-lock-icon-box</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;auth0-lock-container-1&quot;)/div[@class=&quot;auth0-lock auth0-lock-opened auth0-lock-with-tabs&quot;]/div[@class=&quot;auth0-lock-center&quot;]/form[@class=&quot;auth0-lock-widget&quot;]/div[@class=&quot;auth0-lock-widget-container&quot;]/div[@class=&quot;auth0-lock-cred-pane auth0-lock-quiet&quot;]/div[3]/span[1]/div[1]/div[1]/div[@class=&quot;auth0-lock-view-content&quot;]/div[1]/div[@class=&quot;auth0-lock-body-content&quot;]/div[@class=&quot;auth0-lock-content&quot;]/div[@class=&quot;auth0-lock-form&quot;]/div[1]/div[4]/div[@class=&quot;auth0-lock-input-block auth0-lock-input-show-password&quot;]/div[@class=&quot;auth0-lock-input-block auth0-lock-input-password&quot;]/div[@class=&quot;auth0-lock-input-wrap auth0-lock-input-wrap-with-icon&quot;]/span[1]/svg[@class=&quot;auth0-lock-icon auth0-lock-icon-box&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

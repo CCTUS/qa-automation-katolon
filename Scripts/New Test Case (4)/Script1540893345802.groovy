@@ -13,7 +13,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.rightClick(findTestObject('Object Repository/gogocar Search input and icon/input_BUILD YOUR DREAM CAR_for'))
+WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/button_SIGN IN  SIGN UP'))
 
-WebUI.rightClick(findTestObject('Object Repository/gogocar Search input and icon/i_BUILD YOUR DREAM CAR_fa fa-s'))
+WebUI.waitForElementVisible(findTestObject('Page_GoGoCar/div_Log me in'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Page_GoGoCar/div_Log InSign UpLog in with F'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Page_GoGoCar/div_or_auth0-lock-input-wrap a'), 3, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input_or_email'), 
+    'testnew@mailinator.com')
+
+WebUI.waitForElementVisible(findTestObject('Page_GoGoCar/div_or_auth0-lock-input-wrap a_1'), 5)
+
+WebUI.setText(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input_or_password'), 
+    'asdf')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/a_Dont remember your password'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/span_Log In'))
+
+WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/span_Log In'))
+
+WebUI.delay(10)
 

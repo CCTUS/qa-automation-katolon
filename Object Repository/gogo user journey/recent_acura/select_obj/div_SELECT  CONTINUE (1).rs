@@ -11,20 +11,20 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-ng-click = 'findMyCars()' and @role = 'button' and @tabindex = '1']</value>
+         <value>//div[@class = 'gg_btn mobile_btn' and @data-ng-click = 'findMyCars()' and @role = 'button' and @tabindex = '0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,11 +6,15 @@
    <elementGuidId>7df7e8a5-1864-4c90-8598-fc032b6f9cd9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'BUILD YOUR DREAM CAR' or . = 'BUILD YOUR DREAM CAR')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='banner_slideshow']/div[6]/div/div/span/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

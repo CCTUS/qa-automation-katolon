@@ -6,12 +6,12 @@
    <elementGuidId>c4fe3911-3601-40f5-93b5-14b47368eb19</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='banner_slideshow']/div[6]/div/div/span/a</value>
+         <key>BASIC</key>
+         <value>//a[(text() = 'BUILD YOUR DREAM CAR' or . = 'BUILD YOUR DREAM CAR')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@ng-click = 'get_started()' and (text() = 'BUILD YOUR DREAM CAR' or . = 'BUILD YOUR DREAM CAR')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='banner_slideshow']/div[6]/div/div/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
