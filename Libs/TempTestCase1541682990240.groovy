@@ -15,7 +15,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\SNEKAL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\gogo car\\gogocar_usecase_common search\\20181108_152122\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\DELL\\AppData\\Local\\Temp\\Katalon\\Test Cases\\gogo car\\gogocar_usecase_common search\\20181108_184630\\execution.properties')
 
 TestCaseMain.beforeStart()
 
@@ -35,7 +35,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.openBrowser('')
+not_run: WebUI.openBrowser('https://qa.gogocar.com/')
 
 not_run: WebUI.navigateToUrl('https://qa.gogocar.com/')
 
@@ -63,11 +63,11 @@ not_run: WebUI.waitForElementVisible(findTestObject('gogo user journey/new use c
 not_run: WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_or_auth0-lock-input-wrap a'), 
     3, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/input_or_email'), 'testnew@mailinator.com')
+not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/input_or_email'), 'sss@getnada.com')
 
 not_run: WebUI.waitForElementVisible(findTestObject('Page_GoGoCar/div_or_auth0-lock-input-wrap a_1'), 5)
 
-not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/input_or_password'), 'asdf')
+not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/input_or_password'), 'sss@123')
 
 not_run: WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/a_Dont remember your password'))
 
@@ -111,134 +111,134 @@ not_run: WebUI.sendKeys(findTestObject('gogo user journey/new use case_common se
 not_run: WebUI.setText(findTestObject('Object Repository/gogo user journey/new use case_common search/input_SIGN IN  SIGN UP_search_'), 
     'Acura ILX 2017')
 
-not_run: WebUI.delay(10)
+WebUI.delay(10)
 
 not_run: WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/div_Acura ILX  New car Starts'))
 
 not_run: WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/div_2018 Acura ILX wSpecial Ed'))
 
-not_run: WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_Acura ILX  New car Starts'), 
+WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_Acura ILX  New car Starts'), 
     10)
 
-not_run: WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_Acura ILX  New car Starts'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_Acura ILX  New car Starts'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.delay(5)
+WebUI.delay(5)
 
-not_run: WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_2019 Acura ILX wTech  Acur'), 
+WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_2019 Acura ILX wTech  Acur'), 
     5)
 
-not_run: WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_2019 Acura ILX wTech  Acur'), 
+WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_2019 Acura ILX wTech  Acur'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/span_2019  Acura ILX wTech'), 
+WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/span_2019  Acura ILX wTech'), 
     3)
 
-not_run: WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/h2_Acura of Brooklyn NY  7853'), 
+WebUI.waitForElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/h2_Acura of Brooklyn NY  7853'), 
     0)
 
-not_run: WebUI.waitForElementPresent(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_VIN 19UDE2F77KA000076'), 
+WebUI.waitForElementPresent(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_VIN 19UDE2F77KA000076'), 
     2)
 
-not_run: WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_VIN 19UDE2F77KA000076'), 
+WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_VIN 19UDE2F77KA000076'), 
     'VIN# 19UDE2F77KA000076')
 
-not_run: WebUI.waitForElementPresent(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_STOCK 429348'), 
+WebUI.waitForElementPresent(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_STOCK 429348'), 
     2)
 
-not_run: WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_STOCK 429348'), 
-    'STOCK# 429348')
+WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_STOCK 429348'), 'STOCK# 429348')
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_GoGoCar Price'), 
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/p_GoGoCar Price'), 
     2)
 
-not_run: WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/h2_30545'), '$30545', 
+WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/h2_30545'), '$30545', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_MSRP Price'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_MSRP Price'))
 
-not_run: WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/h4_30545'), '$30545', 
+WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/h4_30545'), '$30545', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/div_EXPLORE FURTHER'), 
-    3)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/div_EXPLORE FURTHER'), 3)
 
-not_run: WebUI.click(findTestObject('gogo user journey/new use case_common search/div_EXPLORE FURTHER'))
+WebUI.click(findTestObject('gogo user journey/new use case_common search/div_EXPLORE FURTHER'))
 
-not_run: WebUI.delay(10)
+WebUI.delay(10)
 
 not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/div_Continue  as Guest'), 
     5, FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('gogo user journey/new use case_common search/div_Continue  as Guest'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.delay(5)
+WebUI.delay(5)
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/div_Proceed Skip Tradein'), 
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/div_Proceed Skip Tradein'), 5)
+
+WebUI.click(findTestObject('gogo user journey/new use case_common search/div_Proceed Skip Tradein'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Please provide your ZIP'), 
     5)
 
-not_run: WebUI.click(findTestObject('gogo user journey/new use case_common search/div_Proceed Skip Tradein'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('gogo user journey/new use case_common search/input_Please provide your ZIP'), '47150')
 
-not_run: WebUI.delay(3)
-
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Please provide your ZIP'), 
-    5)
-
-not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/input_Please provide your ZIP'), '47150')
-
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/button_Please provide your ZIP'), 
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/button_Please provide your ZIP'), 
     3)
 
-not_run: WebUI.click(findTestObject('gogo user journey/new use case_common search/button_Please provide your ZIP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('gogo user journey/new use case_common search/button_Please provide your ZIP'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.delay(10)
+WebUI.delay(10)
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/b_Pay in Cash'), 3)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/b_Pay in Cash'), 3)
 
-not_run: WebUI.click(findTestObject('gogo user journey/new use case_common search/b_Pay in Cash'))
+WebUI.click(findTestObject('gogo user journey/new use case_common search/b_Pay in Cash'))
 
-not_run: WebUI.delay(15)
+WebUI.delay(15)
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_First Name'), 1)
+WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__UserFirstName'))
 
-not_run: WebUI.sendKeys(findTestObject('gogo user journey/new use case_common search/input__UserFirstName'), 'AAA')
+WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__UserLastName'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Last Name'), 1)
+WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__userCity'))
 
-not_run: WebUI.sendKeys(findTestObject('gogo user journey/new use case_common search/input__UserLastName'), 'BBB')
+WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__zipcode'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Email (optional)'), 
-    2)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_First Name'), 1)
+
+WebUI.sendKeys(findTestObject('gogo user journey/new use case_common search/input__UserFirstName'), 'AAA')
+
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Last Name'), 1)
+
+WebUI.sendKeys(findTestObject('gogo user journey/new use case_common search/input__UserLastName'), 'BBB')
+
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Email (optional)'), 2)
 
 not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/input_(optional)_UserEmail'), 'testnew@mailinator.com')
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Street Number'), 
-    2)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Street Number'), 2)
 
-not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__streetnumber'), '3111')
+WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__streetnumber'), '3111')
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present Address'), 
-    2)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present Address'), 2)
 
-not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__Address'), '3111  Heliport Loop')
+WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__Address'), '3111  Heliport Loop')
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present State'), 
-    2)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present State'), 2)
 
-not_run: WebUI.selectOptionByValue(findTestObject('gogo user journey/new use case_common search/select_ALAKAZARCACOCTDEFLGAHII'), 
-    'IN', true)
+WebUI.selectOptionByValue(findTestObject('gogo user journey/new use case_common search/select_ALAKAZARCACOCTDEFLGAHII'), 
+    'NY', true)
 
-not_run: WebUI.delay(3)
+WebUI.delay(10)
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present City'), 2)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present City'), 2)
 
-not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__userCity'), 'New Albany')
+WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__userCity'), 'Brooklyn')
 
-not_run: WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present Zip'), 2)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present Zip'), 2)
 
-not_run: WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__zipcode'), '47150')
+WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__zipcode'), '11210')
 
-not_run: WebUI.delay(10)
+WebUI.delay(10)
 
 WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/div_CONTINUE'), 2)
 
@@ -275,7 +275,7 @@ WebUI.selectOptionByValue(findTestObject('gogo user journey/new use case_common 
 WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_Where do you plan on havin'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_Dealership_md-on'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/md-radio-button_ Your own mech'))
 
 WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_How do you plan on using t'), 
     FailureHandling.CONTINUE_ON_FAILURE)
@@ -297,15 +297,17 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/n
 WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/md-radio-button_ Yes'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE'))
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE'))
+WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE'))
 
 WebUI.delay(10)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE'))
+WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE (1)'))
 
-WebUI.click(findTestObject('Page_GoGoCar/div_CONTINUE'))
+WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE (1)'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_Pickup Appointment     No'))
 
@@ -313,68 +315,103 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/n
 
 WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/a_Schedule'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_Pick-up Date'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_Pick-up Date'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input_Pick-up Date_pickdate'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input_Pick-up Date_pickdate'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input_Pick-up Date_pickdate'), 
     '11-23-2018')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_Pick-up Time'))
+WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/i_Close_glyphicon glyphicon-ca'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/button_Time required_btn btn-d'))
+WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/i_Close_glyphicon glyphicon-ca'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/button_Time required_btn btn-d'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_Pick-up Time'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/i_Time required_glyphicon glyp_1'))
+
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/button_Time required_btn btn-d'))
+
+WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/i_Time required_glyphicon glyp_1'))
+
+WebUI.delay(10)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input_Pick-up Time_form-contro'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.clearText(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input_Pick-up Time_form-contro'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input_Pick-up Time_form-contro'), 
-    '11')
+    '11', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input__form-control text-cente'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.clearText(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input__form-control text-cente'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/input__form-control text-cente'), 
-    '00')
+    '00', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/button_PM'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/button_PM'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_GoGoCar/button_PM'))
+WebUI.click(findTestObject('Page_GoGoCar/button_PM'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_OK'))
+WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_OK'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_OK'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE'))
+WebUI.delay(10)
+
+WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_CONTINUE'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/h3_2019 Acura ILX wTech'))
 
-WebUI.verifyElementText(findTestObject('Page_GoGoCar/h3_2019 Acura ILX wTech'), '')
+WebUI.verifyElementText(findTestObject('Page_GoGoCar/h3_2019 Acura ILX wTech'), '2019 Acura ILX w/Tech')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/span_VIN 19UDE2F77KA000076'))
 
-WebUI.verifyElementText(findTestObject('Page_GoGoCar/span_VIN 19UDE2F77KA000076'), '')
+WebUI.verifyElementText(findTestObject('Page_GoGoCar/span_VIN 19UDE2F77KA000076'), 'VIN# 19UDE2F77KA000076')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/span_STOCK 429348'))
 
-WebUI.verifyElementText(findTestObject('Page_GoGoCar/span_STOCK 429348'), '')
+WebUI.verifyElementText(findTestObject('Page_GoGoCar/span_STOCK 429348'), 'STOCK# 429348')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/h2_30545 (1)'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/h2_30545 (1)'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_GoGoCar/h2_30545'), '')
+not_run: WebUI.verifyElementText(findTestObject('Page_GoGoCar/h2_30545'), '')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/span_Type'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/span_Type'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/h4_Sedan'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/h4_Sedan'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_GoGoCar/h4_Sedan'), '')
+WebUI.verifyElementText(findTestObject('Page_GoGoCar/h4_Sedan'), '', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/button_Complete'))
 
 WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/button_Complete'))
 
+WebUI.delay(10)
+
 WebUI.waitForElementVisible(findTestObject('Page_GoGoCar/div_Thank you'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/div_Thank you'))
 
-WebUI.verifyElementText(findTestObject('Page_GoGoCar/div_Thank you'), '')
+WebUI.verifyElementText(findTestObject('Page_GoGoCar/div_Thank you'), 'Thank you!')
 
 ''', 'Test Cases/gogo car/gogocar_usecase_common search', new TestCaseBinding('Test Cases/gogo car/gogocar_usecase_common search',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
