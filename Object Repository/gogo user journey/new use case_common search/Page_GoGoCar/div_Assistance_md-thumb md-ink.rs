@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_30545</name>
+   <name>div_Assistance_md-thumb md-ink</name>
    <tag></tag>
-   <elementGuidId>1fe27958-a731-4781-9ec8-6ce1a2ddc467</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;10&quot;)/div[2]/div[@class=&quot;container new_vdp_wrap mt_20&quot;]/div[1]/div[@class=&quot;col-sm-12 col-xs-12 col-md-5 col-lg-5&quot;]/div[@class=&quot;left-panel&quot;]/div[@class=&quot;ttl_price_car&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-xs-4&quot;]/h2[1][count(. | //h2[(text() = '$30545' or . = '$30545')]) = count(//h2[(text() = '$30545' or . = '$30545')])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>9472d040-817a-42fc-b9c2-3e0e79e4476b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,50 +11,50 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>$30545</value>
+      <value>md-thumb md-ink-ripple</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;10&quot;)/div[2]/div[@class=&quot;container new_vdp_wrap mt_20&quot;]/div[1]/div[@class=&quot;col-sm-12 col-xs-12 col-md-5 col-lg-5&quot;]/div[@class=&quot;left-panel&quot;]/div[@class=&quot;ttl_price_car&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-xs-4&quot;]/h2[1]</value>
+      <value>id(&quot;navigation-box&quot;)/div[@class=&quot;bot_wrap botwrap_sm&quot;]/div[@class=&quot;botwrap_main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;sggst_bxlst chatbot-navigate-icon&quot;]/div[1]/md-switch[@id=&quot;large&quot;]/div[@class=&quot;md-container&quot;]/div[@class=&quot;md-thumb-container&quot;]/div[@class=&quot;md-thumb md-ink-ripple&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='10']/div[2]/div/div/div/div/div[5]/div/div/h2</value>
+      <value>(//md-switch[@id='large']/div/div[2]/div)[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pano View'])[2]/following::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assistance'])[2]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Photos'])[2]/following::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GOT IT'])[1]/following::div[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[2]/preceding::h2[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gogo'])[2]/preceding::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[5]/div/div/h2</value>
+      <value>//div[2]/div/div/div/div/div/md-switch/div/div[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

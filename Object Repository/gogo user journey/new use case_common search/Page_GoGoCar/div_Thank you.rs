@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_30545</name>
+   <name>div_Thank you</name>
    <tag></tag>
-   <elementGuidId>aae8815b-3f42-4230-8a1b-1e8c4ee7f64e</elementGuidId>
+   <elementGuidId>24fb6cf0-4205-44b4-9d98-538616038beb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;10&quot;)/div[2]/div[@class=&quot;container new_vdp_wrap mt_20&quot;]/div[1]/div[@class=&quot;col-sm-12 col-xs-12 col-md-5 col-lg-5&quot;]/div[@class=&quot;left-panel&quot;]/div[@class=&quot;ttl_price_car&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-xs-4 msrp&quot;]/div[@class=&quot;msrpmain&quot;]/h4[1][count(. | //h4[(text() = '$30545' or . = '$30545')]) = count(//h4[(text() = '$30545' or . = '$30545')])]</value>
+         <value>//div[(text() = 'Thank you!' or . = 'Thank you!')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,50 +17,57 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>congras_txt_img text-center</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$30545</value>
+      <value>Thank you!</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;10&quot;)/div[2]/div[@class=&quot;container new_vdp_wrap mt_20&quot;]/div[1]/div[@class=&quot;col-sm-12 col-xs-12 col-md-5 col-lg-5&quot;]/div[@class=&quot;left-panel&quot;]/div[@class=&quot;ttl_price_car&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-xs-4 msrp&quot;]/div[@class=&quot;msrpmain&quot;]/h4[1]</value>
+      <value>/html[1]/body[@class=&quot;consumer&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container&quot;]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[2]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 thanku_heading&quot;]/div[@class=&quot;congras_txt_img text-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='10']/div[2]/div/div/div/div/div[5]/div/div[3]/div/h4</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View More'])[2]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Savings'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$ 0'])[5]/following::div[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Potential Savings'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='feedback@GoGoCar.com'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MSRP Price'])[1]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=','])[1]/preceding::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h4</value>
+      <value>//div/div/div/div[2]/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

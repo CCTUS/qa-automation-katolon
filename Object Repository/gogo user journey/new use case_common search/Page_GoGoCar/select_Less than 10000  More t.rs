@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_CONTINUE</name>
+   <name>select_Less than 10000  More t</name>
    <tag></tag>
-   <elementGuidId>30098d0c-642c-48a5-a669-c492ddefb6e1</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::div[19]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'CONTINUE' or . = 'CONTINUE')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>fdb49720-5347-4c17-8bd0-9fb2226a9403</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,47 +11,40 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-ng-hide</name>
-      <type>Main</type>
-      <value>showloaderButton || disableContinue</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>gg_btn</value>
+      <value>form-control ng-pristine ng-untouched ng-not-empty ng-valid ng-valid-required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-ng-click</name>
+      <name>name</name>
       <type>Main</type>
-      <value>payByCashSubmit()</value>
+      <value>MilesPerYear</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>data-ng-model</name>
       <type>Main</type>
-      <value>button</value>
+      <value>optiondetails.MilesPerYear</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>aria-required</name>
       <type>Main</type>
-      <value>0</value>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
+      <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
@@ -70,31 +53,37 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>CONTINUE</value>
+      <value>  Less than 10,000  More than 10,000 miles but less than 15,000 miles  More than 15,000 miles but less than 20,000 miles  More than 20,000 miles </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;consumer&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container&quot;]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[2]/ggc-mj-popup[@class=&quot;fix-mjp7&quot;]/div[@class=&quot;left_slide_popup_content_active&quot;]/div[1]/div[@class=&quot;mj_popmainwrap mjmain_wrap&quot;]/div[2]/div[1]/div[@class=&quot;mjbtnwrap_fxd_rgt&quot;]/div[@class=&quot;mj_btn_wrap&quot;]/div[@class=&quot;gg_btn&quot;]</value>
+      <value>/html[1]/body[@class=&quot;consumer&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container dv_container_active&quot;]/div[1]/div[@class=&quot;container drawer_body_bg&quot;]/div[1]/div[1]/div[2]/div[@class=&quot;ng-valid ng-valid-required ng-dirty ng-valid-parse&quot;]/div[@class=&quot;sm_hide&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;finance_lease_lft_form_dv&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-not-empty ng-valid ng-valid-required&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::div[19]</value>
+      <name>xpath:attributes</name>
+      <value>//select[@name='MilesPerYear']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How many miles per year do you plan to drive?'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How do you plan on using this vehicle?'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/div/div[2]/div/div[2]/div/div</value>
+      <value>//div[3]/div[3]/select</value>
    </webElementXpaths>
 </WebElementEntity>

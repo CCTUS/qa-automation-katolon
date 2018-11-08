@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_30545</name>
+   <name>div_ 30545</name>
    <tag></tag>
-   <elementGuidId>aae8815b-3f42-4230-8a1b-1e8c4ee7f64e</elementGuidId>
+   <elementGuidId>d07157a4-5bc4-43a2-97e8-8b03f99ef244</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;10&quot;)/div[2]/div[@class=&quot;container new_vdp_wrap mt_20&quot;]/div[1]/div[@class=&quot;col-sm-12 col-xs-12 col-md-5 col-lg-5&quot;]/div[@class=&quot;left-panel&quot;]/div[@class=&quot;ttl_price_car&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-xs-4 msrp&quot;]/div[@class=&quot;msrpmain&quot;]/h4[1][count(. | //h4[(text() = '$30545' or . = '$30545')]) = count(//h4[(text() = '$30545' or . = '$30545')])]</value>
+         <value>//div[(text() = '$ 30,545' or . = '$ 30,545')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,50 +17,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>$30545</value>
+      <value>$ 30,545</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;10&quot;)/div[2]/div[@class=&quot;container new_vdp_wrap mt_20&quot;]/div[1]/div[@class=&quot;col-sm-12 col-xs-12 col-md-5 col-lg-5&quot;]/div[@class=&quot;left-panel&quot;]/div[@class=&quot;ttl_price_car&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-xs-4 msrp&quot;]/div[@class=&quot;msrpmain&quot;]/h4[1]</value>
+      <value>id(&quot;summaryheight&quot;)/div[2]/div[@class=&quot;my_deal_history&quot;]/ul[1]/li[1]/div[@class=&quot;summary_left_price&quot;]/h2[1]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='10']/div[2]/div/div/div/div/div[5]/div/div[3]/div/h4</value>
+      <value>//div[@id='summaryheight']/div[2]/div/ul/li/div[2]/h2/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Savings'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Acura of Brooklyn, NY'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Potential Savings'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MY OFFER'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MSRP Price'])[1]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIN# 19UDE2F77KA000076'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='STOCK# 429348'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h4</value>
+      <value>//h2/div</value>
    </webElementXpaths>
 </WebElementEntity>
