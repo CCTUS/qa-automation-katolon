@@ -13,9 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_GoGoCar/button_Time required_btn btn-d (1)'))
+WebUI.rightClick(findTestObject('Object Repository/gogo user journey/new use case_common search/oppointment_schedule/Page_GoGoCar/div_CONTINUE (1)'))
 
-WebUI.rightClick(findTestObject('Page_GoGoCar/ul_                           '))
-
-WebUI.rightClick(findTestObject('Page_GoGoCar/input_Time required_form-contr (1)'))
+WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/oppointment_schedule/Page_GoGoCar/div_New  Car          2019 Acu'))
 

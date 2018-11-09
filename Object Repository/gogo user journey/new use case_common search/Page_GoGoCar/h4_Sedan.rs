@@ -4,6 +4,12 @@
    <name>h4_Sedan</name>
    <tag></tag>
    <elementGuidId>e5e53b5d-5adf-45fe-a1a5-621ac722067d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'Sedan' or . = 'Sedan')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

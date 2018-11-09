@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__form-control text-cente</name>
+   <name>input_Pick-up Time_form-contro</name>
    <tag></tag>
-   <elementGuidId>c84fd0b3-110e-40a6-b86a-6d9cb1c6834c</elementGuidId>
+   <elementGuidId>eac29dbc-0e60-450a-a001-47d6c8ea8078</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @ng-model = 'minutes' and @ng-change = 'updateMinutes()']</value>
+         <value>//input[@type = 'text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,25 +27,25 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>minutes</value>
+      <value>hours</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-change</name>
       <type>Main</type>
-      <value>updateMinutes()</value>
+      <value>updateHours()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control text-center ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-maxlength ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove</value>
+      <value>form-control text-center ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-maxlength ng-dirty-add ng-valid-parse-add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,42 +87,42 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;consumer&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container&quot;]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[2]/ggc-mj-popup[5]/div[@class=&quot;left_slide_popup_content_active&quot;]/div[1]/div[@class=&quot;mj_popmainwrap mjmain_wrap&quot;]/div[2]/div[1]/div[@class=&quot;scroll_wrapper&quot;]/div[@class=&quot;ngsb-wrap&quot;]/div[@class=&quot;ngsb-container&quot;]/div[@class=&quot;selection_scroll&quot;]/div[1]/div[@class=&quot;ng-valid-date ng-invalid ng-invalid-required ng-valid-pattern ng-valid-time ng-valid-maxlength ng-dirty ng-valid-parse&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[1]/div[@class=&quot;appointment_pickup&quot;]/div[1]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;input-group-btn dropdown open&quot;]/ul[@class=&quot;uib-dropdown-menu dropdown-menu&quot;]/li[1]/table[@class=&quot;ng-untouched ng-valid ng-valid-time ng-not-empty ng-dirty ng-valid-parse&quot;]/tbody[1]/tr[2]/td[@class=&quot;form-group&quot;]/input[@class=&quot;form-control text-center ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-maxlength ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove&quot;]</value>
+      <value>/html[1]/body[@class=&quot;consumer sticky&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container dv_container_active&quot;]/div[1]/div[@class=&quot;container drawer_body_bg&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[2]/ggc-mj-popup[5]/div[@class=&quot;left_slide_popup_content_active&quot;]/div[1]/div[@class=&quot;mj_popmainwrap mjmain_wrap&quot;]/div[2]/div[1]/div[@class=&quot;scroll_wrapper&quot;]/div[@class=&quot;ngsb-wrap&quot;]/div[@class=&quot;ngsb-container&quot;]/div[@class=&quot;selection_scroll&quot;]/div[1]/div[@class=&quot;ng-invalid ng-invalid-required ng-valid-pattern ng-valid-time ng-valid-maxlength ng-dirty ng-valid-date ng-pristine-remove ng-dirty-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove ng-animate ng-valid-parse-add&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[1]/div[@class=&quot;appointment_pickup&quot;]/div[1]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;input-group-btn dropdown open&quot;]/ul[@class=&quot;uib-dropdown-menu dropdown-menu&quot;]/li[1]/table[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty ng-valid-time ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add&quot;]/tbody[1]/tr[2]/td[@class=&quot;form-group&quot;]/input[@class=&quot;form-control text-center ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-maxlength ng-dirty-add ng-valid-parse-add&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//input[@type='text'])[5]</value>
+      <value>(//input[@type='text'])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick-up Time'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick-up Time'])[1]/following::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pick-up Date'])[1]/following::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PM'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PM'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[3]/input</value>
+      <value>//td/input</value>
    </webElementXpaths>
 </WebElementEntity>
