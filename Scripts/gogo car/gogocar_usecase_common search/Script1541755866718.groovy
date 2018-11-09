@@ -303,6 +303,8 @@ WebUI.dragAndDropToObject(findTestObject('gogo user journey/new use case_common 
 
 WebUI.delay(5)
 
+WebUI.clearText(findTestObject('gogo user journey/new use case_common search/oppointment_schedule/Page_GoGoCar/input_Time required_form-contr'))
+
 WebUI.sendKeys(findTestObject('gogo user journey/new use case_common search/oppointment_schedule/Page_GoGoCar/input_Time required_form-contr'), 
     '11', FailureHandling.STOP_ON_FAILURE)
 
