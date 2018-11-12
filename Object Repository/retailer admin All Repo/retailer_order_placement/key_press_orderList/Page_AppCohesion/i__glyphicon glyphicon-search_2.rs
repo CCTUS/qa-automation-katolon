@@ -7,41 +7,41 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//i[@class = 'glyphicon glyphicon-search' and @title = 'Clear search' and @id = 'clear_data']</value>
+         <value>/html/body/app-root/div/app-dashboard-component/div/div[2]/div[2]/app-orders/app-common-view/div[2]/div/div/div[2]/div/div[3]/div[1]/i[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>glyphicon glyphicon-search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
       <value>Clear search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search_data&quot;)/i[@class=&quot;glyphicon glyphicon-search&quot;]</value>
+      <value>/html/body/app-root/div/app-dashboard-component/div/div[2]/div[2]/app-orders/app-common-view/div[2]/div/div/div[2]/div/div[3]/div[1]/i[2]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
