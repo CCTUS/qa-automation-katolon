@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>88ae76a3-959b-4074-b854-80d6457217bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
@@ -125,7 +125,7 @@
    <testCaseLink>
       <guid>f8948fe3-acb4-42ce-8c44-76cae170e39e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Menu list/Menu_profile_rule_change_pwd</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
