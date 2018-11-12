@@ -27,6 +27,8 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Produc
 
 WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
+WebUI.delay(5)
+
 not_run: WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/i_Settings_glyphicon glyphicon'))
 
 not_run: WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_GSIN_form-control ng-unt'), 
@@ -39,11 +41,11 @@ not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/reta
 
 not_run: WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_Search'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_Green Supply'), 
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_Green Supply'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_Green Supply'), 
-    'Green Supply')
+not_run: WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_Green Supply'), 
+    'Green Supply', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/div_Heckler  Koch VP VP9'), 
     FailureHandling.CONTINUE_ON_FAILURE)
@@ -70,7 +72,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_orde
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_ADD TO CART'))
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/img'), 10)
+WebUI.delay(7)
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/img'))
 
@@ -173,78 +175,83 @@ WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_ord
 WebUI.check(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search'))
 
 WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
-    findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'))
-
-WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
-    'order HCKLR-IHMFX7Z1')
-
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
-    30)
-
-WebUI.sendKeys(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_order HCKLR-IHMFX7Z1'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_order HCKLR-IHMFX7Z1'))
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_Order Total      559.20'))
-
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_696'), 
-    '696')
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_559.20'))
-
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_559.20'), 
-    '$559.20')
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_Name      order HCKLR-IHM'))
-
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_order HCKLR-IHMFX7Z1'), 
-    'order HCKLR-IHMFX7Z1')
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/span_Email      snekalatha.rii'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_snekalatha.riinerds.com'), 
-    'snekalatha.r@iinerds.com')
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/th_QUANTITY'))
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/td_1'))
-
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/td_1'), '1')
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Green Supply'))
-
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Green Supply'), 
-    'Green Supply')
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Completed'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Completed'), 
-    'Completed')
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'))
-
-WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'))
-
-WebUI.clearText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
-    10, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
+    findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'))
+WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
+    'order HCKLR-IHMFX7Z1', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'))
+WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'))
+WebUI.sendKeys(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
+    Keys.chord(Keys.ENTER), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_order HCKLR-IHMFX7Z1'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_order HCKLR-IHMFX7Z1'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_Order Total      559.20'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_696'), 
+    '696', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_559.20'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_559.20'), 
+    '$559.20', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_Name      order HCKLR-IHM'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_order HCKLR-IHMFX7Z1'), 
+    'order HCKLR-IHMFX7Z1', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/span_Email      snekalatha.rii'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/h5_snekalatha.riinerds.com'), 
+    'snekalatha.r@iinerds.com', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/th_QUANTITY'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/td_1'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/td_1'), '1', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Green Supply'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Green Supply'), 
+    'Green Supply', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Completed'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/td_Completed'), 
+    'Completed', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_RACreation_close_order_de'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.clearText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 

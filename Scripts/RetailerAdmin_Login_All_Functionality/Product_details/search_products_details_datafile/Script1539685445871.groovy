@@ -27,13 +27,15 @@ for (def rowNum = 1; rowNum <= findTestData('productdetailsdata').getRowNumbers(
 
     WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
-    WebUI.waitForPageLoad(200)
+    WebUI.delay(10)
 
     WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_details_rowid'), 
         FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_details_rowid'), 
         FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(5)
 
     WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_title'))
 
@@ -96,12 +98,14 @@ for (def rowNum = 1; rowNum <= findTestData('productdetailsdata').getRowNumbers(
     not_run: WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h4_Only 25 left in stock'), 
         'Only 25 left in stock!', FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/quantity_id'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/quantity_id'), 
+        FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/quantity_id'), 
-        findTestData('productdetailsdata').getValue(10, rowNum))
+        findTestData('productdetailsdata').getValue(10, rowNum), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_specification'))
+    WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/created_id/product_specification'), 
+        FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/a_Back to Search'))
 

@@ -26,7 +26,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Produc
 
 WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
-WebUI.waitForPageLoad(50)
+WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), 
     FailureHandling.CONTINUE_ON_FAILURE)

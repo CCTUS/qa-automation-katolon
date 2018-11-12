@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://qa.gogocar.com/')
+WebUI.openBrowser('https://qa2.gogocar.com/')
 
 WebUI.maximizeWindow()
 

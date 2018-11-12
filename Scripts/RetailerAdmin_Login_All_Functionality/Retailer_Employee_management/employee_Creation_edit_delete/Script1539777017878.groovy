@@ -79,8 +79,10 @@ WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'), 
-    10)
+    3)
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'))
 
