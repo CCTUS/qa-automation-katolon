@@ -52,7 +52,9 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_
 
 WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/add_store_button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store created succ'))
+WebUI.delay(2)
+
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store created succ'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store created succ'), 'Success: Store created successfully.')
 
