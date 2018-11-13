@@ -247,7 +247,7 @@ WebUI.clearText(findTestObject('retailer admin All Repo/retailer_order_placement
 WebUI.delay(10)
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search_2'), 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'), 
     FailureHandling.CONTINUE_ON_FAILURE)

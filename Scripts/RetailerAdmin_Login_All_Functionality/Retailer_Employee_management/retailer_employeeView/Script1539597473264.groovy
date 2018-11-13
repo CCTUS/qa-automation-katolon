@@ -32,7 +32,7 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/appco_employee_vie
 WebUI.verifyElementText(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/span_RetailerAdmin'), 
     'RetailerAdmin')
 
-WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/span_Loading POS Retailer admi'), 
+not_run: WebUI.click(findTestObject('Object Repository/appco_employee_view_new/retailer_employeeview/Page_AppCohesion/span_Loading POS Retailer admi'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/pop up emp object/Page_AppCohesion/collapsible-header_Retailer Ad'))

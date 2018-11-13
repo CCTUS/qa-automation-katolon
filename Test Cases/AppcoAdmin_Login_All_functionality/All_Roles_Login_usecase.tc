@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>All_Roles_Login_usecase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe694a9c-f4ff-4cc0-9b9e-669549bbd66a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>620ae69a-631f-4911-ad80-ab7b3841b49f</id>
+      <masked>false</masked>
+      <name>varUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>86bba70e-c3f2-4a6a-9763-2a0b0e7030ae</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>

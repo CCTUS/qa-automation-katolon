@@ -4,7 +4,7 @@
    <name>Retailer_test_suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-12T15:10:12</lastRun>
+   <lastRun>2018-11-13T14:51:24</lastRun>
    <mailRecipient>hariram@iinerds.com;snekalatha.r@iinerds.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -26,10 +26,10 @@
    <testCaseLink>
       <guid>88ae76a3-959b-4074-b854-80d6457217bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile</testCaseId>
       <testDataLink>
-         <combinationType>MANY</combinationType>
+         <combinationType>ONE</combinationType>
          <id>e6ab7c4d-2121-4e31-96c1-6dc6afd84e2b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
@@ -113,7 +113,7 @@
    <testCaseLink>
       <guid>2d7be1a0-e125-4000-9c23-f0a4aa7310be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/employee_Creation_edit_delete</testCaseId>
    </testCaseLink>
    <testCaseLink>

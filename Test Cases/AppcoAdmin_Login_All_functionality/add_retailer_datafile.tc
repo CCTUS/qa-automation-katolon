@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_retailer_datafile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>086a0568-9319-4ddb-87f0-ad0a01ec4fdf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>543cd129-e8ea-4ae1-8df5-625073710de9</id>
+      <masked>false</masked>
+      <name>retailername</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cc011d0c-9b81-490b-a0d5-6a4357c1fe2c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25934da6-5141-4506-8cbb-578edd4c4941</id>
+      <masked>false</masked>
+      <name>emailid</name>
+   </variable>
+</TestCaseEntity>
