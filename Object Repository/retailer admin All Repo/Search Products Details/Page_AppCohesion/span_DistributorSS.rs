@@ -4,6 +4,12 @@
    <name>span_DistributorSS</name>
    <tag></tag>
    <elementGuidId>a9a11ca0-bbda-432d-9cba-dfb31500eff8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'DistributorSS' or . = 'DistributorSS') and @id = 'distributor_header']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -33,6 +39,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;productdetails&quot;)/span[@class=&quot;ac-prod-feat&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>distributor_header</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
