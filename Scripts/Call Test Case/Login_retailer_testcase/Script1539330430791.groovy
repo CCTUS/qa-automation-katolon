@@ -17,9 +17,9 @@ WebUI.openBrowser('https://app-qa.appcohesion.io/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'RACreation@10_9')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'NewRAdminAnto@15_11')
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'RACreation@10_9')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'NewRAdminAnto@15_11')
 
 WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 

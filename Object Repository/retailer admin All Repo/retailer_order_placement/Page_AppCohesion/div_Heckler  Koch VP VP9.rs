@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'order_2']</value>
+         <value>//*[@id = 'order_0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -47,7 +47,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>order_2</value>
+      <value>order_0</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
