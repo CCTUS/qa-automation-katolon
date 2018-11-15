@@ -7,11 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;retailernew&quot;)/a[@class=&quot;ac-button-outlined ac-create-employee&quot;][count(. | //*[@class = 'ac-button-outlined ac-create-employee' and @routerlink = '../addRetailer' and (text() = '
-          +ADD RETAILER' or . = '
-          +ADD RETAILER')]) = count(//*[@class = 'ac-button-outlined ac-create-employee' and @routerlink = '../addRetailer' and (text() = '
-          +ADD RETAILER' or . = '
-          +ADD RETAILER')])]</value>
+         <value>//*[@id = 'retailernew']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,14 +20,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>ac-button-outlined ac-create-employee</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>routerlink</name>
       <type>Main</type>
@@ -45,7 +41,7 @@
       <value>/dashboard/addRetailer</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -53,11 +49,18 @@
           +ADD RETAILER</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;retailernew&quot;)/a[@class=&quot;ac-button-outlined ac-create-employee&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>retailernew</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

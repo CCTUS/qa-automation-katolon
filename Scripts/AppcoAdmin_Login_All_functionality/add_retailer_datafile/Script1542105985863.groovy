@@ -17,18 +17,22 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_User Name_ac_username'), 'surunewadmin')
 
 WebUI.setText(findTestObject('Object Repository/Retailer creation/Page_AppCohesion/input_Password_ac_password'), '9tlTx3@y')
 
-WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/button_Login Now'))
+WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 
 WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/a_Retailers              Retai'))
 
-WebUI.rightClick(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER'), FailureHandling.STOP_ON_FAILURE)
 
 for (def rowNum = 1; rowNum <= findTestData('TDAddRetailer').getRowNumbers(); rowNum++) {
-    WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER'))
+    not_run: WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/a_ADD RETAILER'))
 
     WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 
         findTestData('TDAddRetailer').getValue(1, rowNum))

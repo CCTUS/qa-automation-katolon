@@ -120,9 +120,10 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_
 
 WebUI.check(findTestObject('retailer admin All Repo/store_object_repo/change_default_store'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Your default store'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Your default store'))
 
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Your default store'), 'Success: Your default store option changed')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Your default store'), 'Success: Your default store option changed', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(10)
 
@@ -140,7 +141,8 @@ WebUI.click(findTestObject('retailer admin All Repo/store_object_repo/delete_yes
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store has been del'))
 
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store has been del'), 'Success: Store has been deleted successfully.Existing users for the store assigned to default store')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/store_object_repo/h5_Success  Store has been del'), 'Success: Store has been deleted successfully.Existing users for the store assigned to default store', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 
