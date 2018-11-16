@@ -134,8 +134,7 @@ WebUI.click(findTestObject('employee_obj_repo/store admin list first'), FailureH
 
 not_run: WebUI.callTestCase(findTestCase('Call Test Case/call wait element'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'), 
-    50)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Edit'))
 

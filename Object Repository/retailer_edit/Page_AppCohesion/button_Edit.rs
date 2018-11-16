@@ -4,6 +4,12 @@
    <name>button_Edit</name>
    <tag></tag>
    <elementGuidId>7031707d-83fb-452b-8c42-135143b4fc66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='empedit'][count(. | //button[@id = 'retaileredit' and @type = 'submit' and (text() = 'Edit' or . = 'Edit')]) = count(//button[@id = 'retaileredit' and @type = 'submit' and (text() = 'Edit' or . = 'Edit')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,11 +48,11 @@
       <value>Edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;retaileredit&quot;)</value>
+      <value>//*[@id='empedit']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

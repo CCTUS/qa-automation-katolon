@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td[@id = 'order_1' and (text() = '
+         <value>//td[@id = 'order_0' and (text() = '
                         
                           
                             
@@ -57,7 +57,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>order_1</value>
+      <value>order_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
