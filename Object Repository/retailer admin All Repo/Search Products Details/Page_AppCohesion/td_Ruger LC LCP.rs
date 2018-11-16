@@ -4,6 +4,38 @@
    <name>td_Ruger LC LCP</name>
    <tag></tag>
    <elementGuidId>a53aef39-b90b-4cdb-a486-2b1c645ab8ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[@id = 'order_1' and (text() = '
+                        
+                          
+                            
+                              
+                            
+                            
+                              Ruger LC LCP
+                            
+
+                          
+                        
+                        
+                      ' or . = '
+                        
+                          
+                            
+                              
+                            
+                            
+                              Ruger LC LCP
+                            
+
+                          
+                        
+                        
+                      ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +57,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>order_0</value>
+      <value>order_1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
