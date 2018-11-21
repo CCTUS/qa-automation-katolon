@@ -31,6 +31,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/employee_obj_repo/Page
 
 WebUI.click(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('employee_obj_repo/Emp_firstname'), 'NewRetailerKatalon')
 
 WebUI.setText(findTestObject('employee_obj_repo/emp_lastname'), 'NewRetailerKatalon')
@@ -122,7 +124,7 @@ not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer a
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
     'Success: User details successfully Updated.', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Store Admin'))
 
@@ -175,7 +177,7 @@ not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer a
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
     'Success: User details successfully Updated.', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(0, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/Page_AppCohesion/Page_AppCohesion/collapsible-header_Store Users'))
 
@@ -185,7 +187,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/employee_obj_
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/storeuser_listed_first'))
 
-WebUI.waitForElementVisible(findTestObject('employee_obj_repo/emp_edit_button'), 10)
+WebUI.waitForElementVisible(findTestObject('employee_obj_repo/emp_edit_button'), 5)
 
 WebUI.click(findTestObject('retailer admin All Repo/employee_obj_repo/emp_edit_button'))
 
@@ -205,11 +207,15 @@ not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer a
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/employee_obj_repo/pop up emp object/h5_Success  User details succe'), 
     'Success: User details successfully Updated.', FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_first_list'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/employee_obj_repo/all_button/Page_AppCohesion/button_Delete'), 
     5)

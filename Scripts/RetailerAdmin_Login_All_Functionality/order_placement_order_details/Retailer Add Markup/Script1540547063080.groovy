@@ -58,7 +58,8 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory ret
 
 WebUI.setText(findTestObject('retailer admin All Repo/inventory retailer markup repo/common search product'), 'RUGER-UCSR7GCZ')
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
@@ -67,41 +68,48 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Produc
 
 WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h2_Ruger LC LCP'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h2_Ruger LC LCP'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/h2_Ruger LC LCP'), 
     'Ruger LC LCP')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Base Price180.00'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Base Price180.00'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_180.00'), 
     '$180.00')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_12.80'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_12.80'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_12.80'), 
     '12.80%')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Amount Payable203.04'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_Amount Payable203.04'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_203.04'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_203.04'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/strong_203.04'), 
     '$203.04')
 
-WebUI.click(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/h4_Only 25 left in stock'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/h4_Only 25 left in stock'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_25'), 
-    FailureHandling.STOP_ON_FAILURE)
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/Page_AppCohesion/span_25'), 
-    '25')
+    '25', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/a_Back to Search'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/a_Back to Search'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/a_Back to Search'))
 
-WebUI.waitForPageLoad(20)
+WebUI.delay(5)
 
 WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/Page_AppCohesion/a_Dashboard              Dashb'), 
     30)
