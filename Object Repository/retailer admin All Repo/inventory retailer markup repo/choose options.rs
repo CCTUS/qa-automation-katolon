@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'chooseoptions0']</value>
+         <value>//*[@id = 'dist-387']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>chooseoptions0</value>
+      <value>dist-387</value>
    </webElementProperties>
 </WebElementEntity>

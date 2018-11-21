@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>3f3825ae-0a1f-4b0c-bc8a-42d8e23e4ebf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/retaileradmin_order_placement</testCaseId>
    </testCaseLink>
    <testCaseLink>

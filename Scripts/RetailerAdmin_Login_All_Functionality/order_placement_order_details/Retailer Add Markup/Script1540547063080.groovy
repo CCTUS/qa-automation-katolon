@@ -21,6 +21,8 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory ret
 
 WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/Inventory_tab'))
 
+WebUI.delay(10)
+
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/choose options'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/choose options'))
@@ -33,9 +35,11 @@ not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inve
 
 not_run: WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup repo/inventory options'))
 
-WebUI.waitForPageLoad(20)
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('retailer admin All Repo/inventory retailer markup repo/searchProduct markup'), 'RUGER-UCSR7GCZ')
+
+WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/search markup icon'))
 
@@ -53,6 +57,8 @@ WebUI.click(findTestObject('retailer admin All Repo/inventory retailer markup re
 
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/h5_Success  Markup updated suc'), 
     'Success: Markup updated successfully.')
+
+WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/inventory retailer markup repo/common search product'))
 
