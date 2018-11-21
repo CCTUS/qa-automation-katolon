@@ -4,7 +4,7 @@
    <name>Retailer_test_suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-21T13:26:47</lastRun>
+   <lastRun>2018-11-21T16:24:13</lastRun>
    <mailRecipient>hariram@iinerds.com;snekalatha.r@iinerds.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -101,7 +101,7 @@
    <testCaseLink>
       <guid>3a1c4022-2749-430f-a85f-f7fb957ac6e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/Search Products Details</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -119,7 +119,7 @@
    <testCaseLink>
       <guid>da35fd98-6d97-4c21-aa1f-98dfc131c553</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Add Markup</testCaseId>
    </testCaseLink>
    <testCaseLink>
