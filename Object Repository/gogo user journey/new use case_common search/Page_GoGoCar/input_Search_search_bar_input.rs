@@ -7,41 +7,41 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @class = 'search_bar_input ng-pristine ng-valid ng-empty ng-touched' and @placeholder = 'Search Make, Model, Type, etc...' and @ng-model = 'userQuery']</value>
+         <value>/html/body/div[1]/div[3]/div[4]/div/div[1]/div/div/div[1]/div/div/div[1]/div/div[2]/div/search/universal-search/div/div/div[1]/div/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>search_bar_input ng-pristine ng-valid ng-empty ng-touched</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Search Make, Model, Type, etc...</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
@@ -83,11 +83,11 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;consumer&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container&quot;]/div[1]/div[@class=&quot;container draweractiveclass&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[1]/div[@class=&quot;container car-config-design&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/search[1]/universal-search[1]/div[@class=&quot;un_search_wrapper_active&quot;]/div[@class=&quot;ngsb-wrap&quot;]/div[@class=&quot;ngsb-container&quot;]/div[@class=&quot;container mt_30&quot;]/div[@class=&quot;search_bar_dv&quot;]/input[@class=&quot;search_bar_input ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <value>/html/body/div[1]/div[3]/div[4]/div/div[1]/div/div/div[1]/div/div/div[1]/div/div[2]/div/search/universal-search/div/div/div[1]/div/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

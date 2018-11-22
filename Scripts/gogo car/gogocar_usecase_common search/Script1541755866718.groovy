@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://qa2.gogocar.com/')
+WebUI.openBrowser('https://qa.gogocar.com/')
 
 WebUI.maximizeWindow()
 
@@ -229,7 +229,7 @@ not_run: WebUI.verifyElementVisible(findTestObject('gogo user journey/new use ca
 
 WebUI.click(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/md-radio-button_ Your own mech'))
 
-WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_How do you plan on using t'), 
+not_run: WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/div_How do you plan on using t'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/md-radio-button_ Personal'), 

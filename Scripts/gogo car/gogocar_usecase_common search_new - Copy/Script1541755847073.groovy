@@ -203,9 +203,9 @@ not_run: WebUI.clearText(findTestObject('gogo user journey/new use case_common s
 
 not_run: WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__UserLastName'))
 
-WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__userCity'))
+WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__zipcode'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__zipcode'), FailureHandling.STOP_ON_FAILURE)
+WebUI.clearText(findTestObject('gogo user journey/new use case_common search/input__userCity'))
 
 WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_First Name'), 1)
 
@@ -227,7 +227,7 @@ WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common
 
 WebUI.setText(findTestObject('gogo user journey/new use case_common search/input__Address'), '3111  Heliport Loop')
 
-WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present State'), 2)
+WebUI.verifyElementPresent(findTestObject('gogo user journey/new use case_common search/label_Present State'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('gogo user journey/new use case_common search/select_ALAKAZARCACOCTDEFLGAHII'), 
     'NY', true)
@@ -387,13 +387,15 @@ WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common
 
 WebUI.click(findTestObject('gogo user journey/new use case_common search/oppointment_schedule/Page_GoGoCar/div_CONTINUE (1)'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/h3_2019 Acura ILX wTech'))
+WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/h3_2019 Acura ILX wTech'))
 
-WebUI.verifyElementText(findTestObject('Page_GoGoCar/h3_2019 Acura ILX wTech'), '2019 Acura ILX w/Tech')
+WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/h3_2019 Acura ILX wTech'), 
+    '2019 Acura ILX w/Tech')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/span_VIN 19UDE2F77KA000076'))
+WebUI.verifyElementVisible(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/span_VIN 19UDE2F77KA000076'))
 
-WebUI.verifyElementText(findTestObject('Page_GoGoCar/span_VIN 19UDE2F77KA000076'), 'VIN# 19UDE2F77KA000076')
+WebUI.verifyElementText(findTestObject('gogo user journey/new use case_common search/Page_GoGoCar/span_VIN 19UDE2F77KA000076'), 
+    'VIN# 19UDE2F77KA000076')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/gogo user journey/new use case_common search/Page_GoGoCar/span_STOCK 429348'))
 
