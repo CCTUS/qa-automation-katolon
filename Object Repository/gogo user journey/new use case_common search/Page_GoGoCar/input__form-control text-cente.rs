@@ -7,34 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @ng-model = 'minutes' and @ng-change = 'updateMinutes()']</value>
+         <value>/html/body/div[1]/div[3]/div[4]/div/div/div[1]/div/div[2]/ggc-mj-popup[5]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/div/div/div[1]/div[2]/div/div[1]/div[1]/div/div[2]/div[3]/ul/li/table/tbody/tr[2]/td[3]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
       <value>minutes</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-change</name>
       <type>Main</type>
@@ -83,11 +83,11 @@
       <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;consumer&quot;]/div[@class=&quot;dv_container config_bg&quot;]/div[@class=&quot;notranslate&quot;]/div[@class=&quot;dv_container&quot;]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[2]/ggc-mj-popup[5]/div[@class=&quot;left_slide_popup_content_active&quot;]/div[1]/div[@class=&quot;mj_popmainwrap mjmain_wrap&quot;]/div[2]/div[1]/div[@class=&quot;scroll_wrapper&quot;]/div[@class=&quot;ngsb-wrap&quot;]/div[@class=&quot;ngsb-container&quot;]/div[@class=&quot;selection_scroll&quot;]/div[1]/div[@class=&quot;ng-valid-date ng-invalid ng-invalid-required ng-valid-pattern ng-valid-time ng-valid-maxlength ng-dirty ng-valid-parse&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[1]/div[@class=&quot;appointment_pickup&quot;]/div[1]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;input-group-btn dropdown open&quot;]/ul[@class=&quot;uib-dropdown-menu dropdown-menu&quot;]/li[1]/table[@class=&quot;ng-untouched ng-valid ng-valid-time ng-not-empty ng-dirty ng-valid-parse&quot;]/tbody[1]/tr[2]/td[@class=&quot;form-group&quot;]/input[@class=&quot;form-control text-center ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-maxlength ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove&quot;]</value>
+      <value>/html/body/div[1]/div[3]/div[4]/div/div/div[1]/div/div[2]/ggc-mj-popup[5]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/div/div/div[1]/div[2]/div/div[1]/div[1]/div/div[2]/div[3]/ul/li/table/tbody/tr[2]/td[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

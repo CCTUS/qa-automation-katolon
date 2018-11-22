@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='vdp-explore-btn']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;10&quot;)/div[2]/div[@class=&quot;container new_vdp_wrap mt_20&quot;]/div[1]/div[@class=&quot;col-sm-12 col-xs-12 col-md-5 col-lg-5&quot;]/div[@class=&quot;left-panel&quot;]/div[@class=&quot;vdp_btn_wrapper&quot;]/iwant-resume[1]/div[1]/div[@id=&quot;vdp-explore-btn&quot;][count(. | //div[@id = 'vdp-explore-btn' and (text() = ' EXPLORE FURTHER ' or . = ' EXPLORE FURTHER ')]) = count(//div[@id = 'vdp-explore-btn' and (text() = ' EXPLORE FURTHER ' or . = ' EXPLORE FURTHER ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +80,7 @@
       <value> EXPLORE FURTHER </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
