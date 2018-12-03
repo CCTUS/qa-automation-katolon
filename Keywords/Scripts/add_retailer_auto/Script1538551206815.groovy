@@ -59,5 +59,5 @@ WebUI.verifyElementText(findTestObject('retailer_markup_add/Page_AppCohesion/h4_
 
 WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/span_OK'))
 
-WebUI.callTestCase(findTestCase('AppcoAdmin_Login_All_functionality/edit retailer'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AppcoAdmin/edit retailer'), [:], FailureHandling.STOP_ON_FAILURE)
 
