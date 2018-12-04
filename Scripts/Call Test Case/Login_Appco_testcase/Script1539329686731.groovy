@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohes
 
 WebUI.setText(findTestObject('Object Repository/Retailer creation/Page_AppCohesion/input_Password_ac_password'), '9tlTx3@y')
 
-WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/button_Login Now'))
+WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 
-WebUI.waitForPageLoad(30)
+WebUI.delay(10)
 
