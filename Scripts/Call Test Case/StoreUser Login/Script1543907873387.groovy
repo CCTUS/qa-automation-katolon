@@ -17,13 +17,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
 
-WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_User Name_ac_username'), 'surunewadmin')
+WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_User Name_ac_username'), 'multstoreuser')
 
 WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_Password_ac_password'), 'N8m502@v')
 
 WebUI.click(findTestObject('Object Repository/Appco Login/Page_AppCohesion/button_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/Page_AppCohesion/em_Welcome Store Tester'))
+WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/em_Welcome Store Tester'), 'Welcome Store Tester')
+WebUI.verifyElementVisible(findTestObject('StoreUser login/Page_AppCohesion/em_Welcome Mult Store user'))
+
+WebUI.verifyElementText(findTestObject('StoreUser login/Page_AppCohesion/em_Welcome Mult Store user'), 'Welcome Mult Store user')
+
+WebUI.closeBrowser()
 
