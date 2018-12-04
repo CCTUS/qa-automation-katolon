@@ -15,19 +15,19 @@
       <guid>f66bf3ba-7fa3-4f81-9c07-770b57c0dba1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/retailer_employeeView</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin/Retailer_Employee_management/retailer_employeeView</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3f3825ae-0a1f-4b0c-bc8a-42d8e23e4ebf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/retaileradmin_order_placement</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin/order_placement_order_details/retaileradmin_order_placement</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>88ae76a3-959b-4074-b854-80d6457217bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/search_products_details_datafile</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin/Product_details/search_products_details_datafile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e6ab7c4d-2121-4e31-96c1-6dc6afd84e2b</id>
@@ -102,30 +102,30 @@
       <guid>3a1c4022-2749-430f-a85f-f7fb957ac6e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Product_details/Search Products Details</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin/Product_details/Search Products Details</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6dd8135f-ea98-4fa7-b88a-96cff0dcef0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Store_managment/Retailer_store_creation_edit_delete</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin/Retailer_Store_managment/Retailer_store_creation_edit_delete</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2d7be1a0-e125-4000-9c23-f0a4aa7310be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Retailer_Employee_management/employee_Creation_edit_delete</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin/Retailer_Employee_management/employee_Creation_edit_delete</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>da35fd98-6d97-4c21-aa1f-98dfc131c553</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/order_placement_order_details/Retailer Add Markup</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin/order_placement_order_details/Retailer Add Markup</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f8948fe3-acb4-42ce-8c44-76cae170e39e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RetailerAdmin_Login_All_Functionality/Menu list/Menu_profile_rule_change_pwd</testCaseId>
+      <testCaseId>Test Cases/RetailerAdmin/Menu list/Menu_profile_rule_change_pwd</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
