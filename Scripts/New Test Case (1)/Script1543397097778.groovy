@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -23,25 +24,34 @@ WebUI.click(findTestObject('retailer admin All Repo/rule object repo/Page_AppCoh
 
 WebUI.click(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/a_Rule'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/h4_Preferred Distributor'))
 
 WebUI.click(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/h4_Preferred Distributor'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 not_run: WebUI.check(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_SS'))
 
-WebUI.check(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_Green Supply'))
+not_run: WebUI.check(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_Green Supply'))
+/*TestObject object1 = findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_Ellet')
+
+TestObject object2 = findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_Davidson')
+if (WebUI.verifyElementChecked(findTestObject(object1), 10)==true)
+ {
+    WebUI.uncheck(object1)
+} else {
+    WebUI.check(object1)
+}*/
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_Ellet'))
+WebUI.check(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_Ellet'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_Davidson'))
+WebUI.check(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/label_Davidson'))
 
 WebUI.delay(5)
 
@@ -67,6 +77,12 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/rule object r
 
 WebUI.click(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/button_UPDATE RULE'))
 
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/h5_Success  Search rules updat'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/h5_Success  Search rules updat'), 
+    'Success:  Search rules updated successfully', FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.delay(10)
 
 WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/a_Dashboard              Dashb'))
@@ -75,7 +91,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Produc
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
-    'ruger')
+    'a')
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'), 
     FailureHandling.CONTINUE_ON_FAILURE)
@@ -84,15 +100,15 @@ WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page
 
 WebUI.delay(10)
 
-WebUI.check(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search'))
+WebUI.click(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/i__search_data'))
 
-WebUI.setText(findTestObject('retailer admin All Repo/rule object repo/input_RETAILER NAME_searchInpu'), 'green supply', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/input_Series_input_1'), 
+    'ellet')
 
-WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.sendKeys(findTestObject('retailer admin All Repo/rule object repo/input_RETAILER NAME_searchInpu'), Keys.chord(Keys.ENTER), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/input_Series_input_1'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/div_No search results found'))
 
