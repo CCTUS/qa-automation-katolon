@@ -68,16 +68,10 @@ WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohes
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_BANK AC NUMBER_accountNu'), '45747467468468')
 
-WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/button_Add Retailer'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi'), 
+    '0', true)
 
-not_run: WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/h4_SUCCESS'))
+WebUI.delay(10)
 
-not_run: WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/p_Congratulations You have suc'))
-
-WebUI.verifyMatch('Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 'Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
-    true)
-
-WebUI.verifyMatch('SUCCESS', 'SUCCESS', true)
-
-WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/span_OK'))
+WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/button_Add Retailer'))
 
