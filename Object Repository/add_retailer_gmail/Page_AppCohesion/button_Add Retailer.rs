@@ -4,6 +4,12 @@
    <name>button_Add Retailer</name>
    <tag></tag>
    <elementGuidId>32710b43-e3b7-4661-a517-cb3d09f35c2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'Addretailer' and (text() = 'Add Retailer' or . = 'Add Retailer')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>addretailer</value>
+      <value>Addretailer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

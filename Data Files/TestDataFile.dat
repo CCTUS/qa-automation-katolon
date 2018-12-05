@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>04407568-2dc5-456e-9337-0e00af3a86fb</dataFileGUID>
-   <dataSourceUrl>../../../KATALON/Data files/datafile - Sheet1.csv</dataSourceUrl>
+   <dataSourceUrl>../../../../datafile/csv_file/datafile - Sheet1.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

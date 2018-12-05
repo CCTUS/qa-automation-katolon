@@ -7,35 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;retailerType&quot;)[count(. | //select[@id = 'retailerType' and (text() = '
-                      
-                      Appco Retailer
-
-
-                      POS Retailer
-
-                    ' or . = '
-                      
-                      Appco Retailer
-
-
-                      POS Retailer
-
-                    ')]) = count(//select[@id = 'retailerType' and (text() = '
-                      
-                      Appco Retailer
-
-
-                      POS Retailer
-
-                    ' or . = '
-                      
-                      Appco Retailer
-
-
-                      POS Retailer
-
-                    ')])]</value>
+         <value>id(&quot;retailerType&quot;)[count(. | //select[@id = 'retailerType']) = count(//select[@id = 'retailerType'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -62,7 +34,7 @@
       <value>retailerType</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

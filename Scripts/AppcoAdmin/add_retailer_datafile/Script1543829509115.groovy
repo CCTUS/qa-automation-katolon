@@ -23,10 +23,11 @@ WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesio
 
 WebUI.verifyElementVisible(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByIndex(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), '0', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), 'Appco Retailer', 
+    true)
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), findTestData(
-        'TDAddRetailer').getValue(1, rowNum))
+        'TDAddRetailer').getValue(1, 2))
 
 int rn_uname
 
