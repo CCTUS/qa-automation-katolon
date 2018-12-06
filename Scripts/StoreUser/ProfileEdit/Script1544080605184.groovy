@@ -13,19 +13,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://app-qa.appcohesion.io/')
+WebUI.callTestCase(findTestCase('Call Test Case/StoreUser Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_User Name_ac_username'), 'multstoreuser')
+WebUI.click(findTestObject('Object Repository/Storeuser profiledit/Page_AppCohesion/em_Welcome Mult Store user'))
 
-WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_Password_ac_password'), 'Multstoreuser@123')
+WebUI.click(findTestObject('Object Repository/Storeuser profiledit/Page_AppCohesion/i_searching products..._glyphi'))
 
-WebUI.click(findTestObject('Object Repository/Appco Login/Page_AppCohesion/button_Login'))
+WebUI.click(findTestObject('Object Repository/Storeuser profiledit/Page_AppCohesion/a_My Profile'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementVisible(findTestObject('StoreUser login/Page_AppCohesion/em_Welcome Mult Store user'))
+WebUI.click(findTestObject('Storeuser profiledit/Page_AppCohesion/button_EDIT PROFILE'))
 
-WebUI.verifyElementText(findTestObject('StoreUser login/Page_AppCohesion/em_Welcome Mult Store user'), 'Welcome Mult Store user')
+WebUI.setText(findTestObject('Object Repository/Storeuser profiledit/Page_AppCohesion/input_multstoreusergetnada.com'), 
+    '(859) 291-0909')
+
+WebUI.click(findTestObject('Object Repository/Storeuser profiledit/Page_AppCohesion/button_UPDATE PROFILE'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Storeuser profiledit/Page_AppCohesion/h5_Success  User details succe'))
 
