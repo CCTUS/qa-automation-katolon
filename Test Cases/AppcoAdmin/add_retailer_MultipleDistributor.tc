@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_retailer_MultipleDistributor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a17f4a7-d1b1-485c-b361-f031b284a417</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32689636-e239-448b-b9cf-d50b4fd00f4e</id>
+      <masked>false</masked>
+      <name>retailername</name>
+   </variable>
+</TestCaseEntity>

@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\SNEKAL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\AppcoAdmin\\add_retailer_datafile\\20181205_134450\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SNEKAL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\AppcoAdmin\\add_retailer_MultipleDistributor\\20181206_131116\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/AppcoAdmin/add_retailer_datafile', new TestCaseBinding('Test Cases/AppcoAdmin/add_retailer_datafile',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/AppcoAdmin/add_retailer_MultipleDistributor', new TestCaseBinding('Test Cases/AppcoAdmin/add_retailer_MultipleDistributor',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>add_retailer_datafile</name>
+   <name>add_retailer_Appco</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>086a0568-9319-4ddb-87f0-ad0a01ec4fdf</testCaseGuid>
