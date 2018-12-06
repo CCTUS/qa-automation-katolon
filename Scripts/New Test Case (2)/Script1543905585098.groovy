@@ -13,67 +13,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/button_Add Distributor Invento'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/select_AppCoSSGreen SupplyDavi'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi'), 
-    '0', true)
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Orders'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi_2'), 
-    '1', true)
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_FTP Host_inv_input_0_Ord'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi_1'), 
-    '2', true)
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_UserName_inv_input_0_Ord'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi_3'), 
-    '3', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi_4'), 
-    '4', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi_5'), 
-    '5', true)
-
-WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/button_Add Distributor Invento'))
-
-WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/h5_Orders'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_UserName_inv_input_0_Ord'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_CustomerNumber_inv_input'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_API Endpoint_inv_input_0'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_Source_inv_input_0_Order'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_Password_inv_input_0_Ord'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_Password_inv_input_0_Ord'), 
     '9NLz+4tGZcQ=')
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/h5_Tracking'))
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Tracking'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_UserName_inv_input_0_Tra'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_FTP Host_inv_input_0_Tra'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_CustomerNumber_inv_input_1'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_UserName_inv_input_0_Tra'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_API Endpoint_inv_input_0_1'))
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Catalog'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_Source_inv_input_0_Track'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_FTP Host_inv_input_0_Cat'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_Password_inv_input_0_Tra'), 
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_UserName_inv_input_0_Cat'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_Password_inv_input_0_Cat'), 
     '9NLz+4tGZcQ=')
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_FTP Host_inv_input_0_Cat'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Inventory'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_UserName_inv_input_0_Cat'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_FTP Host_inv_input_0_Inv'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_Password_inv_input_0_Cat'), 
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_UserName_inv_input_0_Inv'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_Password_inv_input_0_Inv'), 
     '9NLz+4tGZcQ=')
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_FTP Host_inv_input_0_Inv'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_UserName_inv_input_0_Inv'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/input_Password_inv_input_0_Inv'), 
-    '9NLz+4tGZcQ=')
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/button_Cancel'))
 

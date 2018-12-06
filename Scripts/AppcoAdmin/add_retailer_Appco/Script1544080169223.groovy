@@ -27,7 +27,7 @@ WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/sel
     true)
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), findTestData(
-        'TDAddRetailer').getValue(1, 2))
+        'TDAddRetailer').getValue(1, 1))
 
 int rn_uname
 
@@ -74,4 +74,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/in
 WebUI.delay(10)
 
 WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/button_Add Retailer'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 
+    'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!', FailureHandling.CONTINUE_ON_FAILURE)
 
