@@ -13,13 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.openBrowser('http://app-qa.appcohesion.io/')
 
-WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_User Name_ac_username'), 'multstoreuser')
+WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_User Name_ac_username'), 'multstoreadmin')
 
-WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_Password_ac_password'), 'N8m502@v')
+WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_Password_ac_password'), 'XTDag4@t')
 
 WebUI.click(findTestObject('Object Repository/Appco Login/Page_AppCohesion/button_Login'))
 
@@ -28,6 +28,4 @@ WebUI.delay(5)
 WebUI.verifyElementVisible(findTestObject('StoreAdminLogin/Page_AppCohesion/em_Welcome Mult Store admin'))
 
 WebUI.verifyElementText(findTestObject('StoreAdminLogin/Page_AppCohesion/em_Welcome Mult Store admin'), 'Welcome Mult Store admin')
-
-WebUI.closeBrowser()
 
