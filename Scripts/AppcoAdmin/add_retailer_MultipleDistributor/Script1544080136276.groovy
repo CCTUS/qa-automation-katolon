@@ -157,7 +157,7 @@ WebUI.verifyElementVisible(findTestObject('Retailer creation/inventory_object re
 WebUI.setText(findTestObject('Retailer creation/inventory_object repo/Page_AppCohesion/input_Password_inv_input_0_Inv'), 
     'password')
 
-WebUI.delay(0)
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('Retailer creation/inventory_object repo/Page_AppCohesion/button_Add Distributor Invento'))
 
@@ -240,16 +240,110 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/i
 WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_Password_inv_input_0_Inv'), 
     'ftp2pass')
 
-WebUI.acceptAlert()
+WebUI.delay(5)
 
-WebUI.acceptAlert()
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/button_Add Distributor Invento'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/button_Add Distributor Invento'))
 
-WebUI.acceptAlert()
+WebUI.delay(5)
 
-WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/button_Add Retailer'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi'), 
+    '3', true)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/h5_Orders'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_CustomerNumber_inv_input'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_CustomerNumber_inv_input'), 
+    '027805')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_ReferenceNumber_inv_inpu'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_ReferenceNumber_inv_inpu'), 
+    'ID12345')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_API Endpoint_inv_input_0'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_API Endpoint_inv_input_0'), 
+    'https://dealernetwork.davidsonsinc.com/testapi/orderservice.asmx?WSDL')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Token_inv_input_0_Orders'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Token_inv_input_0_Orders'), 
+    'tWUlibp4YoIDteR0AY95TsriJ5CZdHDQdbP4dSZk3pk=')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/h5_Tracking'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_CustomerNumber_inv_input_1'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_CustomerNumber_inv_input_1'), 
+    '027805')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_ReferenceNumber_inv_inpu_1'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_ReferenceNumber_inv_inpu_1'), 
+    'ID12345')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_API Endpoint_inv_input_0_1'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_API Endpoint_inv_input_0_1'), 
+    'https://dealernetwork.davidsonsinc.com/testapi/orderservice.asmx?WSDL')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Token_inv_input_0_Tracki'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Token_inv_input_0_Tracki'), 
+    'tWUlibp4YoIDteR0AY95TsriJ5CZdHDQdbP4dSZk3pk=')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/h5_Catalog'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_FTP Host_inv_input_0_Cat'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_FTP Host_inv_input_0_Cat'), 
+    'ftp.davidsonsinventory.com')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_UserName_inv_input_0_Cat'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_UserName_inv_input_0_Cat'), 
+    'ftp58074930-1')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Password_inv_input_0_Cat'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Password_inv_input_0_Cat'), 
+    'DavDealerInv')
+
+WebUI.verifyElementVisible(findTestObject('Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Inventory'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_FTP Host_inv_input_0_Inv'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_FTP Host_inv_input_0_Inv'), 
+    'ftp.davidsonsinventory.com')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_UserName_inv_input_0_Inv'))
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_UserName_inv_input_0_Inv'), 
+    'ftp58074930-1')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Password_inv_input_0_Inv'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Password_inv_input_0_Inv'), 
+    'DavDealerInv')
+
+WebUI.delay(5)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/button_Add Distributor Invento'))
+
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/button_Add Distributor Invento'))
+
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/Page_AppCohesion/select_AppCoSSGreen SupplyDavi'), 
+    '4', true)
+
+not_run: WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/button_Add Retailer'))
+
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 
     'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!', FailureHandling.CONTINUE_ON_FAILURE)
 

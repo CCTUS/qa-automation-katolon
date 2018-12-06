@@ -13,38 +13,41 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/select_AppCoSSGreen SupplyDavi'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/h5_Orders'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Orders'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_CustomerNumber_inv_input'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_FTP Host_inv_input_0_Ord'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_ReferenceNumber_inv_inpu'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_UserName_inv_input_0_Ord'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_API Endpoint_inv_input_0'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_Password_inv_input_0_Ord'), 
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Token_inv_input_0_Orders'))
+
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/h5_Tracking'))
+
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_CustomerNumber_inv_input_1'))
+
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_ReferenceNumber_inv_inpu_1'))
+
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_API Endpoint_inv_input_0_1'))
+
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Token_inv_input_0_Tracki'))
+
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/h5_Catalog'))
+
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_FTP Host_inv_input_0_Cat'))
+
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_UserName_inv_input_0_Cat'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Password_inv_input_0_Cat'), 
     '9NLz+4tGZcQ=')
 
-WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Tracking'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_FTP Host_inv_input_0_Inv'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_FTP Host_inv_input_0_Tra'))
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_UserName_inv_input_0_Inv'))
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_UserName_inv_input_0_Tra'))
-
-WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Catalog'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_FTP Host_inv_input_0_Cat'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_UserName_inv_input_0_Cat'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_Password_inv_input_0_Cat'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/input_Password_inv_input_0_Inv'), 
     '9NLz+4tGZcQ=')
 
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/h5_Inventory'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_FTP Host_inv_input_0_Inv'))
-
-WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_UserName_inv_input_0_Inv'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Retailer creation/inventory_object repo/green_supply_obj_repo/input_Password_inv_input_0_Inv'), 
-    '9NLz+4tGZcQ=')
+WebUI.rightClick(findTestObject('Object Repository/Retailer creation/inventory_object repo/davidson_obj_repo/button_Add Distributor Invento'))
 
