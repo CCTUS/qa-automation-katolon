@@ -27,7 +27,7 @@ WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/sel
     true)
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), findTestData(
-        'TDAddRetailer').getValue(1, 4))
+        'TDAddRetailer').getValue(1, 1))
 
 int rn_uname
 
@@ -39,8 +39,8 @@ int rn_email
 
 rn_email = ((Math.random() * 500) as int)
 
-WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), ('snekalatha.r' + rn_email) + 
-    '@iinerds.com')
+WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), ('NewRetailerAdmin' + rn_email) + 
+    '@getnada.com')
 
 //WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), findTestData('TDAddRetailer').getValue(
 // 2, rowNum))
@@ -353,6 +353,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/i
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/button_Cancel'))
 
 WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/button_Add Retailer'))
+
+WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 
     'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!', FailureHandling.CONTINUE_ON_FAILURE)

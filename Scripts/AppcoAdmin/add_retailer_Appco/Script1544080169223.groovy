@@ -75,6 +75,8 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/button_Add Retailer'))
 
+WebUI.delay(3)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 
     'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!', FailureHandling.CONTINUE_ON_FAILURE)
 
