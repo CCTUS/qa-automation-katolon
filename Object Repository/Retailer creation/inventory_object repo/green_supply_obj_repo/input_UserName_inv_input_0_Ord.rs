@@ -4,6 +4,12 @@
    <name>input_UserName_inv_input_0_Ord</name>
    <tag></tag>
    <elementGuidId>88f2f9c2-5ac4-4942-99d4-2cdd1017e143</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'Enter UserName' and @id = 'inv_input_1_Orders_UserName']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>inv_input_0_Orders_UserName</value>
+      <value>inv_input_1_Orders_UserName</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

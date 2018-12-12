@@ -4,6 +4,12 @@
    <name>input_FTP Host_inv_input_0_Tra</name>
    <tag></tag>
    <elementGuidId>b23dbd00-fa78-463d-adcb-9103910f8941</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'Enter FTP Host' and @id = 'inv_input_1_Tracking_FTP Host']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>inv_input_0_Tracking_FTP Host</value>
+      <value>inv_input_1_Tracking_FTP Host</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

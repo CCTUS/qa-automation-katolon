@@ -4,6 +4,12 @@
    <name>input_Password_inv_input_0_Ord</name>
    <tag></tag>
    <elementGuidId>61655a8f-6559-4410-87ac-cdf44c6190b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'password' and @placeholder = 'Enter Password' and @id = 'inv_input_1_Orders_Password']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>inv_input_0_Orders_Password</value>
+      <value>inv_input_1_Orders_Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
