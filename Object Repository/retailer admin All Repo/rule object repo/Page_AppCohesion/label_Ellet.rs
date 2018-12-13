@@ -7,13 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[@id = 'item2' and (text() = 'Ellet
-                          
-                          
-                        ' or . = 'Ellet
-                          
-                          
-                        ')]</value>
+         <value>//label[@id = 'item2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -40,7 +34,7 @@
       <value>item2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
