@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>employee_Creation_edit_delete</name>
+   <name>Appco_employee_Creation_edit_delete</name>
    <tag></tag>
    <comment>Valid email</comment>
    <testCaseGuid>6cd6c0e1-3510-4f73-8e0c-c53d76894c6f</testCaseGuid>

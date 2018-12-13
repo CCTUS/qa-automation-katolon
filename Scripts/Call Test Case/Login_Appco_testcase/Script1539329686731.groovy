@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
+WebUI.navigateToUrl('https://app-qa.appcohesion.io/')
 
 WebUI.maximizeWindow()
 

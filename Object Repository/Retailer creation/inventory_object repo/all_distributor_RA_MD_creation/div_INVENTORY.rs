@@ -4,6 +4,12 @@
    <name>div_INVENTORY</name>
    <tag></tag>
    <elementGuidId>931a9404-4fb9-4ece-97dc-060449ebb7ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;accordion&quot;)/div[@class=&quot;accordian&quot;]/div[@class=&quot;accordion-content default&quot;]/div[@class=&quot;inventoryForm&quot;][count(. | //div[@class = 'inventoryForm']) = count(//div[@class = 'inventoryForm'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,14 +20,14 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>inventoryForm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -45,7 +51,7 @@
               </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

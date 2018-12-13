@@ -19,9 +19,18 @@ WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_tab'))
 
 WebUI.click(findTestObject('employee_obj_repo/emp_tab'))
 
+WebUI.delay(5)
+
+WebUI.selectOptionByLabel(findTestObject('Appco Login/employee repo/select_All                  AA'), 'New Retailer KatalonAuto', 
+    true)
+
+WebUI.delay(3)
+
 WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_new_button'))
 
 WebUI.click(findTestObject('employee_obj_repo/emp_new_button'))
+
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'), 
     FailureHandling.CONTINUE_ON_FAILURE)
@@ -30,6 +39,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/employee_obj_repo/Page
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/employee_obj_repo/Page_AppCohesion/label_Retailer Admin'))
+
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Appco Login/employee repo/select_AAA RA MD newaakarajaar'), 
+    '66', true)
 
 WebUI.delay(3)
 
@@ -62,6 +74,17 @@ WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Rep
     'Success: Congratulations!! You have successfully added user. Email has been sent to his email id!', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(10)
+
+WebUI.verifyElementVisible(findTestObject('employee_obj_repo/emp_tab'))
+
+WebUI.click(findTestObject('employee_obj_repo/emp_tab'))
+
+WebUI.delay(10)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Appco Login/employee repo/select_All                  AA'), 
+    'New Retailer KatalonAuto', true)
+
+WebUI.delay(6)
 
 WebUI.click(findTestObject('employee_obj_repo/retailer_employeeview/Page_AppCohesion/collapsible-header_Retailer Ad'))
 

@@ -55,7 +55,7 @@ WebUI.click(findTestObject('Object Repository/retailer Edit/button_Update Retail
 
 WebUI.delay(1)
 
-Mobile.verifyElementVisible(findTestObject('retailer_edit/Page_AppCohesion/div_OK_successImgIcon'), 0)
+not_run: Mobile.verifyElementVisible(findTestObject('retailer_edit/Page_AppCohesion/div_OK_successImgIcon'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/retailer Edit/h5_Success  Retailer details s'), 'Success:  Retailer details successfully Updated.')
 

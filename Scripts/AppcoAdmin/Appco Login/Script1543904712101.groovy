@@ -19,7 +19,7 @@ WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
 
 WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_User Name_ac_username'), 'surunewadmin')
 
-WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_Password_ac_password'), 'N8m502@v')
+WebUI.setText(findTestObject('Object Repository/Appco Login/Page_AppCohesion/input_Password_ac_password'), '9tlTx3@y')
 
 WebUI.click(findTestObject('Object Repository/Appco Login/Page_AppCohesion/button_Login'))
 

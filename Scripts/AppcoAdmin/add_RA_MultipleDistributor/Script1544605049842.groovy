@@ -72,7 +72,10 @@ WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/div_INVENTORY'))
 
-WebUI.selectOptionByValue(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi'), 
+WebUI.selectOptionByLabel(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi'), 
+    'SS', true)
+
+not_run: WebUI.selectOptionByValue(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi'), 
     '1', true)
 
 WebUI.delay(5)
@@ -155,7 +158,10 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/button_Add Distributor Invento'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_1'), 
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_1'), 
+    'Green Supply', true)
+
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_1'), 
     '2', true)
 
 WebUI.delay(5)
@@ -210,7 +216,10 @@ WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_2'), 
+WebUI.selectOptionByLabel(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_2'), 
+    'Davidson', true)
+
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_2'), 
     '3', true)
 
 WebUI.delay(5)
@@ -283,7 +292,10 @@ WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object
 
 WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_3'), 
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_3'), 
+    'Ellet', true)
+
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_3'), 
     '4', true)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/h5_Orders'))
