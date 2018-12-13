@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_All                  AA</name>
+   <tag></tag>
+   <elementGuidId>952d323c-f8f3-4359-b981-31b2cadf074b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'selectretailer' and @name = 'selectedRetailer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-valid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>selectretailer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>selectedRetailer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                  All
+                  AAA RA MD newaakarajaaretaileraasamosaAAWallMartPOSABCDDev12acewAero BridgeAlpha TestAMRAArambolt POSatestqaatewaypiCharliecheckchangepwddadasddadsasdddramdfgdggfdsffsdfscsddsfsdfdsfsdfsdfEcho Retailerepicor multiFDFDFFfdfgsfsdfsdfsdffdgfdgfgfffffffFoxtrotfsdfsfsdfsffsfdfgfdfgdfdgfggfghjghghggggggfgGolfGunBrokerhgfhghhghgJakPosRetailerjhjhjhjLC TacticalslicensecheckmultMultiple distributor New AAA AppcoNew DBRC New DisChecknew pos epicorNew POS GSNew POSEpicNew ProdRA MDNew QARANew RA Appco editNew RA AutomationNew RA EpicorNew RACMonNew RAdmin AntoNew RAMDNew RC LoadNew Retailer AABNew Retailer AACNew Retailer AADNew Retailer AppcoNew Retailer KatalonAutoNew Retailer MultipleDistNew RetailerBNewPOSRapidNewQAPOSKNewQARAKNewRACNewRAOneNewRAThreeNewRetailerKataNewRetailersamplenewretailervmnewtestnewtestioooooPOS AdminPOS EpicorPOS GSPOS multiPOSRapidPOSRetailernewqaQA POS RETAILERQA RetqanewretaileradminQAPosPerfRetqaposperfretABQARAdminQARetailer SamqatestadminnewRA AntonyRA AppcoRA AutoRA JohnRA Lin chkRA QA AdminRA QA BuildRA ResetRACreationRALicenseRam devRamkumarrRamu KakaramukakRAPOSRapidRC MenonRC QA ThrusRC ThrusRCPOSThruretailer appcoRetailer forteenRetailer JohnRetailer POPChkRetailer QA VerifyRetailer StoreretailerBMretailerconfirmRetailerFremidRetailerLinChkretailernewQAretailerqaberettaRetailerQABMRetailerRamsadasdqwwesadsdasdasdSam RetailerSam Retailer OneSam Retailer threeSam Retailer twosamplesample lcSampleRetailersampleretailerkatalonsasadsfssbdbsewyewyesdasdasdsdasdasdassdasdasdasdsddfdsfsdferefsdfsdfsdfsdfdsdfsdfsdfsdfadassdfsfghsyfsdsadsdsdssdsdsdsffsdsssssureshaksureshsurutestsureshtestingnewpnrsururetailer pnrsurusurutesasastestallnewioootestallnewretrettesttestingMulDisttestnewallnewalltestnewtestnewerwetqaqatestnewqatesttestnewretnewwtestnewtesttestsureshadmintestuserallnewalltestusernewqatewdsdsdsduuuvxvxcvWallmartwfhwwwxczxczxcxyzxzczxcxczzcxzxczxczczzxczddfsdffzdfdsfsfsdfzdfsdfafsdfzdfzdgfdsfgzxczxczxczxczzxZXZXzzzaaaABC RetailerabcdtestabewAddadidasAJakDevQaAJJakDevQAakewAm RAAramboltasasasqsddwdasdasdasdasdasddasasdsadsadasdsfdsdfsadfsdfsdfavittBetachk linczxczxczxcdsfsdfsdeeefsddssdfsfsdfweGammaiiiNewRAPOPNewRATwoNewRetailerBRA ADDRA APIRA JOHNAntoRAStoreEditRC SaturRCQABuildret chkRetaile Appcoretailer anuRetailer CheckRetailer ProChkRetailerRulerrrsadzdsdtestuserretadminnewunknownVijayRetailer
+                </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;selectretailer&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='selectretailer']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RETAILER NAME'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Management'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//select</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -28,9 +28,10 @@ for (def rowNum = 1; rowNum <= findTestData('TestDataFile').getRowNumbers(); row
     WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), findTestData('TestDataFile').getValue(
             2, rowNum))
 
-    WebUI.click(findTestObject('add_pos_retailer/Page_AppCohesion/button_Login Now'))
+    WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 
-    WebUI.waitForPageLoad(30)
+    //WebUI.click(findTestObject('add_pos_retailer/Page_AppCohesion/button_Login Now'))
+    WebUI.delay(10)
 
     WebUI.click(findTestObject('Login_OR/Page_AppCohesion/Page_AppCohesion/img'))
 
