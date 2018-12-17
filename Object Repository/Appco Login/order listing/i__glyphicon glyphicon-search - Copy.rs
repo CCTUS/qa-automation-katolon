@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__glyphicon glyphicon-search</name>
+   <name>i__glyphicon glyphicon-search - Copy</name>
    <tag></tag>
-   <elementGuidId>4776744b-d31f-4224-9f60-f5af25eb8122</elementGuidId>
+   <elementGuidId>464787af-a92c-4ac8-986a-4f668446e1b8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
