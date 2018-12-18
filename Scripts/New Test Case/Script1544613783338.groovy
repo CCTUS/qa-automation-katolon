@@ -13,45 +13,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/a_Retailers              Retai'))
 
-WebUI.verifyElementVisible(findTestObject('Appco Login/Appco_Markup/div_Inventory'))
+WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/div_Inventory'))
 
-WebUI.verifyElementVisible(findTestObject('Appco Login/Appco_Markup/span_Inventory'))
+WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/button_Delete'))
 
-WebUI.click(findTestObject('Appco Login/Appco_Markup/span_Inventory'))
+WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/button_Edit'))
 
-WebUI.verifyElementVisible(findTestObject('Appco Login/Appco_Markup/a_Inventory'))
+WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/div_Inventory                 _4'))
 
-WebUI.click(findTestObject('Appco Login/Appco_Markup/a_Inventory'))
+WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/button_Delete'))
 
-WebUI.delay(3)
+WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/div_Warning'))
 
-WebUI.setText(findTestObject('Appco Login/Appco_Markup/input__markup_searchproduct'), 'RUGER-UCSR7GCZ')
+WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/p_Do you really want to contin'))
 
-WebUI.click(findTestObject('Appco Login/Appco_Markup/img__markupsearch_icon'))
+WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/button_NO'))
 
-WebUI.delay(5)
+WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/button_YES'))
 
-WebUI.setText(findTestObject('Appco Login/Appco_Markup/input_Pistols_markup0'), '123.67')
+WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/button_YES'))
 
-WebUI.click(findTestObject('Appco Login/Appco_Markup/button_AddUpdate'))
+WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/h5_Success  Retailer has been'))
 
-WebUI.verifyElementVisible(findTestObject('Appco Login/Appco_Markup/h3_Store Tester'))
-
-WebUI.click(findTestObject('Page_AppCohesion/h3_Store Tester'))
-
-WebUI.click(findTestObject('Appco Login/Appco_Markup/a_Log Out'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Appco Login/Appco_Markup/input_User Name_ac_username'), 'AAARetailerMD@17_12')
-
-WebUI.setText(findTestObject('Page_AppCohesion/input_Password_ac_password'), 'AAARetailerMD@17_12')
-
-WebUI.click(findTestObject('Appco Login/Appco_Markup/button_Login'))
-
-WebUI.setText(findTestObject('Appco Login/Appco_Markup/input_Invoice_common_searchpro'), 'RUGER-UCSR7GCZ')
-
-WebUI.click(findTestObject('Appco Login/Appco_Markup/i_Invoice_glyphicon glyphicon-'))
+WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/div_Success  Retailer has been'))
 

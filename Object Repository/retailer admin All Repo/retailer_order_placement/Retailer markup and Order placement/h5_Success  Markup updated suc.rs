@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_SorryNo Items inside cart</name>
+   <name>h5_Success  Markup updated suc</name>
    <tag></tag>
-   <elementGuidId>d583a22a-32d5-40f4-bc25-9506e7f4f7a8</elementGuidId>
+   <elementGuidId>b46b694f-02d1-4c9c-8d6c-74878f073f9d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h4[(text() = 'Sorry!No Items inside cart' or . = 'Sorry!No Items inside cart')]</value>
+         <value>//h5[@id = 'exactmsg' and (text() = 'Success:  Markup updated successfully.' or . = 'Success:  Markup updated successfully.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,44 +17,57 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>h5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>exactmsg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sorry!No Items inside cart</value>
+      <value>Success:  Markup updated successfully.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-generic-wrap&quot;]/app-shopping-cart[1]/app-commonnegativeresponsehandler[1]/div[1]/div[@class=&quot;errorPopup&quot;]/div[@class=&quot;errorMsgText text-center&quot;]/h4[1]</value>
+      <value>id(&quot;exactmsg&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::h4[1]</value>
+      <name>xpath:attributes</name>
+      <value>//h5[@id='exactmsg']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h4[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add/Update'])[1]/following::h5[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'exactmsg', '&quot;', ')')])[1]/preceding::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h4</value>
+      <value>//div[2]/h5</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_SorryNo Items inside cart</name>
+   <name>span_UNIT PRICE</name>
    <tag></tag>
-   <elementGuidId>d583a22a-32d5-40f4-bc25-9506e7f4f7a8</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//h4[(text() = 'Sorry!No Items inside cart' or . = 'Sorry!No Items inside cart')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>23c6016f-09ee-41ef-98a2-eaf4abb05aea</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,44 +11,57 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hover-card-subtotal pull-left</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sorry!No Items inside cart</value>
+      <value>UNIT PRICE</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-generic-wrap&quot;]/app-shopping-cart[1]/app-commonnegativeresponsehandler[1]/div[1]/div[@class=&quot;errorPopup&quot;]/div[@class=&quot;errorMsgText text-center&quot;]/h4[1]</value>
+      <value>id(&quot;cartlist&quot;)/div[@class=&quot;cart-hover-field&quot;]/div[@class=&quot;cartHoverFieldInnerClass1&quot;]/div[@class=&quot;cart-hover-field-card&quot;]/span[@class=&quot;hover-card-subtotal pull-left&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::h4[1]</value>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='cartlist']/div/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sig Sauer Nitron Full Size E2022'])[1]/following::span[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h4[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$571.87'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Cart'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h4</value>
+      <value>//div[2]/div/div/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

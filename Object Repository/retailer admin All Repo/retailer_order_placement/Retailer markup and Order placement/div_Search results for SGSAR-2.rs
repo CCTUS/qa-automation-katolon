@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_SorryNo Items inside cart</name>
+   <name>div_Search results for SGSAR-2</name>
    <tag></tag>
-   <elementGuidId>d583a22a-32d5-40f4-bc25-9506e7f4f7a8</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//h4[(text() = 'Sorry!No Items inside cart' or . = 'Sorry!No Items inside cart')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>66f39f63-9a0e-4fd1-acde-37f791772c83</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,44 +11,59 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-xs-6 col-sm-7 col-lg-7</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sorry!No Items inside cart</value>
+      <value>
+             Search results for &quot;SGSAR-2YH5ZDI7&quot;
+          </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-generic-wrap&quot;]/app-shopping-cart[1]/app-commonnegativeresponsehandler[1]/div[1]/div[@class=&quot;errorPopup&quot;]/div[@class=&quot;errorMsgText text-center&quot;]/h4[1]</value>
+      <value>id(&quot;viewproductdetails&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-6 col-sm-7 col-lg-7&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::h4[1]</value>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='viewproductdetails']/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[6]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h4[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Miscellaneous'])[1]/following::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h4</value>
+      <value>//div/div/div/div[2]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
