@@ -1,90 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__glyphicon glyphicon-search</name>
+   <name>th_PRODUCT</name>
    <tag></tag>
-   <elementGuidId>4776744b-d31f-4224-9f60-f5af25eb8122</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id='clear_data']
-
-</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>f3d8079f-9c11-4506-becc-817b795aae0a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>th</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>glyphicon glyphicon-search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Search</value>
+      <value>thStickyTitle-4-column</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PRODUCT</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='clear_data']
-
-</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>clear_data</value>
+      <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-generic-wrap&quot;]/app-orders[1]/app-common-view[1]/div[@class=&quot;ac-create-employee-drawer order-list-drawer&quot;]/div[@class=&quot;product-information-wrapper&quot;]/div[@class=&quot;hhhh&quot;]/table[@class=&quot;product-info-table order-details-table&quot;]/thead[1]/tr[@class=&quot;sticky&quot;]/th[@class=&quot;thStickyTitle-4-column&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='search_data']/i</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Info'])[1]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jacob.vpaul@iinerds.com'])[1]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QUANTITY'])[1]/preceding::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading products...'])[1]/preceding::i[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading orders...'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DISTRIBUTOR'])[1]/preceding::th[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div/i</value>
+      <value>//div[5]/div/table/thead/tr/th</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,90 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__glyphicon glyphicon-search</name>
+   <name>input_User Name_ac_username</name>
    <tag></tag>
-   <elementGuidId>4776744b-d31f-4224-9f60-f5af25eb8122</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id='clear_data']
-
-</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>0885601f-01f2-4832-9926-6634df7c5769</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>glyphicon glyphicon-search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Search</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id='clear_data']
-
-</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>clear_data</value>
+      <value>uname</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ac_username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter your username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uname&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='search_data']/i</value>
+      <name>xpath:attributes</name>
+      <value>//input[@id='uname']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading products...'])[1]/preceding::i[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading orders...'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter user name.'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div/i</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,90 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__glyphicon glyphicon-search</name>
+   <name>a_Log Out</name>
    <tag></tag>
-   <elementGuidId>4776744b-d31f-4224-9f60-f5af25eb8122</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id='clear_data']
-
-</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>ef5b9f45-70f8-4a7b-995b-cabc35069233</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>glyphicon glyphicon-search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Search</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id='clear_data']
-
-</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>clear_data</value>
+      <value>logout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log Out</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;logout&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='search_data']/i</value>
+      <name>xpath:attributes</name>
+      <value>//a[@id='logout']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <value>//a[contains(text(),'Log Out')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rule'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading products...'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Markup'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading orders...'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click on any category to view subcategories'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div/i</value>
+      <value>//span[3]/ul/li[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>

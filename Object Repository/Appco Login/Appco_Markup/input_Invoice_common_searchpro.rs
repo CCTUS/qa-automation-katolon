@@ -1,90 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__glyphicon glyphicon-search</name>
+   <name>input_Invoice_common_searchpro</name>
    <tag></tag>
-   <elementGuidId>4776744b-d31f-4224-9f60-f5af25eb8122</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id='clear_data']
-
-</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>6feb2e44-ebc5-4460-a383-683ba862916b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>glyphicon glyphicon-search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Search</value>
+      <value>form-control ng-untouched ng-valid ng-dirty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id='clear_data']
-
-</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>clear_data</value>
+      <value>common_searchproduct</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search for firearms, distributors, manufacturers, equipments, status etc...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;common_searchproduct&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='search_data']/i</value>
+      <name>xpath:attributes</name>
+      <value>//input[@id='common_searchproduct']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice'])[2]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading products...'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='searching products...'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='loading orders...'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AAARetailerMDAuto AAA Retailer MDAuto'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div/i</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

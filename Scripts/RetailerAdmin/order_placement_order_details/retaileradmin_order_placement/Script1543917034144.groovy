@@ -171,10 +171,10 @@ WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/order_tab'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search'), 
+WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/i__glyphicon glyphicon-search'), 
     10)
 
-WebUI.check(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search'))
+WebUI.check(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/i__glyphicon glyphicon-search'))
 
 not_run: WebUI.dragAndDropToObject(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
     findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_RETAILER NAME_searchInpu'), 
@@ -250,7 +250,7 @@ WebUI.clearText(findTestObject('retailer admin All Repo/retailer_order_placement
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search'), 
+WebUI.check(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/i__glyphicon glyphicon-search'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3)

@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i__glyphicon glyphicon-search</name>
+   <name>i__search_data</name>
    <tag></tag>
-   <elementGuidId>4776744b-d31f-4224-9f60-f5af25eb8122</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id='clear_data']
-
-</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>206a79ed-8833-4a78-8366-c09b2210f63d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -29,33 +21,31 @@
       <value>glyphicon glyphicon-search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>search_data</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
       <value>Search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='clear_data']
-
-</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>clear_data</value>
+      <value>id(&quot;search_data&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='search_data']/i</value>
+      <name>xpath:attributes</name>
+      <value>//i[@id='search_data']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

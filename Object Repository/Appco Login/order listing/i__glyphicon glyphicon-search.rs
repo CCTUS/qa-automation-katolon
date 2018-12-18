@@ -3,53 +3,49 @@
    <description></description>
    <name>i__glyphicon glyphicon-search</name>
    <tag></tag>
-   <elementGuidId>4776744b-d31f-4224-9f60-f5af25eb8122</elementGuidId>
+   <elementGuidId>9aae94ef-a7e5-4738-9932-c2e0cee32218</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='clear_data']
-
-</value>
+         <value>//i[@class = 'glyphicon glyphicon-search' and @title = 'Search' and @id = 'search_data']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>glyphicon glyphicon-search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
       <value>Search</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='clear_data']
-
-</value>
+      <value>id(&quot;search_data&quot;)/i[@class=&quot;glyphicon glyphicon-search&quot;]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>clear_data</value>
+      <value>search_data</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
