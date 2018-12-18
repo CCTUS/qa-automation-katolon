@@ -13,29 +13,33 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://app-qa.appcohesion.io/')
+WebUI.delay(5)
 
-WebUI.rightClick(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/input_User Name_ac_username'))
+WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/a_Retailers              Retai'))
 
-WebUI.setText(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/input_User Name_ac_username'), 
-    'surunewadmin')
+WebUI.delay(5)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/input_Password_ac_password'), 
-    'MSduNhp+OwRYVoWm2u96PQ==')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/retailer delete/div_Inventory'))
 
-WebUI.click(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/button_Login Now'))
+WebUI.click(findTestObject('Appco Login/retailer delete/div_Inventory'))
 
-WebUI.click(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/a_Retailers              Retai'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Appco Login/retailer delete/button_Delete'), 3)
 
-WebUI.click(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/a_Edit Retailer'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Appco Login/retailer delete/button_Edit'), 3)
 
-WebUI.click(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/button_Delete'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/button_YES'))
+WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/p_Retailer has been deleted su'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/retailer delete/div_Warning'))
 
-WebUI.click(findTestObject('Object Repository/delete_retailer/delete_retailer/Page_AppCohesion/span_OK'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/retailer delete/button_NO'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/retailer delete/button_YES'))
+
+WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/button_YES'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/retailer delete/h5_Success  Retailer has been'))
 
