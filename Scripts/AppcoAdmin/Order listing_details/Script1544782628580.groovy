@@ -48,9 +48,9 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_orde
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_order HCKLR-IHMFX7Z1'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/span_Order       882'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/span_Order       882'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/h5_882'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/h5_882'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Appco Login/order listing/h5_882'), '882', FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -84,7 +84,7 @@ WebUI.clearText(findTestObject('Appco Login/order listing/input_ORDER STATUS_inp
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Appco Login/order listing/i__glyphicon glyphicon-search - Copy'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.check(findTestObject('Appco Login/order listing/i__clear_data - Copy'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'))
 

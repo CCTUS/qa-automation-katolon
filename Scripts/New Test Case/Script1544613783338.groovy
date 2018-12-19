@@ -13,29 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/a_Retailers              Retai'))
+WebUI.openBrowser('')
 
-WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/div_Inventory'))
+WebUI.click(findTestObject('Page_AppCohesion/i__clear_data'))
 
-WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/button_Delete'))
+WebUI.click(findTestObject('Page_AppCohesion/i__search_data (1)'))
 
-WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/button_Edit'))
-
-WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/div_Inventory                 _4'))
-
-WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/button_Delete'))
-
-WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/div_Warning'))
-
-WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/p_Do you really want to contin'))
-
-WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/button_NO'))
-
-WebUI.rightClick(findTestObject('Object Repository/Appco Login/retailer delete/button_YES'))
-
-WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/button_YES'))
-
-WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/h5_Success  Retailer has been'))
-
-WebUI.click(findTestObject('Object Repository/Appco Login/retailer delete/div_Success  Retailer has been'))
+WebUI.click(findTestObject('Page_AppCohesion/i__glyphicon glyphicon-search (1)'))
 

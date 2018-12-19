@@ -4,7 +4,7 @@
    <name>Appco_test_suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-13T15:44:11</lastRun>
+   <lastRun>2018-12-19T12:58:27</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -58,5 +58,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/AppcoAdmin/Appco_store_creation_edit_delete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69309378-91a2-4221-b8e4-202a04e88876</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AppcoAdmin/delete_retailer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>767fee17-6d6b-4a11-93a5-667bfa92d1ce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AppcoAdmin/Order listing_details</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c77a9cd1-d23c-4def-b1c0-e5519525638c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AppcoAdmin/Appco_markup</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
