@@ -1,73 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h5_Success  Congratulations Yo</name>
+   <name>div_INVENTORY</name>
    <tag></tag>
-   <elementGuidId>b1aee4c3-4902-44e8-9b7d-d4d0ec3ae0f4</elementGuidId>
+   <elementGuidId>998428c2-3c7f-4bf7-9637-fb20bbb496e4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'exactmsg' and (text() = 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!' or . = 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!')]</value>
+         <value>id(&quot;accordion&quot;)/div[@class=&quot;accordian&quot;]/div[@class=&quot;accordion-content default&quot;]/div[@class=&quot;inventoryForm&quot;][count(. | //div[@class = 'inventoryForm']) = count(//div[@class = 'inventoryForm'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h5</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>exactmsg</value>
+      <value>inventoryForm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!</value>
+      <value>
+                
+                  
+                    INVENTORY
+                    
+                      AppCoSSGreen SupplyDavidsonElletLipsey
+                    
+                  
+                  
+                    
+                      Remove
+                    
+                  
+
+                
+                
+
+              </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;exactmsg&quot;)</value>
+      <value>id(&quot;accordion&quot;)/div[@class=&quot;accordian&quot;]/div[@class=&quot;accordion-content default&quot;]/div[@class=&quot;inventoryForm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//h5[@id='exactmsg']</value>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='accordion']/div[4]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventory Info'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Retailer'])[2]/following::h5[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'exactmsg', '&quot;', ')')])[1]/preceding::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BANK A/C NUMBER'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/h5</value>
+      <value>//div[4]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

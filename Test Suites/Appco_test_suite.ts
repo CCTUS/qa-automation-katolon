@@ -77,4 +77,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AppcoAdmin/Appco_markup</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d994f223-a4e3-4941-ae1d-e0db3399c374</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AppcoAdmin/add_POSRetailer_Appco</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2405e213-6fec-44bf-8a8f-3dc2c9a01f94</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c68ee74b-83ac-464d-b447-f53b3550a681</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AppcoAdmin/add_RA_MD -POS</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

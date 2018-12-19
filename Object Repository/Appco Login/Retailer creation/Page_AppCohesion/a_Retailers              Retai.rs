@@ -1,73 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h5_Success  Congratulations Yo</name>
+   <name>a_Retailers              Retai</name>
    <tag></tag>
-   <elementGuidId>b1aee4c3-4902-44e8-9b7d-d4d0ec3ae0f4</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'exactmsg' and (text() = 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!' or . = 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>2c1d6154-3218-4120-bdd1-699d6aca51c9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h5</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ac-dash-item-2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>exactmsg</value>
+      <value>retailerview</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlink</name>
+      <type>Main</type>
+      <value>RetailerMarkup</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/dashboard/RetailerMarkup</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!</value>
+      <value>
+              Retailers
+              Retailer
+            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;exactmsg&quot;)</value>
+      <value>id(&quot;retailerview&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//h5[@id='exactmsg']</value>
+      <value>//a[@id='retailerview']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventory by Distributor'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Retailer'])[2]/following::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventory by Distributor'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'exactmsg', '&quot;', ')')])[1]/preceding::h5[1]</value>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '/dashboard/RetailerMarkup')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/h5</value>
+      <value>//li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

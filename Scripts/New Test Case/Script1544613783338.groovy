@@ -13,11 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_Appco Retailer'), 
+    'POS Retailer', true)
 
-WebUI.click(findTestObject('Page_AppCohesion/i__clear_data'))
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_Select POS'), 
+    '1', true)
 
-WebUI.click(findTestObject('Page_AppCohesion/i__search_data (1)'))
-
-WebUI.click(findTestObject('Page_AppCohesion/i__glyphicon glyphicon-search (1)'))
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_Select POS'), 
+    '2', true)
 

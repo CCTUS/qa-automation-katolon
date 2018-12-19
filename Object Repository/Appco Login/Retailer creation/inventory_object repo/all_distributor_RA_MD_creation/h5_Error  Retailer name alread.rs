@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h5_Success  Congratulations Yo</name>
+   <name>h5_Error  Retailer name alread</name>
    <tag></tag>
-   <elementGuidId>b1aee4c3-4902-44e8-9b7d-d4d0ec3ae0f4</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'exactmsg' and (text() = 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!' or . = 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b78f03f5-eeaa-4540-a467-aaba6e9cb9ef</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!</value>
+      <value>Error:  Retailer name already exists.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

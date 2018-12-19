@@ -23,11 +23,21 @@ WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesio
 
 WebUI.verifyElementVisible(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), 'Appco Retailer', 
+not_run: WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), 'Appco Retailer', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), findTestData(
-        'TDAddRetailer').getValue(1, 5))
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_Appco Retailer'), 
+    'POS Retailer', true)
+
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_Select POS'), 
+    'EPICOR', true)
+
+not_run: WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 
+    findTestData('TDAddRetailer').getValue(1, 1))
+
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'POSRetailer Appco')
 
 int rn_uname
 
@@ -46,9 +56,9 @@ WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID
 // 2, rowNum))
 //WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), findTestData('TDAddRetailer').getValue(
 // 3, rowNum))
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'NewRetailer')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'NewRetailerPOS')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'New Retailer')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'New Retailer POS')
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 1_retai'), '9/10, New QA Build11')
 
@@ -77,6 +87,6 @@ WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/button_Add Retai
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 
+    'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!', FailureHandling.CONTINUE_ON_FAILURE)
 

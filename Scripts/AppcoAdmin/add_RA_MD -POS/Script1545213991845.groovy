@@ -23,17 +23,25 @@ WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesio
 
 WebUI.verifyElementVisible(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), 'Appco Retailer', 
+not_run: WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), 'Appco Retailer', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'AAA Retailer MD')
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_Appco Retailer'), 
+    'POS Retailer', true)
+
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_Select POS'), 
+    'EPICOR', true)
+
+WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'POSRetailerMD')
 
 not_run: int rn_uname
 
 not_run: rn_uname = ((Math.random() * 500) as int)
 
 //WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'NewRetailerAdmin' + rn_uname)
-WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'AAARetailerMD@17_12')
+WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'POSRetailerMD@19_12')
 
 //int rn_email
 //rn_email = ((Math.random() * 500) as int)
@@ -43,11 +51,11 @@ WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAM
 // 2, rowNum))
 //WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), findTestData('TDAddRetailer').getValue(
 // 3, rowNum))
-WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), 'AAARetailerMD17_12@getnada.com')
+WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), 'POSRetailerMD19_12@getnada.com')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'AAARetailerMD')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'POSRetailerMD')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'AAA Retailer MD')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'POS Retailer MD')
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 1_retai'), '9/10, New QA Build11')
 
@@ -84,7 +92,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/i
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_UserName_inv_input_0_Ord'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_UserName_inv_input_0_Ord'), 
+WebUI.setText(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_UserName_inv_input_0_Ord'), 
     '99994')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_CustomerNumber_inv_input'), 
@@ -206,7 +214,7 @@ WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_obje
 WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_UserName_inv_input_1_Inv'), 
     'gsdealer')
 
-WebUI.setText(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_Password_inv_input_1_Inv'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_Password_inv_input_1_Inv'), 
     'ftp2pass')
 
 WebUI.delay(5)
