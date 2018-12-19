@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase-QA'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase _Staging'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/a_Retailers              Retai'))
 
@@ -26,32 +26,31 @@ WebUI.verifyElementVisible(findTestObject('Retailer creation/Page_AppCohesion/se
 WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), 'Appco Retailer', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'AAA Retailer MD')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'Stag Retailer MD')
 
 not_run: int rn_uname
 
 not_run: rn_uname = ((Math.random() * 500) as int)
 
-//WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'NewRetailerAdmin' + rn_uname)
-WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'AAARetailerMD@17_12')
+WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'StagRetailerMD@12')
 
-//int rn_email
-//rn_email = ((Math.random() * 500) as int)
-//WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), ('NewRetailerAdmin' + rn_email) + 
-//'@getnada.com')
+not_run: int rn_email
+
+not_run: rn_email = ((Math.random() * 500) as int)
+
+WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), 'StagRetailerMD12@getnada.com')
+
 //WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), findTestData('TDAddRetailer').getValue(
 // 2, rowNum))
 //WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), findTestData('TDAddRetailer').getValue(
 // 3, rowNum))
-WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), 'AAARetailerMD17_12@getnada.com')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'StagRetailerMD')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'AAARetailerMD')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'StagRetailer MD')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'AAA Retailer MD')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 1_retai'), '19/12, New Production Build')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 1_retai'), '9/10, New QA Build11')
-
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 2_retai'), '11/28, New Street lane')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 2_retai'), '4/57, New Street lane')
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_PHONE NUMBER_phoneNumber'), '(446) 626-2462')
 
@@ -69,13 +68,11 @@ WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohes
 
 WebUI.delay(5)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/div_INVENTORY'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/div_INVENTORY'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.selectOptionByLabel(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi'), 
     'SS', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi'), 
-    '1', true)
 
 WebUI.delay(5)
 
@@ -122,7 +119,7 @@ WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_obje
 WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_API Endpoint_inv_input_0_1'), 
     'http://webservices.theshootingwarehouse.com')
 
-WebUI.setText(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_API Endpoint_inv_input_0_2'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_API Endpoint_inv_input_0_2'), 
     'http://webservices.theshootingwarehouse.com')
 
 WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_Source_inv_input_0_Track'), 
@@ -159,9 +156,6 @@ WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_1'), 
     'Green Supply', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_1'), 
-    '2', true)
 
 WebUI.delay(5)
 
@@ -206,7 +200,7 @@ WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_obje
 WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_UserName_inv_input_1_Inv'), 
     'gsdealer')
 
-WebUI.setText(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_Password_inv_input_1_Inv'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_Password_inv_input_1_Inv'), 
     'ftp2pass')
 
 WebUI.delay(5)
@@ -217,9 +211,6 @@ WebUI.delay(5)
 
 WebUI.selectOptionByLabel(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_2'), 
     'Davidson', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_2'), 
-    '3', true)
 
 WebUI.delay(5)
 
@@ -294,9 +285,6 @@ WebUI.delay(3)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_3'), 
     'Ellet', true)
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_3'), 
-    '4', true)
-
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/h5_Orders'))
 
 WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_FTP Host_inv_input_3_Ord'), 
@@ -339,7 +327,7 @@ WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_obje
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/h5_Catalog'))
 
-WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_FTP Host_inv_input_3_Cat'), 
+WebUI.setText(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_FTP Host_inv_input_3_Cat'), 
     'ftp.unitedsportingco.com')
 
 WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_UserName_inv_input_3_Cat'), 
@@ -364,8 +352,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/i
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/button_Cancel'))
 
 WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/button_Add Retailer'))
-
-WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 
     'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!', FailureHandling.CONTINUE_ON_FAILURE)
