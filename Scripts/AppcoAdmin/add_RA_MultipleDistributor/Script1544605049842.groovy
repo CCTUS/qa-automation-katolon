@@ -206,7 +206,7 @@ WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_obje
 WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_UserName_inv_input_1_Inv'), 
     'gsdealer')
 
-WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_Password_inv_input_1_Inv'), 
+WebUI.setText(findTestObject('Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/input_Password_inv_input_1_Inv'), 
     'ftp2pass')
 
 WebUI.delay(5)

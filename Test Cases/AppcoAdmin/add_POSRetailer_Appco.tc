@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_POSRetailer_Appco</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0514e692-bf04-4551-85ef-b70c84057008</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2405e213-6fec-44bf-8a8f-3dc2c9a01f94</id>
+      <masked>false</masked>
+      <name>retailername</name>
+   </variable>
+</TestCaseEntity>
