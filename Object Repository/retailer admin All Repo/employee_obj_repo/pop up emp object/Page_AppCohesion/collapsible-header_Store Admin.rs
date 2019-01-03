@@ -6,18 +6,12 @@
    <elementGuidId>aa03c75a-2b1d-44d8-a828-435a0f6de146</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//collapsible-list-item[@id='storeadminview']/collapsible-header</value>
+         <key>BASIC</key>
+         <value>//collapsible-header[@id = 'storeadminview']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//collapsible-header[(text() = '
-                        Store Admins
-                        
-                      ' or . = '
-                        Store Admins
-                        
-                      ') and @id = 'storeadminview']</value>
+         <key>XPATH</key>
+         <value>//collapsible-list-item[@id='storeadminview']/collapsible-header</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -37,7 +31,7 @@
       <value>waves-effect</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase-QA'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase-QA - new url'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -48,17 +48,20 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_orde
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/tr_order HCKLR-IHMFX7Z1'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/span_Order       882'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/span_Order       882'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/h5_882'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/h5_882'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Appco Login/order listing/h5_882'), '882', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Appco Login/order listing/h5_882'), '882', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/span_Order Total      1113.50'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/span_Order Total      1113.50'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/p_Order Total'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/span_Ordered on      03122018'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/span_Ordered on      03122018'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Appco Login/order listing/th_PRODUCT'))
 
@@ -84,7 +87,11 @@ WebUI.clearText(findTestObject('Appco Login/order listing/input_ORDER STATUS_inp
 
 WebUI.delay(3)
 
-WebUI.check(findTestObject('Appco Login/order listing/i__clear_data - Copy'), FailureHandling.STOP_ON_FAILURE)
+WebUI.dragAndDropToObject(findTestObject('Appco Login/order listing/i__clear_data - Copy'), findTestObject('Appco Login/order listing/i__clear_data - Copy'))
+
+WebUI.delay(3)
+
+not_run: WebUI.check(findTestObject('Appco Login/order listing/i__clear_data - Copy'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/a_Dashboard              Dashb'))
 

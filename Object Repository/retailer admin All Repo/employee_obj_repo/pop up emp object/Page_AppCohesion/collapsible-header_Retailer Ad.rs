@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//collapsible-header[@id='retadminview']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//collapsible-header[@id = 'retadminview']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +38,7 @@
       <value>retadminview</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

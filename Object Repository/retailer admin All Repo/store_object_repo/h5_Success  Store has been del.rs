@@ -4,6 +4,12 @@
    <name>h5_Success  Store has been del</name>
    <tag></tag>
    <elementGuidId>0bf76ea8-4ebe-45d0-9e25-f1486d3b725c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[@id = 'exactmsg' and (text() = 'Success: Store has been deleted successfully.Existing users for the store assigned to default store' or . = 'Success: Store has been deleted successfully.Existing users for the store assigned to default store')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Success:  Store has been deleted successfully.Existing users for the store assigned to default store</value>
+      <value>Success: Store has been deleted successfully.Existing users for the store assigned to default store</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
