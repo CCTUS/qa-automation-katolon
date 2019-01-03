@@ -7,17 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = '
-              No search results found
-            ' or . = '
-              No search results found
-            ')]</value>
+         <value>/html/body/app-root/div/app-dashboard-component/div/div[2]/div[2]/app-product-search/div/app-common-view/div[2]/div/div/div[3]/div/table/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +27,7 @@
       <value>noResult</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -40,11 +36,11 @@
             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[1]/app-dashboard-component[1]/div[@class=&quot;ac-create-employee-on ac-main-nav-on&quot;]/div[@class=&quot;ac-main-content-wrap&quot;]/div[@class=&quot;ac-generic-wrap&quot;]/app-product-search[1]/div[1]/app-common-view[1]/div[2]/div[1]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;totalDiv&quot;]/div[@class=&quot;row empListView&quot;]/table[1]/div[@class=&quot;noResult&quot;]</value>
+      <value>/html/body/app-root/div/app-dashboard-component/div/div[2]/div[2]/app-product-search/div/app-common-view/div[2]/div/div/div[3]/div/table/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

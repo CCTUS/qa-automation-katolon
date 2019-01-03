@@ -14,9 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase - new url'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/h3_NewRetailerKatalonAuto New'))
+not_run: WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/h3_NewRetailerKatalonAuto New'))
 
 WebUI.delay(10)
 
@@ -81,7 +81,7 @@ not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer a
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/h5_Success  Search rules updat'), 
-    'Success:  Search rules updated successfully', FailureHandling.CONTINUE_ON_FAILURE)
+    'Success: Search rules updated successfully', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -103,7 +103,7 @@ WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/i__search_data'))
 
 WebUI.setText(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/input_Series_input_1'), 
-    'ellet')
+    'Ellett Brothers')
 
 WebUI.setText(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/input_Series_input_1'), 
     Keys.chord(Keys.ENTER))
@@ -154,7 +154,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/rule object r
 WebUI.click(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/button_UPDATE RULE'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/h5_Success  Search rules updat'), 
-    'Success:  Search rules updated successfully', FailureHandling.CONTINUE_ON_FAILURE)
+    'Success: Search rules updated successfully', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -176,7 +176,7 @@ WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/i__search_data'))
 
 WebUI.setText(findTestObject('Object Repository/retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/input_Series_input_1'), 
-    'ellet')
+    'Ellett Brothers')
 
 WebUI.setText(findTestObject('retailer admin All Repo/rule object repo/Page_AppCohesion/Page_AppCohesion/input_Series_input_1'), 
     Keys.chord(Keys.ENTER))
@@ -191,7 +191,7 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/rule object r
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/rule object repo/distributorname_id'))
 
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/rule object repo/distributorname_id'), 'Ellet')
+WebUI.verifyElementText(findTestObject('retailer admin All Repo/rule object repo/distributorname_id'), 'Ellett Brothers')
 
 WebUI.delay(5)
 

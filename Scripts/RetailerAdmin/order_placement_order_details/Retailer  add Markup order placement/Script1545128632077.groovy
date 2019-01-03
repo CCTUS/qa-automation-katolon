@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase_markup'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase_markup - new url'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(10)
 
@@ -57,7 +57,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All 
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_SS'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_UPC798681306633'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_UPC798681306633'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_798681306633'))
 
@@ -66,21 +67,25 @@ WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_p
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_Base Price424.99'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_424.99'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_424.99'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_424.99'), 
-    '$424.99')
+    '$424.99', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_Retailer Markup0.00'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_0.00'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_0.00'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_Amount Payable424.99'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_Amount Payable424.99'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_424.99_1'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_424.99_1'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/strong_424.99_1'), 
-    '$424.99')
+    '$424.99', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/button_ADD TO CART'))
 
@@ -92,7 +97,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All 
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/p_Manufacturer Part Number E20'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Manufacturer Part Number E'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Manufacturer Part Number E'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -127,7 +133,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All 
 
 WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/img'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Sig Sauer Nitron Full Size'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Sig Sauer Nitron Full Size'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_UNIT PRICE'))
 
@@ -146,29 +153,38 @@ not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/retailer a
 
 not_run: WebUI.click(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/input_Shopping Cart_sizecb'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Order Summary'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Order Summary'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h3_Order Summary'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_1                Item(s)'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_1                Item(s)'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Shipping Cost'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Shipping Cost'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Item selected 1'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Item selected 1'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/button_CHECKOUT'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Sig Sauer Nitron Full Size _1'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Sig Sauer Nitron Full Size _1'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Sig Sauer Nitron Full Size'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Sig Sauer Nitron Full Size'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Price                  571'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Price                  571'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_Price'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_Price'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h6_571.87'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Sub Total'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Sub Total'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/span_Sub Total'))
 
@@ -193,7 +209,8 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_orde
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/a_Back to Cart'))
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_571.87_cart-item-removeBut'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_571.87_cart-item-removeBut'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/button_CHECKOUT'))
 
@@ -207,15 +224,20 @@ WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/R
 WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/input_EMAIL_email'), 
     'snekalatha.r@iinerds.com')
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Order Summary      Order I'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Order Summary      Order I'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Sig Sauer(1item) x 571.87'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Sig Sauer(1item) x 571.87'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Shipping Cost25'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Shipping Cost25'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Amount Payable            5'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/h5_Amount Payable            5'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Shipping Info'))
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/div_Shipping Info'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('retailer admin All Repo/retailer_order_placement/Retailer markup and Order placement/select_Please Select Any Store'), 
     '652', true)

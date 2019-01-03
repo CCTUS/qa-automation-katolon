@@ -4,6 +4,12 @@
    <name>input_Series_input_1</name>
    <tag></tag>
    <elementGuidId>3f893837-7cca-4d46-bdc6-87c0eca82084</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'input_3']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>input_1</value>
+      <value>input_3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

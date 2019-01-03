@@ -7,33 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td[@id = 'order_0' and (text() = '
-                        
-                          
-                            
-                              
-                            
-                            
-                              Ruger LC LCP
-                            
-
-                          
-                        
-                        
-                      ' or . = '
-                        
-                          
-                            
-                              
-                            
-                            
-                              Ruger LC LCP
-                            
-
-                          
-                        
-                        
-                      ')]</value>
+         <value>//td[@id = 'order_0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -60,7 +34,7 @@
       <value>order_0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
