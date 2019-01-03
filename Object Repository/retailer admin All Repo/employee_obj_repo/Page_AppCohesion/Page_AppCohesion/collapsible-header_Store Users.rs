@@ -6,18 +6,12 @@
    <elementGuidId>d240250c-53d3-4237-b748-c06f103326b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//collapsible-list-item[@id='storeuserview']/collapsible-header</value>
+         <key>BASIC</key>
+         <value>//collapsible-header[@id = 'storeuserview']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//collapsible-header[(text() = '
-                        Store Users
-                        
-                      ' or . = '
-                        Store Users
-                        
-                      ') and @id = 'storeuserview']</value>
+         <key>XPATH</key>
+         <value>//collapsible-list-item[@id='storeuserview']/collapsible-header</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -37,7 +31,7 @@
       <value>waves-effect</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase-QA'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase-QA - new url'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('retailer Edit/a_Dashboard              Dashb'))
 
@@ -57,5 +57,5 @@ WebUI.delay(1)
 
 not_run: Mobile.verifyElementVisible(findTestObject('retailer_edit/Page_AppCohesion/div_OK_successImgIcon'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/retailer Edit/h5_Success  Retailer details s'), 'Success:  Retailer details successfully Updated.')
+WebUI.verifyElementText(findTestObject('Object Repository/retailer Edit/h5_Success  Retailer details s'), 'Success: Retailer details successfully Updated.')
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'exactmsg' and (text() = 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!' or . = 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!')]</value>
+         <value>//*[@id = 'exactmsg' and (text() = 'Success: Congratulations!! You have successfully added retailer. Email has been sent to his email id!' or . = 'Success: Congratulations!! You have successfully added retailer. Email has been sent to his email id!')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!</value>
+      <value>Success: Congratulations!! You have successfully added retailer. Email has been sent to his email id!</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

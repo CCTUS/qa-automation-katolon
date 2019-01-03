@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase-QA'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_Appco_testcase-QA - new url'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/a_Retailers              Retai'))
 
@@ -27,7 +27,7 @@ WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/sel
     true)
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), findTestData(
-        'TDAddRetailer').getValue(1, 5))
+        'TDAddRetailer').getValue(1, 1))
 
 int rn_uname
 
@@ -75,8 +75,8 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('add_retailer_gmail/Page_AppCohesion/button_Add Retailer'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 'Success:  Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
+WebUI.verifyElementText(findTestObject('Retailer creation/inventory_object repo/h5_Success  Congratulations Yo'), 'Success: Congratulations!! You have successfully added retailer. Email has been sent to his email id!', 
     FailureHandling.CONTINUE_ON_FAILURE)
 

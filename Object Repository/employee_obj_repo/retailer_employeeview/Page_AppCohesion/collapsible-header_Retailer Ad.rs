@@ -7,13 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//collapsible-header[(text() = '
-                        Retailer Admins
-                        
-                      ' or . = '
-                        Retailer Admins
-                        
-                      ') and @id = 'retadminview']</value>
+         <value>//collapsible-header[@id = 'retadminview']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +27,7 @@
       <value>waves-effect</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

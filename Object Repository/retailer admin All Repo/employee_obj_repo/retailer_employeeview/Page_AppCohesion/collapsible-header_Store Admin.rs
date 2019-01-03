@@ -4,6 +4,12 @@
    <name>collapsible-header_Store Admin</name>
    <tag></tag>
    <elementGuidId>f1b03605-fd43-4b92-b48e-71dc812019b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//collapsible-header[@id = 'storeadminview']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>waves-effect</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -36,6 +42,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;storeadminview&quot;)/collapsible-header[@class=&quot;waves-effect&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>storeadminview</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

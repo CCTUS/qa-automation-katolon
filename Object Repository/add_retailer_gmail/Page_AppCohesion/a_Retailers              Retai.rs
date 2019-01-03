@@ -4,6 +4,12 @@
    <name>a_Retailers              Retai</name>
    <tag></tag>
    <elementGuidId>ea550d7a-3b0b-48ba-b79e-94f3db7b2fdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@id = 'retailerview' and @href = '/dashboard/RetailerMarkup']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>/dashboard/RetailerMarkup</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

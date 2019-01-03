@@ -4,6 +4,12 @@
    <name>h5_Success  Markup updated suc</name>
    <tag></tag>
    <elementGuidId>df966bca-5efd-423c-a282-e84df291c456</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[@id = 'exactmsg' and (text() = 'Success: Markup updated successfully.' or . = 'Success: Markup updated successfully.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Success:  Markup updated successfully.</value>
+      <value>Success: Markup updated successfully.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

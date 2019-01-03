@@ -7,13 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//collapsible-header[@class = 'waves-effect' and (text() = '
-                        Store Users
-                        
-                      ' or . = '
-                        Store Users
-                        
-                      ') and @id = 'storeuserview']</value>
+         <value>//collapsible-header[@class = 'waves-effect' and @id = 'storeuserview']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +27,7 @@
       <value>waves-effect</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
