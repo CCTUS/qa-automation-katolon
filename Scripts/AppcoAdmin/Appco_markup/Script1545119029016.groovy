@@ -41,6 +41,8 @@ WebUI.setText(findTestObject('Appco Login/Appco_Markup/input_Pistols_markup0'), 
 
 WebUI.click(findTestObject('Appco Login/Appco_Markup/button_AddUpdate'))
 
+not_run: WebUI.delay(1)
+
 WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/order_placement_verifymarkup/Page_AppCohesion/h5_Success  Markup updated suc'), 
     'Success: Markup updated successfully.')
 

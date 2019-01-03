@@ -4,6 +4,12 @@
    <name>div_Order Summary</name>
    <tag></tag>
    <elementGuidId>54a12a01-61a0-4c03-bbfc-7c6166f6b852</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>col-xs-12 col-sm-12 col-lg-3 cart-order-summery</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
