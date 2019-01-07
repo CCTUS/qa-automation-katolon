@@ -4,6 +4,12 @@
    <name>strong_424.99_1</name>
    <tag></tag>
    <elementGuidId>5d458e70-db1e-4ad6-8e57-0ee7d354a4f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//strong[@id = 'amt_id' and (text() = '$424.99' or . = '$424.99')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
