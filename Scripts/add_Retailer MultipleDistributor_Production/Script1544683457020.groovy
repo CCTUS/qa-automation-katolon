@@ -283,7 +283,7 @@ WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object
 WebUI.delay(3)
 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/select_AppCoSSGreen SupplyDavi_3'), 
-    'Ellet', true)
+    'Ellett Brothers', true)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/all_distributor_RA_MD_creation/h5_Orders'))
 
