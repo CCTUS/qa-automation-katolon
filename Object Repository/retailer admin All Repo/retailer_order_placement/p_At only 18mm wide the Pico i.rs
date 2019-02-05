@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_At only 18mm wide the Pico i</name>
+   <tag></tag>
+   <elementGuidId>f6943edc-de81-4cb8-bbf4-dd1eb97d30ff</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>product_specification</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> At only 18mm wide, the Pico is the thinnest .380 semiauto handgun on the market. Weighing only 11.5 oz. unloaded, this DAO pistol is comfortable and unobtrusive to carry, no matter your preferred mode. The Pico's flat profile and snag-free lines make it perfect in a pocket holster, while its smooth sides and controls also make it ideal for inside-the-waistband carry, coupled with its extra-durable stainless steel/polymer construction that is highly sweat-resistant. The Pico is soft-recoiling and makes target recovery lightning-quick after every shot, thanks to its minimal barrel tilt. The Pico is engineered to be easy and intuitive to take apart and reassemble. It features adjustable, quick-change sights with no gunsmithing required. Its heart is a serialized modular chassis, meaning that the frame can be easily swapped. It has an ambidextrous magazine release, as well as a super-low-profile slide-release lever to keep the slide open when desired. The Pico ships with a soft storage case and two 6-round stainless steel magazines (one flush, one with grip extension). The Pico is made in USA. This model has a Flat Dark Earth polymer grip frame and a matte stainless steel slide. Manufacturer Part Number: JMP8D55 UPC: 082442893129 </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product_specification&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//p[@id='product_specification']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Specifications'])[1]/following::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//p</value>
+   </webElementXpaths>
+</WebElementEntity>

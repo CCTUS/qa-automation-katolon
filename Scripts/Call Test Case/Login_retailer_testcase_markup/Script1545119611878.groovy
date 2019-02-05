@@ -23,5 +23,5 @@ WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_passwo
 
 WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 
-WebUI.waitForPageLoad(30)
+WebUI.delay(10)
 
