@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/StoreAdmin Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/StoreUser Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(4)
 
@@ -39,11 +39,11 @@ WebUI.verifyElementVisible(findTestObject('AddToCartStoreAdmin/Page_AppCohesion/
 
 WebUI.click(findTestObject('AddToCartStoreAdmin/Page_AppCohesion/button_ADD TO CART (1)'))
 
-WebUI.delay(4)
+not_run: WebUI.delay(4)
 
-WebUI.click(findTestObject('AddToCartStoreAdmin/Page_AppCohesion/button_ADD TO CART (1)'))
+not_run: WebUI.click(findTestObject('AddToCartStoreAdmin/Page_AppCohesion/button_ADD TO CART (1)'))
 
-WebUI.delay(5)
+not_run: WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/AddToCartStoreAdmin/Page_AppCohesion/span_Added to Cart (1)'))
 
