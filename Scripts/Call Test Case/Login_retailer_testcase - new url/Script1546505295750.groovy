@@ -17,9 +17,9 @@ WebUI.openBrowser('http://test.appcohesion.io.s3-website-us-west-2.amazonaws.com
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'NewRetailerKatalonAuto@23_11')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_User Name_ac_username'), 'AAARetailerMD@17_12')
 
-WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'NewRetailerKatalonAuto@23_11')
+WebUI.setText(findTestObject('Login_OR/Page_AppCohesion/input_Password_ac_password'), 'AAARetailerMD@17_12')
 
 WebUI.click(findTestObject('Login_OR/Page_AppCohesion/button_Login Now'))
 

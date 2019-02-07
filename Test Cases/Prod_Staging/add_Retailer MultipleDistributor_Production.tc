@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>rule_search_distributor</name>
+   <name>add_Retailer MultipleDistributor_Production</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5ee83e15-caa9-403d-8d5d-1127dc4de09a</testCaseGuid>
+   <testCaseGuid>773f85cc-8c8b-4c15-a392-f37cb6b48545</testCaseGuid>
 </TestCaseEntity>

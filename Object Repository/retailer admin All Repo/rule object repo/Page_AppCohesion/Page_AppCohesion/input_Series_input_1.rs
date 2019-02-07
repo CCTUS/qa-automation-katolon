@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @id = 'input_3']</value>
+         <value>//input[@type = 'text' and @id = 'input_1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>input_3</value>
+      <value>input_1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
