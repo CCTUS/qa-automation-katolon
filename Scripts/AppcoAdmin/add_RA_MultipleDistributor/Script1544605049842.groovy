@@ -26,14 +26,14 @@ WebUI.verifyElementVisible(findTestObject('Retailer creation/Page_AppCohesion/se
 WebUI.selectOptionByLabel(findTestObject('Retailer creation/Page_AppCohesion/select_Appco Retailer'), 'Appco Retailer', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'Retailer MD bbb')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER NAME_retailerNa'), 'Retailer MD John')
 
 not_run: int rn_uname
 
 not_run: rn_uname = ((Math.random() * 500) as int)
 
 //WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'NewRetailerAdmin' + rn_uname)
-WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'RetailerMDbbb@31_1')
+WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAME_userName'), 'RetailerMDJohn@7_2')
 
 //int rn_email
 //rn_email = ((Math.random() * 500) as int)
@@ -43,11 +43,11 @@ WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_USER NAM
 // 2, rowNum))
 //WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), findTestData('TDAddRetailer').getValue(
 // 3, rowNum))
-WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), 'RetailerMDbbb31_1@getnada.com')
+WebUI.setText(findTestObject('add_retailer_gmail/Page_AppCohesion/input_EMAIL ID_emailId'), 'RetailerMDJohn7_2@getnada.com')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'Retailer MD bbb')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_FIRST NAME_firstName'), 'Retailer MD John')
 
-WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'Retailer MD bbb')
+WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_LAST NAME_lastName'), 'Retailer MD John')
 
 WebUI.setText(findTestObject('Object Repository/add_retailer_gmail/Page_AppCohesion/input_RETAILER ADDRESS 1_retai'), '31/1, New QA Build11')
 

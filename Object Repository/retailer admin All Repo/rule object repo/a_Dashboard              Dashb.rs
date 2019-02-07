@@ -4,6 +4,12 @@
    <name>a_Dashboard              Dashb</name>
    <tag></tag>
    <elementGuidId>7ddc1c7c-620f-4ad3-a6e0-f58a0c8da057</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@id = 'dashboardview' and @href = '/dashboard']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>/dashboard</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
