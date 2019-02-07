@@ -15,15 +15,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LMP/LMP_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.rightClick(findTestObject('Object Repository/LMP Draft_Product/a_Listing ManagementListing Ma'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/a_Listing ManagementListing Ma'))
 
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Overview'))
+WebUI.click(findTestObject('LMP Draft_Product/a_Listing ManagementListing Ma'))
 
-WebUI.verifyElementVisible(findTestObject('LMP Draft_Product/td_BRTTA-9G8LWJMB'))
+WebUI.delay(2)
+
+not_run: WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Overview'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/td_BRTTA-9G8LWJMB'))
 
 WebUI.setText(findTestObject('Object Repository/LMP Draft_Product/input_GSIN_form-control ng-unt'), 'BRTTA-9G8LWJMB')
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Search'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/input_Not Listed On_innerTdChe'))
 
@@ -33,15 +39,15 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/s
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/span_ROHITHS STOREFRONT'))
 
-WebUI.rightClick(findTestObject('Object Repository/LMP Draft_Product/select_Select ProfileSachins P'))
+WebUI.selectOptionByIndex(findTestObject('Object Repository/LMP Draft_Product/select_Select ProfileSachins P'), '0', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Continue'))
 
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Creating Draft Listing...'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/div_Creating Draft Listing...'))
 
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/h5_Creating Draft Listing...'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/h5_Creating Draft Listing...'))
 
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/h5_Success  Adding to Draft In'))
+WebUI.verifyElementText(findTestObject('Object Repository/LMP Draft_Product/h5_Success  Adding to Draft In'), 'Creating Draft Listing...')
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/i_Success'))
 
