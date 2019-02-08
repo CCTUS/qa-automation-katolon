@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_APP COHESIONDashboardDashb</name>
+   <tag></tag>
+   <elementGuidId>f997b81e-2ba7-4488-99b8-58e9de9189c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>APP COHESIONDashboardDashboard Listing ManagementListing ManagementOverview Draft Active Settings InventoryInventoryInventoryInventoryStoresStoresEmployeesEmployeesOrdersOrdersSettingsSettings searching products...0Rohith RavindranRETAILER ADMINMy ProfileRuleChange PasswordLog Out   Home  >  Listing Management  > Draft ListingSelect the date and time for ScheduleFeb, 2019Feb, 2019SunMonTueWedThuFriSat27282930310102030405060708091011121314151617181920212223242526272801020304050607080902:44PMContinueDraft ListingsSearch for ListingsMfg.NameModelMfg Part NumberUPCGSINStorefrontSelect your StorefrontAllROHITH'S STOREFRONTListing StatusSelect your Listing StatusAllReady to PublishEdit RequiredClear SearchSearch Schedule Listing  Delete Listing  Publish Now Gun Broker Prev Next 1-2 of 3 Image  Image  Product Name  Product Name  GSIN  GSIN  Quantity  Quantity  Listing Price  Listing Price  Storefront  Storefront  Listed Status  Listed Status  Error Message  Error Message  Action  Action  Drafted Date  Drafted Date Beretta 686 686 Silver Pigeon IBRTTA-8ODI78BH3$2,700.00Edit RequiredRequired property 'WillShipInternational' not found in JSON. Path '', line 1, position 912.View ListingFeb 1, 2019, 11:14:13 AMBeretta Laminated T3xBRTTA-1SPSNLRT3$755.00Edit RequiredWill Ship International is requiredView ListingFeb 1, 2019, 2:49:23 PMOKSuccess:  Publishing In Progress</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div</value>
+   </webElementXpaths>
+</WebElementEntity>

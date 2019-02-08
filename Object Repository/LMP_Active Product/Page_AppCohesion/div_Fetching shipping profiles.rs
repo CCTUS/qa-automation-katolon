@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h5_Success  Adding to Draft In</name>
+   <name>div_Fetching shipping profiles</name>
    <tag></tag>
-   <elementGuidId>d84b53d0-84f9-4028-969d-33f4c2f1c3b6</elementGuidId>
+   <elementGuidId>8e681d2e-0469-4a79-9790-d4ab919c6ee0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::div[2]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id='exactmsg']
-[count(. | //h5[@id = 'exactmsg' and (text() = 'Success:  Adding to Draft In progres' or . = 'Success:  Adding to Draft In progres')]) = count(//h5[@id = 'exactmsg' and (text() = 'Success:  Adding to Draft In progres' or . = 'Success:  Adding to Draft In progres')])]</value>
+         <value>//div[(text() = 'Fetching shipping profiles' or . = 'Fetching shipping profiles')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,58 +21,45 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h5</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>exactmsg</value>
+      <value>commonLMPLoader</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Success:  Adding to Draft In progres</value>
+      <value>Fetching shipping profiles</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='exactmsg']
-</value>
+      <value>/html[1]/body[1]/app-root[1]/div[1]/app-common-lmp-loader[1]/div[@class=&quot;sf_Loader ng-star-inserted&quot;]/div[@class=&quot;commonLMPLoader&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//h5[@id='exactmsg']</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::h5[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No results found'])[1]/following::h5[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'exactmsg', '&quot;', ')')])[1]/preceding::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/h5</value>
+      <value>//app-common-lmp-loader/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -35,29 +35,28 @@ WebUI.click(findTestObject('Object Repository/LMP Draft_Product/input_Not Listed
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Create Draft Listing'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/span_ROHITHS STOREFRONT'))
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/span_ROHITHS STOREFRONT'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/span_ROHITHS STOREFRONT'))
+
+WebUI.delay(3)
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/LMP Draft_Product/select_Select ProfileSachins P'), '0', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Continue'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/div_Creating Draft Listing...'))
+WebUI.delay(3)
+
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/div_Creating Draft Listing...'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/h5_Creating Draft Listing...'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/LMP Draft_Product/h5_Success  Adding to Draft In'), 'Creating Draft Listing...')
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/i_Success'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Success  Adding to Draft I'))
+WebUI.verifyElementText(findTestObject('Object Repository/LMP Draft_Product/h5_Success  Adding to Draft In'), 'Success:  Adding to Draft In progress', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your StorefrontA'), '50', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your Listing Sta'), 'All', true)
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Search'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your Listing Sta'), 'DRAFT', 
     true)
