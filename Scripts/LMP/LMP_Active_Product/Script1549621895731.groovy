@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesio
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/input_GSIN_form-control ng-val'), 'BRTTA-9G8LWJMB')
+WebUI.setText(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/input_GSIN_form-control ng-val'), 'BRTTA-57BKPLJN')
 
 WebUI.click(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/button_Search'))
 
@@ -107,9 +107,9 @@ WebUI.click(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesio
 WebUI.verifyElementVisible(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/h5_Success  Publishing In Prog'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/img'))
+not_run: WebUI.click(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/img'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/h5_Fetching drafted listings..'))
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/h5_Fetching drafted listings..'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/h5_Success  Publishing In Prog'))
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/h5_Success  Publishing In Prog'))
 

@@ -1,4 +1,26 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import groovy.lang.MissingPropertyException
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SNEKAL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\LMP\\LMP_Draft_Product\\20190211_134007\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -47,7 +69,7 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/LMP Draft_Product/se
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Continue'))
 
-not_run: WebUI.delay(3)
+WebUI.delay(3)
 
 not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/div_Creating Draft Listing...'))
 
@@ -58,22 +80,20 @@ WebUI.verifyElementText(findTestObject('Object Repository/LMP Draft_Product/h5_S
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your StorefrontA'), '50', true)
 
-WebUI.selectOptionByValue(findTestObject('LMP Draft_Product/select_Select your Listing Sta'), 'All', true)
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your Listing Sta'), 
-    'DRAFT', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your Listing Sta'), 'DRAFT', 
+    true)
 
 WebUI.setText(findTestObject('Object Repository/LMP Draft_Product/input_GSIN_form-control ng-val'), 'BRTTA-1P8QRBVB')
 
 WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Search'))
 
-WebUI.delay(5)
-
 not_run: WebUI.selectOptionByValue(findTestObject('LMP Draft_Product/select_Select your StorefrontA'), '50', true)
+
+not_run: WebUI.selectOptionByValue(findTestObject('LMP Draft_Product/select_Select your Listing Sta'), 'All', true)
 
 not_run: WebUI.click(findTestObject('LMP Draft_Product/button_Search'))
 
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/input_Drafted Date_innerTdChec'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/LMP Draft_Product/input_Drafted Date_innerTdChec'))
 
 WebUI.verifyElementVisible(findTestObject('LMP Draft_Product/button_Delete Listing'))
 
@@ -93,8 +113,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/d
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/h5_Success  Delete Listing Suc'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.verifyElementText(findTestObject('LMP Draft_Product/h5_Success  Delete Listing Suc'), 'Success:  Delete Listing Successful', 
+WebUI.verifyElementText(findTestObject('LMP Draft_Product/h5_Success  Delete Listing Suc'), 'Success:  Delete Listing Successful', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('LMP Draft_Product/span_No results found'))
-
+''', 'Test Cases/LMP/LMP_Draft_Product', new TestCaseBinding('Test Cases/LMP/LMP_Draft_Product',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    
