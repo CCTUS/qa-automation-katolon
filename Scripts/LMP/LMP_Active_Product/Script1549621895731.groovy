@@ -17,7 +17,7 @@ WebUI.callTestCase(findTestCase('Call Test Case/LMP_login'), [:], FailureHandlin
 
 WebUI.click(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/a_Listing ManagementListing Ma'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/div_Draft'))
 

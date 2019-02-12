@@ -58,6 +58,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/LMP Draft_Product/h5_S
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your StorefrontA'), '50', true)
 
+WebUI.delay(3)
+
 WebUI.selectOptionByValue(findTestObject('LMP Draft_Product/select_Select your Listing Sta'), 'All', true)
 
 not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your Listing Sta'), 
