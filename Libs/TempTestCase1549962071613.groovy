@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\SNEKAL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\LMP\\LMP_Draft_Product_new\\20190212_120303\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SNEKAL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\AppcoAdmin\\add_RA_MultipleDistributor\\20190212_143111\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/LMP/LMP_Draft_Product_new', new TestCaseBinding('Test Cases/LMP/LMP_Draft_Product_new',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/AppcoAdmin/add_RA_MultipleDistributor', new TestCaseBinding('Test Cases/AppcoAdmin/add_RA_MultipleDistributor',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
