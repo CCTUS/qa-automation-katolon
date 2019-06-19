@@ -4,6 +4,12 @@
    <name>span_Manufacturer Part Number3</name>
    <tag></tag>
    <elementGuidId>4e6ee495-b3a7-42dc-b833-783f94202938</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Manufacturer Part Number3701' or . = 'Manufacturer Part Number3701') and @id = 'manufacturerno_header']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -33,6 +39,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;productdetails&quot;)/span[@class=&quot;ac-prod-feat&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>manufacturerno_header</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
