@@ -23,7 +23,7 @@ WebUI.delay(2)
 
 not_run: WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Overview'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/td_BRTTA-9G8LWJMB'))
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/td_BRTTA-9G8LWJMB'))
 
 WebUI.setText(findTestObject('Object Repository/LMP Draft_Product/input_GSIN_form-control ng-unt'), 'BRTTA-1P8QRBVB')
 

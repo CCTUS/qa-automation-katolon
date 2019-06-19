@@ -1,26 +1,4 @@
-import com.kms.katalon.core.main.TestCaseMain
-import com.kms.katalon.core.logging.KeywordLogger
-import groovy.lang.MissingPropertyException
-import com.kms.katalon.core.testcase.TestCaseBinding
-import com.kms.katalon.core.driver.internal.DriverCleanerCollector
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.configuration.RunConfiguration
-import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
-import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
-import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
-
-
-DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
-DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
-DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
-
-
-RunConfiguration.setExecutionSettingFile('C:\\Users\\SNEKAL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\RetailerAdmin\\Add Inventory\\20190606_124831\\execution.properties')
-
-TestCaseMain.beforeStart()
-
-        TestCaseMain.runTestCaseRawScript(
-'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -41,141 +19,140 @@ import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 //import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
-not_run: System.setProperty('webdriver.chrome.driver', 'D:\\\\chromedriver.exe')
-
+//System.setProperty('webdriver.chrome.driver', 'D:\\chromedriver.exe')
 //WebDriver driver = new ChromeDriver()
 //DriverFactory.changeWebDriver(driver)
-not_run: WebUI.openBrowser('https://app-qa.appcohesion.io/')
+WebUI.openBrowser('https://app.appcohesion.io/')
 
-not_run: WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_User Name_ac_username'), 
-    'NewRetailerAuto@3_6')
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_User Name_ac_username'), 
+    'NewStagRAMD@6_6')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_ac_password'), 
-    'NewRetailerAuto@3_6')
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_ac_password'), 
+    'NewStagRAMD@6_6')
 
-not_run: WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/button_Login Now'))
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/button_Login Now'))
 
-not_run: WebUI.delay(10)
+WebUI.delay(5)
 
-not_run: WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/a_SettingsSettings'))
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/a_SettingsSettings'))
 
-not_run: WebUI.delay(10)
+WebUI.delay(10)
 
-not_run: WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/a_Distributor  Inventory Sourc'))
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/a_Distributor  Inventory Sourc'))
 
-not_run: WebUI.delay(10)
+WebUI.delay(5)
 
-not_run: WebUI.click(findTestObject('Retailer creation/inventory_object repo/new inventory object Repo/button_Add Distributor Setting'))
+WebUI.click(findTestObject('Retailer creation/inventory_object repo/new inventory object Repo/button_Add Distributor Setting'))
 
 not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/div_INVENTORY'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h4_Inventory Settings'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h4_Inventory Settings'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/select_AppCoSSGreen SupplyDavi'), 
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/select_AppCoSSGreen SupplyDavi'), 
     'Sports South', true)
 
 not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/select_AppCoSSGreen SupplyDavi'), 
     '1', true)
 
-not_run: WebUI.delay(5)
+WebUI.delay(5)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Orders'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Orders'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_0_Ord'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_0_Ord'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_0_Ord'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_0_Ord'), 
     '99994')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_CustomerNumber_inv_input'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_CustomerNumber_inv_input'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_CustomerNumber_inv_input'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_CustomerNumber_inv_input'), 
     '99994')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_API Endpoint_inv_input_0'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_API Endpoint_inv_input_0'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_API Endpoint_inv_input_0'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_API Endpoint_inv_input_0'), 
     'http://webservices.theshootingwarehouse.com')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Source_inv_input_0_Order'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Source_inv_input_0_Order'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Source_inv_input_0_Order'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Source_inv_input_0_Order'), 
     '44494')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_0_Ord'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_0_Ord'), 
     '99998')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Tracking'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Tracking'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_0_Tra'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_0_Tra'), 
     '99994')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_CustomerNumber_inv_input_1'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_CustomerNumber_inv_input_1'), 
     '99994')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_CustomerNumber_inv_input_2'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_CustomerNumber_inv_input_2'), 
     '99994')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_API Endpoint_inv_input_0_1'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_API Endpoint_inv_input_0_1'), 
     'http://webservices.theshootingwarehouse.com')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_API Endpoint_inv_input_0_2'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_API Endpoint_inv_input_0_2'), 
     'http://webservices.theshootingwarehouse.com')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Source_inv_input_0_Track'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Source_inv_input_0_Track'), 
     '44494')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_0_Tra'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_0_Tra'), 
     '99998')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Catalog'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Catalog'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_UserName_inv_input_0_Cat'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_UserName_inv_input_0_Cat'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_UserName_inv_input_0_Cat'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_UserName_inv_input_0_Cat'), 
     '99994')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_CustomerNumber_inv_input_3'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_CustomerNumber_inv_input_3'), 
     '99994')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_API Endpoint_inv_input_0_5'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_API Endpoint_inv_input_0_5'), 
     'http://webservices.theshootingwarehouse.com')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_Source_inv_input_0_Catal'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_Source_inv_input_0_Catal'), 
     '44494')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_Password_inv_input_0_Cat'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_Password_inv_input_0_Cat'), 
     '99998')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Inventory'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Inventory'))
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_UserName_inv_input_0_Inv'), 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_UserName_inv_input_0_Inv'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_UserName_inv_input_0_Inv'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_UserName_inv_input_0_Inv'), 
     '99994')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_CustomerNumber_inv_input_5'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_CustomerNumber_inv_input_5'), 
     '99994')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_API Endpoint_inv_input_0_5'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_API Endpoint_inv_input_0_5'), 
     'http://webservices.theshootingwarehouse.com')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_Source_inv_input_0_Inven'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_Source_inv_input_0_Inven'), 
     '44494')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_Password_inv_input_0_Inv'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory repo2/input_Password_inv_input_0_Inv'), 
     '99998')
 
-not_run: WebUI.scrollToPosition(0, 0)
+WebUI.scrollToPosition(0, 0)
 
 //WebUI.dragAndDropByOffset(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/button_Save Distributor Settin'), 
 //1114, -400)
@@ -195,71 +172,73 @@ not_run: WebUI.dragAndDropToObject(findTestObject('Object Repository/Retailer cr
 not_run: WebUI.dragAndDropByOffset(findTestObject('Retailer creation/inventory_object repo/new inventory object Repo/button_Save Distributor Settin'), 
     1209, 15)
 
-not_run: WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/button_Save Distributor Settin'), 
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/button_Save Distributor Settin'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.delay(10)
+WebUI.delay(13)
 
-not_run: WebUI.click(findTestObject('Retailer creation/inventory_object repo/new inventory object Repo/button_Add Distributor Setting'))
+WebUI.click(findTestObject('Retailer creation/inventory_object repo/new inventory object Repo/button_Add Distributor Setting'))
 
-not_run: WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/select_AppCoSSGreen SupplyDavi_1'), 
+WebUI.delay(3)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/select_AppCoSSGreen SupplyDavi_1'), 
     'Green Supply', true)
 
 not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/select_AppCoSSGreen SupplyDavi_1'), 
     '2', true)
 
-not_run: WebUI.delay(5)
+WebUI.delay(5)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Orders'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Orders'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_FTP Host_inv_input_1_Ord'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_FTP Host_inv_input_1_Ord'), 
     'ftp.drivehq.com')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_1_Ord'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_1_Ord'), 
     'eenu@getnada.com')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_1_Ord'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_1_Ord'), 
     'eenu@getnada.com')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Tracking'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Tracking'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_FTP Host_inv_input_1_Tra'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_FTP Host_inv_input_1_Tra'), 
     'ec2-18-188-197-73.us-east-2.compute.amazonaws.com')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_1_Tra'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_1_Tra'), 
     'ubuntu')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_1_Tra'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_1_Tra'), 
     'ubuntu')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Catalog'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Catalog'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_FTP Host_inv_input_1_Cat'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_FTP Host_inv_input_1_Cat'), 
     'ftp://ftp.dealerease.net')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_1_Cat'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_1_Cat'), 
     'gsdealer')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_1_Cat'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_1_Cat'), 
     'ftp2pass')
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Inventory'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h5_Inventory'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_FTP Host_inv_input_1_Inv'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_FTP Host_inv_input_1_Inv'), 
     'ftp://ftp.dealerease.net')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_1_Inv'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_UserName_inv_input_1_Inv'), 
     'gsdealer')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_1_Inv'), 
+WebUI.setText(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/input_Password_inv_input_1_Inv'), 
     'ftp2pass')
 
-not_run: WebUI.scrollToPosition(0, 0)
+WebUI.scrollToPosition(0, 0)
 
-not_run: WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/button_Save Distributor Settin'), 
+WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/button_Save Distributor Settin'), 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.delay(10)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Retailer creation/inventory_object repo/new inventory object Repo/button_Add Distributor Setting'))
 
@@ -351,6 +330,8 @@ WebUI.delay(3)
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/select_AppCoSSGreen SupplyDavi_3'), 
     'Ellett Brothers', true)
 
+WebUI.delay(5)
+
 not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/select_AppCoSSGreen SupplyDavi_3'), 
     '4', true)
 
@@ -425,11 +406,9 @@ WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Retailer creation/inventory_object repo/new inventory object Repo/button_Add Distributor Setting'))
+not_run: WebUI.click(findTestObject('Retailer creation/inventory_object repo/new inventory object Repo/button_Add Distributor Setting'))
 
 not_run: WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/h4_Inventory Settings'))
 
 not_run: WebUI.click(findTestObject('Object Repository/Retailer creation/inventory_object repo/new inventory object Repo/div_Saving Inventory details..'))
 
-''', 'Test Cases/RetailerAdmin/Add Inventory', new TestCaseBinding('Test Cases/RetailerAdmin/Add Inventory',[:]), FailureHandling.STOP_ON_FAILURE , false)
-    

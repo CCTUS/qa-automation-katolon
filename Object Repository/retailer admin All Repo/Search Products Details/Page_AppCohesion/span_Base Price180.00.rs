@@ -4,6 +4,12 @@
    <name>span_Base Price180.00</name>
    <tag></tag>
    <elementGuidId>1e570b7a-2fbf-48c0-8096-31c1545c9145</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id = 'amtpay_header']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>ac-prod-cost</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -33,6 +39,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;productdetails&quot;)/div[2]/span[@class=&quot;ac-prod-cost&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>amtpay_header</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
