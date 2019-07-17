@@ -21,12 +21,14 @@ WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Produc
 WebUI.setText(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/input_Settings_searchproduct'), 
     'RUGER-UCSR7GCZ')
 
+WebUI.delay(5)
+
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/button_Settings_searchbutton'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/Search Products Details/Page_AppCohesion/td_Ruger LC LCP'), 
     FailureHandling.CONTINUE_ON_FAILURE)

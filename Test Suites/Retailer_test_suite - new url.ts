@@ -4,7 +4,6 @@
    <name>Retailer_test_suite - new url</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-03T14:24:21</lastRun>
    <mailRecipient>hariram@iinerds.com;snekalatha.r@iinerds.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

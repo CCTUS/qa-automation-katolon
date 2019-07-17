@@ -15,11 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LMP/LMP_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/a_Listing ManagementListing Ma'))
 
 WebUI.click(findTestObject('LMP Draft_Product/a_Listing ManagementListing Ma'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 not_run: WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Overview'))
 
@@ -27,7 +29,9 @@ not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_
 
 WebUI.setText(findTestObject('Object Repository/LMP Draft_Product/input_GSIN_form-control ng-unt'), 'BRTTA-1P8QRBVB')
 
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Search'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('LMP Draft_Product/button_Product Category_sf_btn_search'))
 
 WebUI.delay(5)
 
@@ -56,18 +60,23 @@ WebUI.verifyElementVisible(findTestObject('LMP Draft_Product/h5_Creating Draft L
 WebUI.verifyElementText(findTestObject('Object Repository/LMP Draft_Product/h5_Success  Adding to Draft In'), 'Success:  Adding to Draft In progress', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your StorefrontA'), '50', true)
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your StorefrontA'), '50', true, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.selectOptionByValue(findTestObject('LMP Draft_Product/select_Select your Listing Sta'), 'All', true)
+WebUI.selectOptionByValue(findTestObject('LMP Draft_Product/select_Select your Listing Sta'), 'All', true, FailureHandling.CONTINUE_ON_FAILURE)
 
 not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your Listing Sta'), 
     'DRAFT', true)
 
 WebUI.setText(findTestObject('Object Repository/LMP Draft_Product/input_GSIN_form-control ng-val'), 'BRTTA-1P8QRBVB')
 
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Search'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('LMP Draft_Product/button_Product Category_sf_btn_search'))
 
 WebUI.delay(5)
 
@@ -98,5 +107,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/h
 not_run: WebUI.verifyElementText(findTestObject('LMP Draft_Product/h5_Success  Delete Listing Suc'), 'Success:  Delete Listing Successful', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('LMP Draft_Product/span_No results found'))
+WebUI.verifyElementVisible(findTestObject('LMP Draft_Product/span_No results found Refine your search criteria'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('LMP Draft_Product/span_No results found Refine your search criteria'), 'No results found. Refine your search criteria.')
 

@@ -15,7 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Call Test Case/LMP_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/a_Listing ManagementListing Ma'))
+WebUI.delay(5)
+
+WebUI.dragAndDropToObject(findTestObject('Object Repository/LMP_Active Product/Page_AppCohesion/a_Listing ManagementListing Ma'), 
+    findTestObject('LMP_Active Product/Page_AppCohesion/a_Listing ManagementListing Ma'))
 
 WebUI.delay(5)
 
