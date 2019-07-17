@@ -13,48 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('LMP/LMP_login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Product Category_sf_btn_search (2)'))
 
-WebUI.rightClick(findTestObject('Object Repository/LMP Draft_Product/a_Listing ManagementListing Ma'))
+WebUI.click(findTestObject('Object Repository/LMP Draft_Product/h5_Loading drafted listings'))
 
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Overview'))
-
-WebUI.verifyElementVisible(findTestObject('LMP Draft_Product/td_BRTTA-9G8LWJMB'))
-
-WebUI.setText(findTestObject('Object Repository/LMP Draft_Product/input_GSIN_form-control ng-unt'), 'BRTTA-9G8LWJMB')
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Search'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/input_Not Listed On_innerTdChe'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Create Draft Listing'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/LMP Draft_Product/span_ROHITHS STOREFRONT'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/span_ROHITHS STOREFRONT'))
-
-WebUI.rightClick(findTestObject('Object Repository/LMP Draft_Product/select_Select ProfileSachins P'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Continue'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Creating Draft Listing...'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/h5_Creating Draft Listing...'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/h5_Success  Adding to Draft In'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/i_Success'))
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/div_Success  Adding to Draft I'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your StorefrontA'), '50', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your Listing Sta'), 'All', true)
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Search'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/LMP Draft_Product/select_Select your Listing Sta'), 'DRAFT', 
-    true)
-
-WebUI.click(findTestObject('Object Repository/LMP Draft_Product/button_Search'))
+WebUI.click(findTestObject('Object Repository/LMP Draft_Product/span_No results found Refine your search criteria'))
 

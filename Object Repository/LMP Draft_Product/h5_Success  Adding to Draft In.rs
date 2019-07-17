@@ -4,6 +4,13 @@
    <name>h5_Success  Adding to Draft In</name>
    <tag></tag>
    <elementGuidId>d84b53d0-84f9-4028-969d-33f4c2f1c3b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='exactmsg']
+[count(. | //h5[@id = 'exactmsg' and (text() = 'Success:  Adding to Draft In progres' or . = 'Success:  Adding to Draft In progres')]) = count(//h5[@id = 'exactmsg' and (text() = 'Success:  Adding to Draft In progres' or . = 'Success:  Adding to Draft In progres')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,14 +32,15 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Success:  Adding to Draft In progress</value>
+      <value>Success:  Adding to Draft In progres</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;exactmsg&quot;)</value>
+      <value>//*[@id='exactmsg']
+</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

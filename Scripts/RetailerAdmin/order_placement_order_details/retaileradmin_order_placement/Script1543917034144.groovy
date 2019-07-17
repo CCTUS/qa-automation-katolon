@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase_markup - new url'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase_markup'), [:], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/i_Settings_glyphicon glyphicon'), 
     30)
@@ -111,32 +111,36 @@ WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Pag
 WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_534.20'), 
     10)
 
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_534.20'), 
+not_run: WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_534.20'), 
     '$534.20')
 
-WebUI.waitForElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_25.00'), 
-    10)
+WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_25.00'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_25.00'), 
+not_run: WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_25.00'), 
     '$25.00')
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/em_Item selected 1'))
 
-WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/em_Item selected 1'), 
+not_run: WebUI.verifyElementText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/em_Item selected 1'), 
     'Item selected 1')
 
 WebUI.click(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/button_CHECKOUT'))
 
 WebUI.delay(10)
 
+int rn_uname
+
+rn_uname = ((Math.random() * 500) as int)
+
 WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_FIRST NAME_firstName'), 
-    'order HCKLR-IHMFX7Z1')
+    'order new' + rn_uname)
 
 WebUI.setText(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/input_EMAIL_email'), 'snekalatha.r@iinerds.com')
 
 WebUI.delay(10)
 
-WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/select store'), 
+not_run: WebUI.selectOptionByIndex(findTestObject('retailer admin All Repo/retailer_order_placement/key_press_orderList/Page_AppCohesion/select store'), 
     '1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/retailer_order_placement/Page_AppCohesion/span_534.20'))

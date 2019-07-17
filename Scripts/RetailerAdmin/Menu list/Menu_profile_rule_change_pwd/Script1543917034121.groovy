@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase - new url'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Call Test Case/Login_retailer_testcase'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
 
@@ -38,10 +38,10 @@ WebUI.verifyElementText(findTestObject('retailer admin All Repo/menu list/Page_A
 
 WebUI.verifyElementVisible(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/label_RETAILER NAME'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/input_EDIT PROFILE_fname'), 'RACreationnew', 
+WebUI.setText(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/input_EDIT PROFILE_fname'), 'AAARetailerMD edit', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/input_EDIT PROFILE_usr_lastnam'), 'RACreationnew', 
+WebUI.setText(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/input_EDIT PROFILE_usr_lastnam'), 'AAARetailerMD edit', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('retailer admin All Repo/menu list/Page_AppCohesion/input_racreation10_9getnada.co'), '3456363677', 

@@ -4,8 +4,7 @@
    <name>Retailer_test_suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-03T13:52:00</lastRun>
-   <mailRecipient>hariram@iinerds.com;snekalatha.r@iinerds.com;</mailRecipient>
+   <mailRecipient>hariram@iinerds.com;snekalatha.r@iinerds.com;rohith.r@iinerds.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -20,7 +19,7 @@
    <testCaseLink>
       <guid>3f3825ae-0a1f-4b0c-bc8a-42d8e23e4ebf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RetailerAdmin/order_placement_order_details/retaileradmin_order_placement</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -119,13 +118,13 @@
    <testCaseLink>
       <guid>da35fd98-6d97-4c21-aa1f-98dfc131c553</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RetailerAdmin/order_placement_order_details/Retailer Add Markup</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f8948fe3-acb4-42ce-8c44-76cae170e39e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RetailerAdmin/Menu list/Menu_profile_rule_change_pwd</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
